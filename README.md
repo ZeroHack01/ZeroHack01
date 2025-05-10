@@ -1,6 +1,8 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%22The+ultimate+goal+of+a+hacker+is+not+to+break+things+but+to+create+something+that+will+change+the+world.%22%0A-%22Bruce+Schneier%22">
-</h1>
+<div align="center">
+  <h1 align="center" style="line-height: 0; /* Attempt to remove extra space from h1 */">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00¢er=true&vCenter=true&multiline=true&width=800&height=100&lines=%22The+ultimate+goal+of+a+hacker+is+not+to+break+things+but+to+create+something+that+will+change+the+world.%22%0A-%22Bruce+Schneier%22" alt=""The ultimate goal of a hacker is not to break things but to create something that will change the world." - Bruce Schneier (Animated Typing)" style="max-width: 100%; height: auto;" />
+  </h1>
+</div>
 
 
 
