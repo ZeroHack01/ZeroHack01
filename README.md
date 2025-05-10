@@ -1,5 +1,6 @@
+
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=F77F00&center=true&vCenter=true&multiline=true&width=800&height=80&lines=“He+who+has+a+why+to+live+can+bear+almost+any+how.”;—+Friedrich+Nietzsche" alt="animated philosophical quote" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=FF6F61&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22He+who+has+a+why+to+live+can+bear+almost+any+how.%22+-+Friedrich+Nietzsche" alt="Nietzsche Quote">
 </h1>
 
 <p align="center">
