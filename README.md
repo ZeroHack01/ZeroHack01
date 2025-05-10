@@ -1,108 +1,181 @@
-<div align="center" style="width: 100%; margin: 0 auto;">
-  <!-- === THE ANIMATED MANIFESTO - TOP & CENTER === -->
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=2000&color=07C4F2;F207C3;F2B907;07F25D¢er=true&vCenter=true&width=1000&height=220&lines=TO+KNOW+THE+CODE%2C+IS+TO+KNOW+THE+CRACK.;VIGILANCE+IS+THE+ETERNAL+GUARDIAN+OF+THE+GATEWAY.;IN+THE+SHADOWS+OF+DATA%2C+TRUTH+IS+REVEALED.;MAP+THE+VULNERABLE.+SECURE+THE+PATH.+EVOLVE." alt="My Core Directives in Cybersecurity" />
-  <!-- === END MANIFESTO === -->
+<div align="center" style="width: 100%; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;">
+  <!-- === ANIMATED QUOTES (REPLACE WITH YOUR GIF) === -->
+  <p align="center">
+    <!-- ** IMPORTANT: Create an animated GIF of your quotes and replace the src below ** -->
+    <!-- Example: <img src="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/main/assets/animated-quotes.gif" alt="My Core Directives in Cybersecurity" width="900" /> -->
+    <img src="https://via.placeholder.com/900x220/101010/FFFFFF?text=ANIMATED+PHILOSOPHICAL+QUOTES+GIF+HERE" alt="My Core Directives in Cybersecurity - Placeholder" width="900" />
+  </p>
+  <!-- === END QUOTES === -->
 </div>
 
 <div align="center" style="margin-top: 15px;">
-  <h1 style="font-family: 'Orbitron', sans-serif; font-size: 2.5em; color: #07C4F2; margin-bottom: 0px;">ZeroHack01</h1>
-  <p style="font-family: 'Roboto Mono', monospace; font-size: 1.1em; color: #CCCCCC; margin-top: 5px;">(Mongwoiching Marma)</p>
-  <p style="font-family: 'Roboto Mono', monospace; font-size: 1.2em; color: #A0A0A0;">
-    <em>Digital Cartographer of Vulnerabilities & Sentinel of Secure Systems</em>
+  <h1 style="font-family: 'Orbitron', 'Arial Black', sans-serif; font-size: 2.8em; color: #07C4F2; margin-bottom: 0px; text-shadow: 1px 1px 3px #000000;">ZeroHack01</h1>
+  <p style="font-family: 'Roboto Mono', 'Courier New', monospace; font-size: 1.2em; color: #E0E0E0; margin-top: 5px;">(Mongwoiching Marma)</p>
+  <p style="font-family: 'Verdana', sans-serif; font-size: 1.3em; color: #B0B0B0; font-style: italic;">
+    Architect of Digital Defenses & Explorer of Cyber Frontiers
   </p>
 </div>
 
-<p align="center" style="margin-top: 25px; margin-bottom: 30px;">
-  <img src="https://img.shields.io/badge/SYSTEM_ARCHITECT-Secure_Blueprints-005F73?style=for-the-badge&logo=codesys&logoColor=white&labelColor=00343D" alt="System Architect - Secure Blueprints">
-  <img src="https://img.shields.io/badge/THREAT_NAVIGATOR-Offensive_Intel-7F0000?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=4C0000" alt="Threat Navigator - Offensive Intel">
-  <img src="https://img.shields.io/badge/TRYHACKME_EXPLORER-Elite_Pathfinder-540057?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=300031" alt="TryHackMe Explorer - Elite Pathfinder">
+<p align="center" style="margin-top: 30px; margin-bottom: 35px;">
+  <img src="https://img.shields.io/badge/CYBERSECURITY_STRATEGIST-Blue_&_Red_Team_Ops-003B4D?style=for-the-badge&logo=matrix&logoColor=white&labelColor=00222B" alt="Cybersecurity Strategist">
+  <img src="https://img.shields.io/badge/ETHICAL_HACKER-Vulnerability_Assessor-8C0000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=590000" alt="Ethical Hacker">
+  <img src="https://img.shields.io/badge/TRYHACKME_CONQUEROR-Elite_Challenges-4B0082?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=2C004C" alt="TryHackMe Conqueror">
 </p>
 
 ---
 
-## 🗺️ Charting the Digital Terrain: My Mission
+## 🛡️ My Resolve: Mission & Philosophy
 
-I am a **Cybersecurity Professional** dedicated to mapping the intricate landscapes of digital systems—identifying their hidden pathways, potential pitfalls, and critical junctures. My mission is twofold: to explore and understand vulnerabilities with the precision of a cartographer, and to stand as a sentinel, fortifying defenses against emerging threats.
+As a dedicated **Cybersecurity Professional**, my core mission is to navigate and secure the complex digital landscape. I operate at the confluence of offensive exploration and defensive fortification, driven by a relentless pursuit of knowledge and a commitment to ethical principles.
 
-*   🔴 **The Explorer's Compass (Offensive Cartography):** I venture into the unknown, simulating adversarial approaches to uncover exploitable weaknesses. This involves meticulous vulnerability research, advanced penetration testing, and red team operations designed to chart out the attack surface and provide a clear map for remediation.
-*   🔵 **The Sentinel's Watch (Defensive Architecture):** Armed with insights from exploration, I architect and reinforce digital strongholds. This includes designing resilient security frameworks, deploying intelligent threat detection systems, orchestrating rapid incident response, and conducting deep-dive digital forensics to ensure the integrity and availability of critical assets.
+*   🔴 **Offensive Maneuvers (The Vanguard):** I spearhead proactive security assessments by emulating sophisticated adversarial tactics. This involves advanced penetration testing, in-depth vulnerability research, exploit analysis, and leading comprehensive red team engagements to unearth and address critical weaknesses before they are exploited.
+*   🔵 **Defensive Fortifications (The Citadel):** I architect and implement robust, multi-layered security architectures. My expertise encompasses threat intelligence integration, rapid incident response protocols, meticulous digital forensics, SIEM/EDR deployment and tuning, and continuous security posture hardening to protect invaluable digital assets.
 
-My philosophy is built on the synergy between exploration and protection. By understanding how to navigate the adversarial paths, we can better design and defend our own.
-
----
-
-## 🧭 Core Navigational Principles
-
-*   **Clarity Through Inquiry:** The deepest understanding comes from relentless questioning and exploration.
-*   **Adaptability is Strength:** The digital terrain constantly shifts; so too must our strategies and defenses.
-*   **Knowledge Forged in Practice:** Theoretical maps are validated by practical application and real-world testing.
-*   **The Ethical Meridian:** All explorations and defenses are guided by an unwavering commitment to ethical conduct.
+I believe that the most effective security posture is achieved through a deep, practical understanding of both attack vectors and defense mechanisms—a constant cycle of learning, testing, and adapting.
 
 ---
 
-## ⚙️ My Cartographer's & Sentinel's Toolkit
+## ⚔️ The Arsenal: Skills, Tools & Proficiencies
 
-Crafting secure pathways and standing guard requires a diverse set of instruments and languages.
+My toolkit is a dynamic blend of foundational knowledge and cutting-edge technologies, continuously refined to meet the evolving challenges of cyberspace. **All tools listed below are part of my active operational capabilities.**
 
-### Linguistic Glyphs (Languages & Scripting)
+### **I. Core Languages & Operating Systems Expertise**
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Scripting_Sorcery-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Go-System_Weaver-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Bash-Terminal_Conductor-1DB954?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/PowerShell-Automation_Engine-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/SQL-Data_Diviner-F29111?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+  <img src="https://img.shields.io/badge/Bash-Expert-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/PowerShell-Proficient-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+  <img src="https://img.shields.io/badge/SQL-Skilled-CC2927?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Go-Intermediate-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/C_/_C++-Foundational-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++"><br>
+  <img src="https://img.shields.io/badge/OS:_Kali_Linux-Primary_Offensive-5E81AC?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
+  <img src="https://img.shields.io/badge/OS:_Parrot_Security-Alternative_Offensive-20C6B7?style=flat-square&logo=parrotsecurity&logoColor=white" alt="Parrot Security OS">
+  <img src="https://img.shields.io/badge/OS:_Ubuntu_&_Debian-Server_&_Utility-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu/Debian">
+  <img src="https://img.shields.io/badge/OS:_Windows_Client_&_Server-Extensive-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows Client & Server">
+  <img src="https://img.shields.io/badge/OS:_Predator_OS-Custom_Toolkit-FF0000?style=flat-square&logoColor=white" alt="Predator OS">
 </p>
 
-### Arsenal of Exploration & Fortification (Tools & Platforms)
-<div style="text-align: center; font-family: 'Roboto Mono', monospace; line-height: 1.8; color: #C0C0C0;">
-  <span style="color: #FF6B6B; font-weight: bold;">[Offensive Edge]</span> Nmap | Metasploit | Burp Suite Pro | BloodHound | Cobalt Strike (Sim) <br>
-  <span style="color: #4ECDC4; font-weight: bold;">[Defensive Core]</span> Wireshark | Splunk/ELK | Sysmon | OSQuery | TheHive/MISP <br>
-  <span style="color: #FFD166; font-weight: bold;">[Analysis & Infra]</span> Ghidra | Volatility | Docker | Kubernetes | AWS/Azure/GCP | AD | Linux Ecosystems
-</div>
-<p align="center" style="font-size: 0.9em; color: #888; margin-top: 5px;"><em>(A selection from a continuously evolving toolkit)</em></p>
+### **II. Reconnaissance, OSINT & Enumeration Arsenal**
+<p align="center">
+  <img src="https://img.shields.io/badge/Amass-Deep_OSINT-FFCD00?style=flat-square&logoColor=black" alt="Amass">
+  <img src="https://img.shields.io/badge/theHarvester-Email_&_Domain_Recon-A6120D?style=flat-square&logoColor=white" alt="theHarvester">
+  <img src="https://img.shields.io/badge/Recon--ng-Framework-000000?style=flat-square&logo=googlecloud&logoColor=white" alt="Recon-ng">
+  <img src="https://img.shields.io/badge/SpiderFoot-Automated_OSINT-1E90FF?style=flat-square&logoColor=white" alt="SpiderFoot">
+  <img src="https://img.shields.io/badge/Maltego_CE-Visual_Link_Analysis-F7941E?style=flat-square&logo=maltego&logoColor=white" alt="Maltego CE">
+  <img src="https://img.shields.io/badge/Shodan_/_Censys-Internet_Wide_Scanning-00AEEF?style=flat-square&logo=shodan&logoColor=white" alt="Shodan/Censys"><br>
+  <img src="https://img.shields.io/badge/Nmap-Network_Mapper-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
+  <img src="https://img.shields.io/badge/Masscan-Fast_Port_Scanner-1A1A1A?style=flat-square&logoColor=white" alt="Masscan">
+  <img src="https://img.shields.io/badge/Nikto_/_WhatWeb-Web_Scanners-8B0000?style=flat-square&logoColor=white" alt="Nikto/WhatWeb">
+  <img src="https://img.shields.io/badge/Aquatone_/_Gowitness-Visual_Recon-4682B4?style=flat-square&logoColor=white" alt="Aquatone/Gowitness">
+  <img src="https://img.shields.io/badge/Enum4Linux--ng-SMB_Enumeration-009688?style=flat-square&logoColor=white" alt="Enum4Linux-ng">
+</p>
+
+### **III. Exploitation, Post-Exploitation & C2 Frameworks**
+<p align="center">
+  <img src="https://img.shields.io/badge/Metasploit_Framework-Comprehensive_Exploitation-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit Framework">
+  <img src="https://img.shields.io/badge/Sliver_C2-Modern_Adversary_Emulation-7A00CC?style=flat-square&logoColor=white" alt="Sliver C2">
+  <img src="https://img.shields.io/badge/Mythic_C2-Extensible_C2-FF7518?style=flat-square&logoColor=white" alt="Mythic C2">
+  <img src="https://img.shields.io/badge/Merlin_C2-HTTP3_C2-00BFFF?style=flat-square&logoColor=white" alt="Merlin C2">
+  <img src="https://img.shields.io/badge/Covenant_C2-.NET_C2-B0E0E6?style=flat-square&logoColor=black" alt="Covenant C2">
+  <img src="https://img.shields.io/badge/Impacket_Suite-Network_Protocol_Toolkit-008080?style=flat-square&logoColor=white" alt="Impacket Suite">
+  <img src="https://img.shields.io/badge/CrackMapExec-Pentesting_Swiss_Army_Knife-FFD700?style=flat-square&logoColor=black" alt="CrackMapExec">
+  <img src="https://img.shields.io/badge/PowerSploit_/_Empire-PowerShell_Post_Exploitation-0000CD?style=flat-square&logoColor=white" alt="PowerSploit/Empire">
+</p>
+
+### **IV. Credential & Network Attack Proficiency**
+<p align="center">
+  <img src="https://img.shields.io/badge/Hydra_/_Medusa-Brute--Force_Attacks-A52A2A?style=flat-square&logoColor=white" alt="Hydra/Medusa">
+  <img src="https://img.shields.io/badge/John_the_Ripper-Password_Cracking-555555?style=flat-square&logoColor=white" alt="John the Ripper">
+  <img src="https://img.shields.io/badge/Hashcat-Advanced_Password_Recovery-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
+  <img src="https://img.shields.io/badge/Mimikatz_/_LaZagne-Credential_Dumping-FF4500?style=flat-square&logoColor=white" alt="Mimikatz/LaZagne"><br>
+  <img src="https://img.shields.io/badge/Aircrack--ng_Suite-Wireless_Auditing-00BFFF?style=flat-square&logoColor=white" alt="Aircrack-ng Suite">
+  <img src="https://img.shields.io/badge/Responder_/_LLMNR--poison-MITM_Attacks-4CAF50?style=flat-square&logoColor=white" alt="Responder">
+  <img src="https://img.shields.io/badge/Bettercap-Network_MITM_Framework-FF0000?style=flat-square&logoColor=white" alt="Bettercap">
+  <img src="https://img.shields.io/badge/Wireshark_/_tcpdump-Traffic_Analysis-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark/tcpdump">
+</p>
+
+### **V. Active Directory & Windows Domain Expertise**
+<p align="center">
+  <img src="https://img.shields.io/badge/BloodHound-AD_Attack_Path_Mapping-990000?style=flat-square&logoColor=white" alt="BloodHound">
+  <img src="https://img.shields.io/badge/Kerbrute_/_Rubeus-Kerberos_Attacks-FFBF00?style=flat-square&logoColor=black" alt="Kerbrute/Rubeus">
+  <img src="https://img.shields.io/badge/Evil--WinRM_/_PsExec-Remote_Administration-0080FF?style=flat-square&logoColor=white" alt="Evil-WinRM/PsExec">
+  <img src="https://img.shields.io/badge/Group_Policy_Exploitation-GPO_Abuse-FF8C00?style=flat-square&logoColor=white" alt="Group Policy Exploitation">
+  <img src="https://img.shields.io/badge/ADSI_&_LDAP_Manipulation-Directory_Services-B8860B?style=flat-square&logoColor=white" alt="ADSI/LDAP Manipulation">
+</p>
+
+### **VI. Privilege Escalation & Persistence Techniques**
+<p align="center">
+  <img src="https://img.shields.io/badge/LinPEAS_/_LES-Linux_PrivEsc_Enumeration-FFA500?style=flat-square&logoColor=black" alt="LinPEAS/LES">
+  <img src="https://img.shields.io/badge/WinPEAS_/_Seatbelt-Windows_PrivEsc_Enumeration-0078D4?style=flat-square&logoColor=white" alt="WinPEAS/Seatbelt">
+  <img src="https://img.shields.io/badge/GTFOBins_/_LOLBAS-Living_Off_The_Land-40E0D0?style=flat-square&logoColor=black" alt="GTFOBins/LOLBAS">
+  <img src="https://img.shields.io/badge/Scheduled_Tasks_/_Services-Persistence-708090?style=flat-square&logoColor=white" alt="Scheduled Tasks/Services">
+  <img src="https://img.shields.io/badge/DLL_Hijacking_/_COM_Hijacking-Advanced_Persistence-8A2BE2?style=flat-square&logoColor=white" alt="DLL/COM Hijacking">
+</p>
+
+### **VII. Defensive Technologies & Security Operations**
+<p align="center">
+  <img src="https://img.shields.io/badge/SIEM:_Splunk_/_QRadar_/_Elastic-Log_Analysis_&_Threat_Detection-000000?style=flat-square&logo=splunk&logoColor=white" alt="SIEM: Splunk/QRadar/Elastic">
+  <img src="https://img.shields.io/badge/EDR:_OpenEDR_/_Sysmon_/_Velociraptor-Endpoint_Detection_&_Response-5cb85c?style=flat-square&logoColor=white" alt="EDR: OpenEDR/Sysmon/Velociraptor">
+  <img src="https://img.shields.io/badge/Firewall:_iptables_/_nftables_/_pfSense-Network_Segmentation-D9534F?style=flat-square&logoColor=white" alt="Firewall: iptables/nftables/pfSense">
+  <img src="https://img.shields.io/badge/VPN:_OpenVPN_/_WireGuard-Secure_Tunnels-F0AD4E?style=flat-square&logo=openvpn&logoColor=white" alt="VPN: OpenVPN/WireGuard">
+  <img src="https://img.shields.io/badge/WAFs:_ModSecurity_/_NGINX_App_Protect-Web_Application_Firewall-29ABE0?style=flat-square&logo=nginx&logoColor=white" alt="WAFs">
+  <img src="https://img.shields.io/badge/IDS/IPS:_Snort_/_Suricata-Intrusion_Detection_&_Prevention-17A2B8?style=flat-square&logoColor=white" alt="IDS/IPS: Snort/Suricata">
+</p>
+
+### **VIII. Infrastructure, Virtualization & Server Administration**
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker_/_Podman-Containerization-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker/Podman">
+  <img src="https://img.shields.io/badge/Kubernetes_/_OpenShift-Orchestration-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes/OpenShift">
+  <img src="https://img.shields.io/badge/VMware_ESXi_/_vSphere-Enterprise_Virtualization-60798D?style=flat-square&logo=vmware&logoColor=white" alt="VMware">
+  <img src="https://img.shields.io/badge/QEMU_/_KVM_/_Virt--Manager-Open_Source_Virtualization-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU/KVM">
+  <img src="https://img.shields.io/badge/NGINX_/_Apache_/_Caddy-Web_Server_Admin_&_Hardening-009639?style=flat-square&logo=nginx&logoColor=white" alt="Web Server Admin">
+  <img src="https://img.shields.io/badge/Windows_Server_2016--2022-Administration-0078D6?style=flat-square&logo=windowsserver&logoColor=white" alt="Windows Server">
+  <img src="https://img.shields.io/badge/Ubuntu_Server_/_RHEL_/_CentOS-Linux_Server_Admin-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Linux Server Admin">
+  <img src="https://img.shields.io/badge/Ansible_/_Terraform-IaC_&_Automation-F8981D?style=flat-square&logo=ansible&logoColor=white" alt="Ansible/Terraform">
+</p>
+<p align="center" style="font-size: 0.9em; color: #999; margin-top: 10px;"><em>(This arsenal is constantly sharpened and expanded.)</em></p>
 
 ---
 
-## 📈 Digital Echoes: My GitHub Presence
+## 📈 Digital Footprint: GitHub Contributions
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=merko&rank_icon=github&border_radius=10&card_width=440&title_color=07C4F2&icon_color=07C4F2&text_color=FFFFFF&bg_color=1A1B27" width="48%" alt="ZeroHack01's GitHub Stats">
-  <img src="https://streak-stats.demolab.com?user=ZeroHack01&theme=merko&border_radius=10&card_width=440&date_format=M%20j%5B%2C%20Y%5D&background=1A1B27&stroke=07C4F2&ring=07C4F2&fire=F2B907&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&currStreakLabel=07C4F2" width="48%" alt="ZeroHack01's GitHub Streak">
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dracula&rank_icon=github&border_radius=10&card_width=440&title_color=FF79C6&icon_color=50FA7B&text_color=F8F8F2&bg_color=282A36" width="48%" alt="ZeroHack01's GitHub Stats">
+  <img src="https://streak-stats.demolab.com?user=ZeroHack01&theme=dracula&border_radius=10&card_width=440&date_format=M%20j%5B%2C%20Y%5D&background=282A36&stroke=FF79C6&ring=BD93F9&fire=FFB86C&currStreakNum=F8F8F2&sideNums=F8F8F2&sideLabels=F8F8F2&currStreakLabel=FF79C6" width="48%" alt="ZeroHack01's GitHub Streak">
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=merko&border_radius=10&langs_count=8&card_width=440&title_color=07C4F2&icon_color=07C4F2&text_color=FFFFFF&bg_color=1A1B27" width="97%" alt="ZeroHack01's Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=dracula&border_radius=10&langs_count=10&card_width=440&title_color=FF79C6&icon_color=50FA7B&text_color=F8F8F2&bg_color=282A36" width="97%" alt="ZeroHack01's Top Languages">
 </p>
 
 ---
 
-## ✍️ Logbooks from the Frontier: My Writings
+## 🖋️ Field Notes: My Published Insights
 
-Discoveries are meant to be shared. I chronicle my journeys, insights, and methods on Medium:
+I believe in disseminating knowledge. Find my analyses, guides, and research on Medium:
 
-*   <a href="https://medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69" target="_blank" rel="noopener noreferrer">🗝️ **The Kerberos Key:** Unlocking Authentication Mysteries</a>
-*   <a href="https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e" target="_blank" rel="noopener noreferrer">🛡️ **AD Fortress Construction:** A Hardening Guide for Domain Controllers</a>
+*   <a href="https://medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69" target="_blank" rel="noopener noreferrer">🔑 **Kerberos Deciphered:** An In-Depth Look at Digital Authentication's Gatekeeper</a>
+*   <a href="https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e" target="_blank" rel="noopener noreferrer">🏰 **Securing the AD Kingdom:** A Practitioner's Guide to Domain Controller Hardening</a>
 
 ---
 
-## 🌐 Converging Paths: Let's Connect
+## 📡 Signal Beacons: Connect & Collaborate
 
-The vastness of the digital world is best navigated together. I welcome collaboration, discussion, and the exchange of knowledge.
+The digital expanse is vast; let's navigate it together. I am always open to engaging with fellow professionals, researchers, and enthusiasts.
 
 <p align="center" style="margin-top: 20px;">
-  <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/LinkedIn-Signal_Boost-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/ZeroHack01" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/GitHub-Code_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://medium.com/@NextGencyber" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Medium-Shared_Scrolls-292929?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/TryHackMe-Training_Grounds-88C900?style=flat-square&logo=tryhackme&logoColor=black" alt="TryHackMe"></a>
-  <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Credly-Verified_Beacons-FF6B00?style=flat-square&logo=credly&logoColor=white" alt="Credly"></a>
+  <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/ZeroHack01" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/GitHub-Project_Nexus-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://medium.com/@NextGencyber" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Medium-Knowledge_Hub-292929?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/TryHackMe-Skill_Arena-88C900?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe"></a>
+  <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Credly-Verified_Achievements-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
 </p>
 
 <p align="center" style="margin-top: 25px;">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=Fellow_Navigators&color=07C4F2&style=flat-square" alt="Profile Visitor Counter">
+  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=Profile_Explorers&color=FF79C6&style=flat-square" alt="Profile Visitor Counter">
 </p>
 
 ---
-<p align="center" style="font-family: 'Roboto Mono', monospace; color: #999; font-size: 0.95em;">
-  <em>"The map is not the territory, but a well-drawn map guides us through its complexities. In cyberspace, we are all cartographers and sentinels."</em>
+<p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #AEAEAE; font-size: 1em;">
+  <em>"In the ever-shifting sands of cyberspace, adaptability is paramount, knowledge is power, and ethical conduct is the compass."</em>
   <br><br>
-  <strong><ZeroHack01 // Cartography_Complete></strong>
+  <strong>// ZeroHack01 :: END_OF_PROFILE //</strong>
 </p>
