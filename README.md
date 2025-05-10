@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22The+Ultimate+Goal+Of+A+Hacker+Is+Not+To+Break+Things+But+To+Create+Something+That+Will+Change+The+World.%22%0A-Bruce+Schneier">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=800&height=80&lines=%22The+Ultimate+Goal+Of+A+Hacker+Is+Not+To+Break+Things+But+To+Create+Something+That+Will+Change+The+World.%22%0A%0A-Bruce+Schneier">
 </h1>
 
 
