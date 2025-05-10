@@ -1,7 +1,6 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22The+Computer+Is+A+Tool%2C+And+Like+Any+Tool%2C+It+Can+Be+Used+For+Good+Or+Evil.+It+Is+Up+To+Us+To+Decide+How+To+Use+It.%22+-+Kevin+Mitnick;%22The+Ultimate+Goal+Of+A+Hacker+Is+Not+To+Break+Things+But+To+Create+Something+That+Will+Change+The+World.%22+-+Bruce+Schneier;%22The+Hacker+Is+A+Threat+To+The+Established+Order.+But+Sometimes%2C+The+Order+Itself+Is+The+Greatest+Threat.%22+-+Neal+Stephenson">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22The+Ultimate+Goal+Of+A+Hacker+Is+Not+To+Break+Things+But+To+Create+Something+That+Will+Change+The+World.%22+-+Bruce+Schneier">
 </h1>
-
 
 
 <p align="center">
