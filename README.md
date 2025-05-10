@@ -9,17 +9,23 @@
   <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
 </p>
 
-<div style="font-family: 'Consolas', 'Courier New', monospace;">
-  <h2 style="color: #4CAF50; border-bottom: 2px solid #4CAF50; padding-bottom: 5px;">
-    <span style="color: lime;">// About Me: The Digital Alchemist</span>
-  </h2>
-  <p style="color: #C0C0C0; line-height: 1.6;">
-    <span style="color: lime;">A lifelong fascination with the intricate world of cybersecurity fuels my journey. The thrill of diving deep into systems, uncovering elusive vulnerabilities, and architecting robust solutions is a constant source of motivation. The dual dance of protecting and challenging digital fortresses—it's an ever-evolving puzzle that captivates and drives continuous improvement.</span>
-  </p>
-  <p style="color: #C0C0C0; line-height: 1.6;">
-    <span style="color: lime;">Red teaming and adversarial simulation are where strategic thinking meets technical execution, environments where I feel particularly invigorated. Beyond the technical acumen, the true drive is the tangible impact: strengthening digital defenses and contributing to a more resilient and secure online world, one innovative solution at a time.</span>
-  </p>
-</div>
+
+*   **How it works:** Using `python` (or another language like `bash`) as the language for the code block. Comments (`#`) in Python are often rendered in a shade of green by GitHub's Markdown processor, depending on the theme.
+*   **Limitations:**
+    *   The green color is determined by GitHub's theme, not your choice.
+    *   The whole text will look like a code comment.
+    *   Less flexibility in formatting.
+
+**Option 3: Creating an Image (Most Control, Less Accessible)**
+
+You could create an image (PNG or SVG) of your "About Me" text styled exactly how you want (hacker green text on a dark background, specific font) in a graphics editor and then embed that image.
+
+```markdown
+## // About Me: The Digital Alchemist
+
+<p align="center">
+  <img src="YOUR_IMAGE_URL_HERE" alt="About Me: My passion for cybersecurity, red teaming, and making a digital difference.">
+</p>
 ---
 
 ## ⚔️ Skills, Tools & Proficiencies
