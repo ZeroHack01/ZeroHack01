@@ -9,20 +9,17 @@
   <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
 </p>
 
-<h1 style="color:#00FF00;">About Me</h1>
-
-<p style="color:#00FF00;">
-I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. <strong>Red teaming</strong> and <strong>adversarial simulations</strong> are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
-</p>
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-black?style=for-the-badge&logo=protonmail&logoColor=white">
-  <img src="https://img.shields.io/badge/Offensive-Red?style=for-the-badge&logo=HackTheBox&logoColor=white">
-  <img src="https://img.shields.io/badge/Defensive-Blue?style=for-the-badge&logo=Wireshark&logoColor=white">
-  <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
-</p>
-
+<div style="font-family: 'Consolas', 'Courier New', monospace;">
+  <h2 style="color: #4CAF50; border-bottom: 2px solid #4CAF50; padding-bottom: 5px;">
+    <span style="color: lime;">// About Me: The Digital Alchemist</span>
+  </h2>
+  <p style="color: #C0C0C0; line-height: 1.6;">
+    <span style="color: lime;">A lifelong fascination with the intricate world of cybersecurity fuels my journey. The thrill of diving deep into systems, uncovering elusive vulnerabilities, and architecting robust solutions is a constant source of motivation. The dual dance of protecting and challenging digital fortresses—it's an ever-evolving puzzle that captivates and drives continuous improvement.</span>
+  </p>
+  <p style="color: #C0C0C0; line-height: 1.6;">
+    <span style="color: lime;">Red teaming and adversarial simulation are where strategic thinking meets technical execution, environments where I feel particularly invigorated. Beyond the technical acumen, the true drive is the tangible impact: strengthening digital defenses and contributing to a more resilient and secure online world, one innovative solution at a time.</span>
+  </p>
+</div>
 ---
 
 ## ⚔️ Skills, Tools & Proficiencies
