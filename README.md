@@ -11,9 +11,7 @@
 
 # About Me
 
-I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. **Red teaming** and **adversarial simulations** are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
-
-<span style="color: #00FF00;">I'm constantly evolving my toolkit, a blend of foundational knowledge and modern tools, to stay ahead of digital threats. Each tool serves a purpose, allowing me to both test and defend systems effectively.</span>
+<span style="color: #00FF00;">I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. <strong>Red teaming</strong> and <strong>adversarial simulations</strong> are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.</span>
 
 
 <p align="center">
