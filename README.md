@@ -1,6 +1,7 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22The+computer+is+a+tool%2C+and+like+any+tool%2C+it+can+be+used+for+good+or+evil.+It+is+up+to+us+to+decide+how+to+use+it.%22+-+Kevin+Mitnick%2C+%27The+Art+of+Deception%27;%22The+ultimate+goal+of+a+hacker+is+not+to+break+things+but+to+create+something+that+will+change+the+world.%22+-+Bruce+Schneier%2C+%27Secrets+and+Lies%27;%22The+hacker+is+a+threat+to+the+established+order.+But+sometimes%2C+the+order+itself+is+the+greatest+threat.%22+-+Neal+Stephenson%2C+%27Cryptonomicon%27">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=1000&height=80&lines=%22The+Computer+Is+A+Tool%2C+And+Like+Any+Tool%2C+It+Can+Be+Used+For+Good+Or+Evil.+It+Is+Up+To+Us+To+Decide+How+To+Use+It.%22+-+Kevin+Mitnick%2C+%27The+Art+Of+Deception%27;%22The+Ultimate+Goal+Of+A+Hacker+Is+Not+To+Break+Things+But+To+Create+Something+That+Will+Change+The+World.%22+-+Bruce+Schneier%2C+%27Secrets+And+Lies%27;%22The+Hacker+Is+A+Threat+To+The+Established+Order.+But+Sometimes%2C+The+Order+Itself+Is+The+Greatest+Threat.%22+-+Neal+Stephenson%2C+%27Cryptonomicon%27">
 </h1>
+
 
 
 <p align="center">
