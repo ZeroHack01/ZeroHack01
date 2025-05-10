@@ -1,7 +1,12 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=F77F00&center=true&vCenter=true&multiline=true&width=800&height=80&lines=“He+who+has+a+why+to+live+can+bear+almost+any+how.”;—+Friedrich+Nietzsche" alt="animated philosophical quote" />
+</h1>
+
 <p align="center">
-  <marquee behavior="scroll" direction="left" scrollamount="6" style="color:#00C4F2; font-family:'Courier New', monospace; font-size: 1.2em; width: 100%;">
-    🔐 "True security is invisible; only its absence is felt." • 🧠 "You patch your code—but do you patch your thinking?" • 🔑 "Encryption is trust made mathematical."
-  </marquee>
+  <img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-black?style=for-the-badge&logo=protonmail&logoColor=white">
+  <img src="https://img.shields.io/badge/Offensive-Security-red?style=for-the-badge&logo=HackTheBox&logoColor=white">
+  <img src="https://img.shields.io/badge/Defensive-blue?style=for-the-badge&logo=Wireshark&logoColor=white">
+  <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
 </p>
 
 
