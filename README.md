@@ -9,35 +9,22 @@
   <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
 </p>
 
+# About Me
 
-## 🛡️ The Path: To Know, To Guard, To Grow
+I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. **Red teaming** and **adversarial simulations** are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
 
-The cybersecurity path is pursued with a clear purpose: to **understand** the digital world deeply, **protect** it fiercely, and foster continuous **learning**. This is more than a profession; it's a core belief in contributing to a safer connected world.
-
-This approach is built on two fundamental actions: *perceiving through an adversarial lens* and *constructing with a guardian's intent*.
-
-🔴 **Perceiving Clearly (The Adversarial Lens):**
-True protection stems from understanding how systems can be compromised. This involves diving deep to:
-*   **Emulate Real Threats:** Proactively identifying weaknesses before malicious actors can exploit them.
-*   **Analyze Points of Failure:** Studying flaws and attack vectors to inform the design of robust defenses.
-*   **Illuminate Potential Dangers:** Clearly identifying and assessing risks and attack surfaces.
->*The objective is straightforward: glean insights from every potential vulnerability to build smarter, more resilient defenses.*
-
-🔵 **Building Strong (The Guardian's Intent):**
-Armed with an understanding of potential failures, digital environments are architected for resilience. This means:
-*   **Intelligent Design:** Creating systems where trust is earned, not assumed (adhering to Zero Trust principles).
-*   **Vigilant Systems:** Implementing intelligent tools and processes for swift threat detection and neutralization.
-*   **Adaptive Response & Evolution:** Responding effectively to incidents and integrating every lesson for continual improvement.
->*The aspiration is to create digital spaces that not only withstand challenges but emerge stronger and more secure.*
-
-**The Core Principle:**
-Lasting security arises from a comprehensive understanding of both sides—the art of the attack and the science of defense. Like a skilled craftsman, knowledge of both is applied to refine and strengthen. This path embodies a constant cycle of **perceiving, building, and growing**, undertaken with clarity and steadfast dedication, striving towards a safer digital future for all.
+<p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-black?style=for-the-badge&logo=protonmail&logoColor=white">
+  <img src="https://img.shields.io/badge/Offensive-Red?style=for-the-badge&logo=HackTheBox&logoColor=white">
+  <img src="https://img.shields.io/badge/Defensive-Blue?style=for-the-badge&logo=Wireshark&logoColor=white">
+  <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
+</p>
 
 ---
 
 ## ⚔️ Skills, Tools & Proficiencies
 
-My toolkit is a dynamic blend of foundational knowledge and cutting-edge technologies, continuously refined to meet the evolving challenges of cyberspace. **All tools listed below are part of my active operational capabilities.**
+**All tools listed below are part of my active operational capabilities.**
 
 ### **I. Languages & Operating Systems Expertise**
 <p align="center">
