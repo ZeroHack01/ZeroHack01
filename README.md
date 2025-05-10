@@ -1,45 +1,64 @@
-<div align="center" style="width: 100%; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;">
-  <!-- === ANIMATED QUOTES (REPLACE WITH YOUR GIF) === -->
+<div align="center" style="width: 100%; max-width: 950px; /* Max width for the animated quotes container */ margin-left: auto; margin-right: auto; padding-top: 25px; padding-bottom: 25px;">
+  <!-- === ANIMATED PHILOSOPHICAL & CYBER QUOTES FLOW === -->
   <p align="center">
-    <!-- ** IMPORTANT: Create an animated GIF of your quotes and replace the src below ** -->
-    <!-- Example: <img src="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/main/assets/animated-quotes.gif" alt="My Core Directives in Cybersecurity" width="900" /> -->
-    <img src="https://via.placeholder.com/900x220/101010/FFFFFF?text=ANIMATED+PHILOSOPHICAL+QUOTES+GIF+HERE" alt="My Core Directives in Cybersecurity - Placeholder" width="900" />
+    <img src="YOUR_ACTUAL_GIF_URL_HERE" alt="Flowing Philosophical & Cyber Directives - Animated" width="100%" style="max-width: 950px; /* Should match div max-width */ height: auto; display: block; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 196, 242, 0.3);" />
+    <!-- 
+        =========================================================================================
+        ===> IMPORTANT: Replace "YOUR_ACTUAL_GIF_URL_HERE" with the RAW GITHUB URL of YOUR animated GIF!
+        Example for ZeroHack01: https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/main/assets/philosophy_flow.gif 
+        =========================================================================================
+    -->
   </p>
-  <!-- === END QUOTES === -->
+  <!-- === END QUOTES FLOW === -->
 </div>
 
-<div align="center" style="margin-top: 15px;">
-  <h1 style="font-family: 'Orbitron', 'Arial Black', sans-serif; font-size: 2.8em; color: #07C4F2; margin-bottom: 0px; text-shadow: 1px 1px 3px #000000;">ZeroHack01</h1>
-  <p style="font-family: 'Roboto Mono', 'Courier New', monospace; font-size: 1.2em; color: #E0E0E0; margin-top: 5px;">(Mongwoiching Marma)</p>
-  <p style="font-family: 'Verdana', sans-serif; font-size: 1.3em; color: #B0B0B0; font-style: italic;">
-    Architect of Digital Defenses & Explorer of Cyber Frontiers
+<div align="center" style="margin-top: 20px;">
+  <h1 style="font-family: 'Orbitron', 'Impact', 'Arial Black', sans-serif; font-size: 3em; color: #07C4F2; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">ZeroHack01</h1>
+  <p style="font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace; font-size: 1.3em; color: #E8E8E8; margin-top: 5px; letter-spacing: 0.5px;">(Mongwoiching Marma)</p>
+  <p style="font-family: 'Verdana', 'Geneva', sans-serif; font-size: 1.4em; color: #C0C0C0; font-style: italic; margin-top: 10px;">
+    Architect of Digital Resilience & Explorer of Cyber Frontiers
   </p>
 </div>
 
-<p align="center" style="margin-top: 30px; margin-bottom: 35px;">
-  <img src="https://img.shields.io/badge/CYBERSECURITY_STRATEGIST-Blue_&_Red_Team_Ops-003B4D?style=for-the-badge&logo=matrix&logoColor=white&labelColor=00222B" alt="Cybersecurity Strategist">
-  <img src="https://img.shields.io/badge/ETHICAL_HACKER-Vulnerability_Assessor-8C0000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=590000" alt="Ethical Hacker">
-  <img src="https://img.shields.io/badge/TRYHACKME_CONQUEROR-Elite_Challenges-4B0082?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=2C004C" alt="TryHackMe Conqueror">
+<p align="center" style="margin-top: 35px; margin-bottom: 40px;">
+  <img src="https://img.shields.io/badge/CYBERSECURITY_MAESTRO-Strategic_Offense_&_Defense-003344?style=for-the-badge&logo=serverless&logoColor=cyan&labelColor=001F29&link=YOUR_LINKEDIN_URL_HERE" alt="Cybersecurity Maestro">
+  <img src="https://img.shields.io/badge/ETHICAL_HACKER_PRO-Advanced_Penetration_Testing-A00000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=6A0000&link=YOUR_TRYHACKME_URL_HERE" alt="Ethical Hacker Pro">
+  <img src="https://img.shields.io/badge/TRYHACKME_VETERAN-Mastery_Level_Challenges-400060?style=for-the-badge&logo=tryhackme&logoColor=lime&labelColor=200030&link=YOUR_TRYHACKME_URL_HERE" alt="TryHackMe Veteran">
 </p>
 
 ---
+<!-- Rest of your README content (My Resolve, Arsenal, GitHub Stats, etc.) goes below this line -->
 
-## 🛡️ My Resolve: Mission & Philosophy
+## 🛡️ The Path: To Know, To Guard, To Grow
 
-As a dedicated **Cybersecurity Professional**, my core mission is to navigate and secure the complex digital landscape. I operate at the confluence of offensive exploration and defensive fortification, driven by a relentless pursuit of knowledge and a commitment to ethical principles.
+The cybersecurity path is pursued with a clear purpose: to **understand** the digital world deeply, **protect** it fiercely, and foster continuous **learning**. This is more than a profession; it's a core belief in contributing to a safer connected world.
 
-*   🔴 **Offensive Maneuvers (The Vanguard):** I spearhead proactive security assessments by emulating sophisticated adversarial tactics. This involves advanced penetration testing, in-depth vulnerability research, exploit analysis, and leading comprehensive red team engagements to unearth and address critical weaknesses before they are exploited.
-*   🔵 **Defensive Fortifications (The Citadel):** I architect and implement robust, multi-layered security architectures. My expertise encompasses threat intelligence integration, rapid incident response protocols, meticulous digital forensics, SIEM/EDR deployment and tuning, and continuous security posture hardening to protect invaluable digital assets.
+This approach is built on two fundamental actions: *perceiving through an adversarial lens* and *constructing with a guardian's intent*.
 
-I believe that the most effective security posture is achieved through a deep, practical understanding of both attack vectors and defense mechanisms—a constant cycle of learning, testing, and adapting.
+🔴 **Perceiving Clearly (The Adversarial Lens):**
+True protection stems from understanding how systems can be compromised. This involves diving deep to:
+*   **Emulate Real Threats:** Proactively identifying weaknesses before malicious actors can exploit them.
+*   **Analyze Points of Failure:** Studying flaws and attack vectors to inform the design of robust defenses.
+*   **Illuminate Potential Dangers:** Clearly identifying and assessing risks and attack surfaces.
+>*The objective is straightforward: glean insights from every potential vulnerability to build smarter, more resilient defenses.*
+
+🔵 **Building Strong (The Guardian's Intent):**
+Armed with an understanding of potential failures, digital environments are architected for resilience. This means:
+*   **Intelligent Design:** Creating systems where trust is earned, not assumed (adhering to Zero Trust principles).
+*   **Vigilant Systems:** Implementing intelligent tools and processes for swift threat detection and neutralization.
+*   **Adaptive Response & Evolution:** Responding effectively to incidents and integrating every lesson for continual improvement.
+>*The aspiration is to create digital spaces that not only withstand challenges but emerge stronger and more secure.*
+
+**The Core Principle:**
+Lasting security arises from a comprehensive understanding of both sides—the art of the attack and the science of defense. Like a skilled craftsman, knowledge of both is applied to refine and strengthen. This path embodies a constant cycle of **perceiving, building, and growing**, undertaken with clarity and steadfast dedication, striving towards a safer digital future for all.
 
 ---
 
-## ⚔️ The Arsenal: Skills, Tools & Proficiencies
+## ⚔️ Skills, Tools & Proficiencies
 
 My toolkit is a dynamic blend of foundational knowledge and cutting-edge technologies, continuously refined to meet the evolving challenges of cyberspace. **All tools listed below are part of my active operational capabilities.**
 
-### **I. Core Languages & Operating Systems Expertise**
+### **I. Languages & Operating Systems Expertise**
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
   <img src="https://img.shields.io/badge/Bash-Expert-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
@@ -136,7 +155,7 @@ My toolkit is a dynamic blend of foundational knowledge and cutting-edge technol
 
 ---
 
-## 📈 Digital Footprint: GitHub Contributions
+## 📈 GitHub Contributions
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dracula&rank_icon=github&border_radius=10&card_width=440&title_color=FF79C6&icon_color=50FA7B&text_color=F8F8F2&bg_color=282A36" width="48%" alt="ZeroHack01's GitHub Stats">
@@ -148,7 +167,7 @@ My toolkit is a dynamic blend of foundational knowledge and cutting-edge technol
 
 ---
 
-## 🖋️ Field Notes: My Published Insights
+## 🖋️ Published Insights
 
 I believe in disseminating knowledge. Find my analyses, guides, and research on Medium:
 
@@ -157,7 +176,7 @@ I believe in disseminating knowledge. Find my analyses, guides, and research on 
 
 ---
 
-## 📡 Signal Beacons: Connect & Collaborate
+## 📡 Connect & Collaborate
 
 The digital expanse is vast; let's navigate it together. I am always open to engaging with fellow professionals, researchers, and enthusiasts.
 
