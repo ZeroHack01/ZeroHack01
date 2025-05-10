@@ -1,6 +1,6 @@
 <p align="center">
-  <marquee behavior="scroll" direction="left" scrollamount="6" style="font-size: 1.2em; color: #00c4f2; font-family: 'Courier New', Courier, monospace;">
-    "True security is invisible; only its absence is felt." • "You patch your code—but do you patch your thinking?" • "Encryption is trust made mathematical."
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="color:#00C4F2; font-family:'Courier New', monospace; font-size: 1.2em; width: 100%;">
+    🔐 "True security is invisible; only its absence is felt." • 🧠 "You patch your code—but do you patch your thinking?" • 🔑 "Encryption is trust made mathematical."
   </marquee>
 </p>
 
