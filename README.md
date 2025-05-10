@@ -1,7 +1,6 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=%22The+ultimate+goal+of+a+hacker+is+not+to+break+things%2C+but+to+create+something+that+will+change+the+world.%22%0A-%22Bruce+Schneier%22">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=%22The+best+way+to+predict+the+future+is+to+invent+it.%22%0A-%22Alan+Kay%22">
 </h1>
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-black?style=for-the-badge&logo=protonmail&logoColor=white">
