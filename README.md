@@ -13,6 +13,9 @@
 
 I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. **Red teaming** and **adversarial simulations** are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
 
+<span style="color: #00FF00;">I'm constantly evolving my toolkit, a blend of foundational knowledge and modern tools, to stay ahead of digital threats. Each tool serves a purpose, allowing me to both test and defend systems effectively.</span>
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/Cybersecurity-Enthusiast-black?style=for-the-badge&logo=protonmail&logoColor=white">
   <img src="https://img.shields.io/badge/Offensive-Red?style=for-the-badge&logo=HackTheBox&logoColor=white">
