@@ -1,33 +1,42 @@
-<div align="center" style="width: 100%; max-width: 950px; /* Max width for the animated quotes container */ margin-left: auto; margin-right: auto; padding-top: 25px; padding-bottom: 25px;">
+<div align="center" style="width: 100%; max-width: 950px; margin-left: auto; margin-right: auto; padding-top: 25px; padding-bottom: 25px;">
+  
   <!-- === ANIMATED PHILOSOPHICAL & CYBER QUOTES FLOW === -->
   <p align="center">
-    <img src="YOUR_ACTUAL_GIF_URL_HERE" alt="Flowing Philosophical & Cyber Directives - Animated" width="100%" style="max-width: 950px; /* Should match div max-width */ height: auto; display: block; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 196, 242, 0.3);" />
-    <!-- 
-        =========================================================================================
-        ===> IMPORTANT: Replace "YOUR_ACTUAL_GIF_URL_HERE" with the RAW GITHUB URL of YOUR animated GIF!
-        Example for ZeroHack01: https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/main/assets/philosophy_flow.gif 
-        =========================================================================================
-    -->
+    <img src="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/main/assets/philosophy_flow.gif" 
+         alt="Flowing Philosophical & Cyber Directives - Animated" 
+         width="100%" 
+         style="max-width: 950px; height: auto; display: block; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 196, 242, 0.3);" />
   </p>
   <!-- === END QUOTES FLOW === -->
+
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <h1 style="font-family: 'Orbitron', 'Impact', 'Arial Black', sans-serif; font-size: 3em; color: #07C4F2; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">ZeroHack01</h1>
-  <p style="font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace; font-size: 1.3em; color: #E8E8E8; margin-top: 5px; letter-spacing: 0.5px;">(Mongwoiching Marma)</p>
+
+  <h1 style="font-family: 'Orbitron', 'Impact', 'Arial Black', sans-serif; font-size: 3em; color: #07C4F2; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">
+    ZeroHack01
+  </h1>
+  
+  <p style="font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace; font-size: 1.3em; color: #E8E8E8; margin-top: 5px; letter-spacing: 0.5px;">
+    (Mongwoiching Marma)
+  </p>
+  
   <p style="font-family: 'Verdana', 'Geneva', sans-serif; font-size: 1.4em; color: #C0C0C0; font-style: italic; margin-top: 10px;">
     Architect of Digital Resilience & Explorer of Cyber Frontiers
   </p>
+
 </div>
 
 <p align="center" style="margin-top: 35px; margin-bottom: 40px;">
-  <img src="https://img.shields.io/badge/CYBERSECURITY_MAESTRO-Strategic_Offense_&_Defense-003344?style=for-the-badge&logo=serverless&logoColor=cyan&labelColor=001F29&link=YOUR_LINKEDIN_URL_HERE" alt="Cybersecurity Maestro">
-  <img src="https://img.shields.io/badge/ETHICAL_HACKER_PRO-Advanced_Penetration_Testing-A00000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=6A0000&link=YOUR_TRYHACKME_URL_HERE" alt="Ethical Hacker Pro">
-  <img src="https://img.shields.io/badge/TRYHACKME_VETERAN-Mastery_Level_Challenges-400060?style=for-the-badge&logo=tryhackme&logoColor=lime&labelColor=200030&link=YOUR_TRYHACKME_URL_HERE" alt="TryHackMe Veteran">
+  <img src="https://img.shields.io/badge/CYBERSECURITY_MAESTRO-Strategic_Offense_&_Defense-003344?style=for-the-badge&logo=serverless&logoColor=cyan&labelColor=001F29&link=https://www.linkedin.com/in/your-profile" alt="Cybersecurity Maestro">
+  <img src="https://img.shields.io/badge/ETHICAL_HACKER_PRO-Advanced_Penetration_Testing-A00000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=6A0000&link=https://tryhackme.com/p/your-username" alt="Ethical Hacker Pro">
+  <img src="https://img.shields.io/badge/TRYHACKME_VETERAN-Mastery_Level_Challenges-400060?style=for-the-badge&logo=tryhackme&logoColor=lime&labelColor=200030&link=https://tryhackme.com/p/your-username" alt="TryHackMe Veteran">
 </p>
 
 ---
+
 <!-- Rest of your README content (My Resolve, Arsenal, GitHub Stats, etc.) goes below this line -->
+
 
 ## 🛡️ The Path: To Know, To Guard, To Grow
 
