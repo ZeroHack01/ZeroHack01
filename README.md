@@ -9,24 +9,13 @@
   <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white">
 </p>
 
+<h3 style="color:#00FF00;">About Me</h3>
 
-*   **How it works:** Using `python` (or another language like `bash`) as the language for the code block. Comments (`#`) in Python are often rendered in a shade of green by GitHub's Markdown processor, depending on the theme.
-*   **Limitations:**
-    *   The green color is determined by GitHub's theme, not your choice.
-    *   The whole text will look like a code comment.
-    *   Less flexibility in formatting.
-
-**Option 3: Creating an Image (Most Control, Less Accessible)**
-
-You could create an image (PNG or SVG) of your "About Me" text styled exactly how you want (hacker green text on a dark background, specific font) in a graphics editor and then embed that image.
-
-```markdown
-## // About Me: The Digital Alchemist
-
-<p align="center">
-  <img src="YOUR_IMAGE_URL_HERE" alt="About Me: My passion for cybersecurity, red teaming, and making a digital difference.">
+<p style="color:#00FF00;">
+I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. Red teaming and adversarial simulations are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
 </p>
----
+
+
 
 ## ⚔️ Skills, Tools & Proficiencies
 
