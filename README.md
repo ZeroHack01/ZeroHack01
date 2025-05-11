@@ -10,10 +10,10 @@
 </p>
 
 <div align="center" style="margin-bottom: 20px; margin-top: 20px;">
-  <p style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1.8em; text-shadow: 0 0 8px #00FF00, 0 0 12px #00FF00; line-height: 1.2; border: 2px solid #00FF00; padding: 15px 25px; display: inline-block; background-color: rgba(0, 20, 0, 0.7); border-radius: 8px; margin-bottom: 15px;">
+  <p style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1.8em; text-shadow: 0 0 8px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00; line-height: 1.2; border: 3px solid #39FF14; padding: 15px 25px; display: inline-block; background-color: rgba(0, 40, 0, 0.9); border-radius: 8px; margin-bottom: 15px; box-shadow: 0 0 15px #00FF00;">
     █▓▒▒░ WELCOME, CYBER EXPLORER ░▒▒▓█
   </p>
-  <p style="font-family: 'Courier New', Courier, monospace; color:#39FF14; font-size: 1.1em; text-shadow: 0 0 3px #39FF14;">
+  <p style="font-family: 'Courier New', Courier, monospace; color:#00FF00; font-size: 1.1em; text-shadow: 0 0 3px #00FF00;">
     You've jacked into the digital nexus of a dedicated cybersecurity architect.
     <br>
     A warm welcome from this side of the screen! I trust your journey through the ones and zeros is enlightening.
@@ -35,61 +35,61 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 
 <h3 style="color:#00FF00;"><strong>Languages & Operating Systems</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Bash-Expert-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/PowerShell-Proficient-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"><br>
-  <img src="https://img.shields.io/badge/OS:_Kali_Linux-Primary_Offensive-5E81AC?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
-  <img src="https://img.shields.io/badge/OS:_Windows_Suite-Extensive-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows Client & Server">
-  <img src="https://img.shields.io/badge/OS:_Ubuntu_&_Debian-Server_&_Utility-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu/Debian">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"><br>
+  <img src="https://img.shields.io/badge/Kali_Linux-5E81AC?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
+  <img src="https://img.shields.io/badge/Windows_Suite-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows Suite">
+  <img src="https://img.shields.io/badge/Ubuntu_&_Debian-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu & Debian">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Reconnaissance, OSINT & Enumeration</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Nmap-Network_Mapper-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
-  <img src="https://img.shields.io/badge/Amass-Deep_OSINT-FFCD00?style=flat-square&logoColor=black" alt="Amass">
-  <img src="https://img.shields.io/badge/Shodan_/_Censys-Internet_Wide_Scanning-00AEEF?style=flat-square&logo=shodan&logoColor=white" alt="Shodan/Censys">
+  <img src="https://img.shields.io/badge/Nmap-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
+  <img src="https://img.shields.io/badge/Amass-FFCD00?style=flat-square&logoColor=black" alt="Amass">
+  <img src="https://img.shields.io/badge/Shodan_/_Censys-00AEEF?style=flat-square&logo=shodan&logoColor=white" alt="Shodan / Censys">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Exploitation, Post-Exploitation & C2</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Metasploit_Framework-Comprehensive_Exploitation-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit Framework">
-  <img src="https://img.shields.io/badge/Impacket_Suite-Network_Protocol_Toolkit-008080?style=flat-square&logoColor=white" alt="Impacket Suite">
-  <img src="https://img.shields.io/badge/Sliver_C2_/_Mythic_C2-Modern_C2_Frameworks-7A00CC?style=flat-square&logoColor=white" alt="Sliver C2 / Mythic C2">
+  <img src="https://img.shields.io/badge/Metasploit_Framework-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit Framework">
+  <img src="https://img.shields.io/badge/Impacket_Suite-008080?style=flat-square&logoColor=white" alt="Impacket Suite">
+  <img src="https://img.shields.io/badge/Sliver_C2_/_Mythic_C2-7A00CC?style=flat-square&logoColor=white" alt="Sliver C2 / Mythic C2">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Credential & Network Attacks</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Hashcat-Advanced_Password_Recovery-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
-  <img src="https://img.shields.io/badge/Mimikatz_/_LaZagne-Credential_Dumping-FF4500?style=flat-square&logoColor=white" alt="Mimikatz/LaZagne">
-  <img src="https://img.shields.io/badge/Wireshark_/_tcpdump-Traffic_Analysis-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark/tcpdump">
+  <img src="https://img.shields.io/badge/Hashcat-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
+  <img src="https://img.shields.io/badge/Mimikatz_/_LaZagne-FF4500?style=flat-square&logoColor=white" alt="Mimikatz / LaZagne">
+  <img src="https://img.shields.io/badge/Wireshark_/_tcpdump-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark / tcpdump">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Active Directory & Windows Domains</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/BloodHound-AD_Attack_Path_Mapping-990000?style=flat-square&logoColor=white" alt="BloodHound">
-  <img src="https://img.shields.io/badge/Kerbrute_/_Rubeus-Kerberos_Attacks-FFBF00?style=flat-square&logoColor=black" alt="Kerbrute/Rubeus">
-  <img src="https://img.shields.io/badge/CrackMapExec-AD_Pentest_Swiss_Knife-FFD700?style=flat-square&logoColor=black" alt="CrackMapExec">
+  <img src="https://img.shields.io/badge/BloodHound-990000?style=flat-square&logoColor=white" alt="BloodHound">
+  <img src="https://img.shields.io/badge/Kerbrute_/_Rubeus-FFBF00?style=flat-square&logoColor=black" alt="Kerbrute / Rubeus">
+  <img src="https://img.shields.io/badge/CrackMapExec-FFD700?style=flat-square&logoColor=black" alt="CrackMapExec">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Privilege Escalation & Persistence</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/LinPEAS_/_WinPEAS-PrivEsc_Enumeration-FFA500?style=flat-square&logoColor=black" alt="LinPEAS/WinPEAS">
-  <img src="https://img.shields.io/badge/GTFOBins_/_LOLBAS-Living_Off_The_Land-40E0D0?style=flat-square&logoColor=black" alt="GTFOBins/LOLBAS">
-  <img src="https://img.shields.io/badge/Scheduled_Tasks_/_Services-Persistence_Vectors-708090?style=flat-square&logoColor=white" alt="Scheduled Tasks/Services">
+  <img src="https://img.shields.io/badge/LinPEAS_/_WinPEAS-FFA500?style=flat-square&logoColor=black" alt="LinPEAS / WinPEAS">
+  <img src="https://img.shields.io/badge/GTFOBins_/_LOLBAS-40E0D0?style=flat-square&logoColor=black" alt="GTFOBins / LOLBAS">
+  <img src="https://img.shields.io/badge/Scheduled_Tasks_/_Services-708090?style=flat-square&logoColor=white" alt="Scheduled Tasks / Services">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Defensive Tech & Security Operations</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/SIEM:_Splunk_/_Elastic-Log_Analysis_&_Threat_Detection-000000?style=flat-square&logo=splunk&logoColor=white" alt="SIEM: Splunk/Elastic">
-  <img src="https://img.shields.io/badge/EDR:_Sysmon_/_Velociraptor-Endpoint_Detection_&_Response-5cb85c?style=flat-square&logoColor=white" alt="EDR: Sysmon/Velociraptor">
-  <img src="https://img.shields.io/badge/Firewalls:_iptables_/_pfSense-Network_Control-D9534F?style=flat-square&logoColor=white" alt="Firewall: iptables/pfSense">
+  <img src="https://img.shields.io/badge/SIEM:_Splunk_/_Elastic-000000?style=flat-square&logo=splunk&logoColor=white" alt="SIEM: Splunk / Elastic">
+  <img src="https://img.shields.io/badge/EDR:_Sysmon_/_Velociraptor-5cb85c?style=flat-square&logoColor=white" alt="EDR: Sysmon / Velociraptor">
+  <img src="https://img.shields.io/badge/Firewalls:_iptables_/_pfSense-D9534F?style=flat-square&logoColor=white" alt="Firewalls: iptables / pfSense">
 </p>
 
 <h3 style="color:#00FF00;"><strong>Infrastructure, Virtualization & Automation</strong></h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Docker_/_Podman-Containerization-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker/Podman">
-  <img src="https://img.shields.io/badge/QEMU_/_KVM_/_VMware-Virtualization-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU/KVM/VMware">
-  <img src="https://img.shields.io/badge/Ansible_/_Terraform-IaC_&_Automation-F8981D?style=flat-square&logo=ansible&logoColor=white" alt="Ansible/Terraform">
+  <img src="https://img.shields.io/badge/Docker_/_Podman-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker / Podman">
+  <img src="https://img.shields.io/badge/QEMU_/_KVM_/_VMware-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU / KVM / VMware">
+  <img src="https://img.shields.io/badge/Ansible_/_Terraform-F8981D?style=flat-square&logo=ansible&logoColor=white" alt="Ansible / Terraform">
 </p>
 <p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em>(This arsenal is perpetually evolving...)</em></p>
 
