@@ -144,12 +144,18 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
     </p>
   </div>
 
-  <div align="center" style="margin-top: 25px;">
-  <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔑 Transmission Ended:</p>
-  <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
-    **// ZeroHack01 :: TRANSMISSION_ENDS //</br>Thank you for tuning in. Your time and interest are truly appreciated. Stay curious, stay secure.**
+<div align="center" style="margin-top: 30px; padding: 15px; border: 2px solid #00FF00; border-radius: 10px; background-color: #000000;">
+  <p style="color: #00FF00; font-size: 22px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #00FF00;">
+    🔚 TRANSMISSION TERMINATED
+  </p>
+  <p style="color: #39FF14; font-size: 18px; font-family: 'Consolas', monospace; text-shadow: 0 0 4px #39FF14;">
+    💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.
+  </p>
+  <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', monospace;">
+    <br><strong>// ZeroHack01 :: OUT //</strong>
   </p>
 </div>
+
 
 
 ## 📝 License
