@@ -146,16 +146,15 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 
 <div align="center" style="margin-top: 30px; padding: 15px; border: 2px solid #00FF00; border-radius: 10px; background-color: #000000;">
   <p style="color: #00FF00; font-size: 22px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #00FF00;">
-    🔚 TRANSMISSION TERMINATED
+    🔚 <span style="color: #00FF00; text-shadow: 0 0 6px #00FF00;">TRANSMI</span><span style="color: #39FF14; text-shadow: 0 0 6px #39FF14;">SSION</span> <span style="color: #7FFF00; text-shadow: 0 0 7px #7FFF00;">ENDED</span>
   </p>
   <p style="color: #39FF14; font-size: 18px; font-family: 'Consolas', monospace; text-shadow: 0 0 4px #39FF14;">
-    💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.
+    💬 <span style="color: #ADFF2F; text-shadow: 0 0 5px #ADFF2F;">Thank you</span> for <span style="color: #00FFFF; text-shadow: 0 0 4px #00FFFF;">tuning in</span> — your <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">presence</span> in this signal stream is <span style="color: #FFFFFF; text-shadow: 0 0 6px #39FF14;">truly appreciated</span>. <span style="color: #AFFF33; text-shadow: 0 0 4px #AFFF33;">Stay curious</span>, <span style="color: #50C878; text-shadow: 0 0 4px #50C878;">stay secure</span>.
   </p>
   <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', monospace;">
-    <br><strong>// ZeroHack01 :: OUT //</strong>
+    <br><strong>// <span style="color: #00FF00; text-shadow: 0 0 5px #00FF00;">ZeroHack01</span> :: <span style="color: #00FFFF; text-shadow: 0 0 4px #00FFFF;">Exit</span> //</strong>
   </p>
 </div>
-
 
 
 ## 📝 License
