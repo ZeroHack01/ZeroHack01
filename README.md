@@ -114,28 +114,39 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 ---
 ## 🛰️ Communication Protocol: ACTIVE
 
-> The digital expanse is vast; let's navigate its complexities together.  
-> Open to collaborations and discussions. Channels are secure. Transmission initiated.
+>Navigating the evolving cybersecurity landscape is a shared mission.  
+>Open to collaboration, conversation, and contribution — let's build safer system together..
 
 ---
 
-> **LinkedIn:** [Professional Network](https://bd.linkedin.com/in/mongwoi)  
-> **GitHub:** [Code Repository](https://github.com/ZeroHack01)  
-> **Medium:** [Knowledge Exchange](https://medium.com/@NextGencyber)  
-> **TryHackMe:** [Training Grounds](https://tryhackme.com/p/Mongwoiching)  
-> **Credly:** [Validated Skills](https://www.credly.com/users/mongwoiching-marma)
+### 📡 Communication Channels
+
+| Platform | Link |
+|----------|------|
+| **LinkedIn** | [Professional Network](https://bd.linkedin.com/in/mongwoi) |
+| **GitHub** | [Code Repository](https://github.com/ZeroHack01) |
+| **Medium** | [Knowledge Exchange](https://medium.com/@NextGencyber) |
+| **TryHackMe** | [Training Grounds](https://tryhackme.com/p/Mongwoiching) |
+| **Credly** | [Validated Skills](https://www.credly.com/users/mongwoiching-marma) |
 
 ---
 
-> **Profile Access Log:** 🛠️ [View Counter](https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square)
+### 📈 Profile Access Log
+
+![Profile Access Log](https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square)
 
 ---
 
-### Transmission Message:
+### 💬 Transmission Message
 
 > "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
 
+---
+
+### 🔑 Transmission Ended
+
 > **// ZeroHack01 :: TRANSMISSION_ENDS //**
+
 ## 📝 License
 
 © 2025 Mongwoiching Marma  
