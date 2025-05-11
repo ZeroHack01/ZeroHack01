@@ -114,35 +114,42 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 ---
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📡 Communication Protocol: ACTIVE 📡</h2>
 
-<div style="background-color:#181717; padding: 20px; border-radius: 10px; margin-top: 20px; border: 2px solid #00FF00;">
-  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-    The digital expanse is vast; let's navigate its complexities together.  
-    Open to collaborations and discussions. Channels are secure. Transmission initiated.
+<div style="background-color:#181717; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00;">
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90; font-size: 18px;">
+    The digital expanse is vast; let's navigate its complexities together. Open to collaborations and discussions. Channels are secure. Transmission initiated.
   </p>
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    <img src="https://img.shields.io/badge/GitHub-Code_Repository-181717?style=for-the-badge&logo=github&logoColor=white&logoColor=00FF00" alt="GitHub">
-    <img src="https://img.shields.io/badge/Medium-Knowledge_Exchange-292929?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
-    <img src="https://img.shields.io/badge/TryHackMe-Training_Grounds-88C900?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe">
-    <img src="https://img.shields.io/badge/Credly-Validated_Skills-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly">
-  </p>
+  <div align="center" style="margin-top: 20px;">
+    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔗 Connection Points:</p>
+    <p>
+      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" style="color:#0077B5;">LinkedIn</a> | 
+      <a href="https://github.com/ZeroHack01" target="_blank" style="color:#00FF00;">GitHub</a> | 
+      <a href="https://medium.com/@NextGencyber" target="_blank" style="color:#292929;">Medium</a> | 
+      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" style="color:#88C900;">TryHackMe</a> | 
+      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color:#FF6B00;">Credly</a>
+    </p>
+  </div>
 
-  <h3 align="center" style="color:#00FF00;">📈 Profile Access Log</h3>
-  <p align="center">
+  <div align="center" style="margin-top: 25px;">
+    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">📈 Profile Access Log:</p>
     <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
-  </p>
+  </div>
 
-  <h3 align="center" style="color:#00FF00;">💬 Transmission Message</h3>
-  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-    "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
-  </p>
+  <div align="center" style="margin-top: 25px;">
+    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">💬 Transmission Message:</p>
+    <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
+      "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
+    </p>
+  </div>
 
-  <h3 align="center" style="color:#00FF00;">🔑 Transmission Ended</h3>
-  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-    **// ZeroHack01 :: TRANSMISSION_ENDS //**
-  </p>
+  <div align="center" style="margin-top: 25px;">
+    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔑 Transmission Ended:</p>
+    <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
+      **// ZeroHack01 :: TRANSMISSION_ENDS //**
+    </p>
+  </div>
 </div>
+
 
 ## 📝 License
 
