@@ -116,7 +116,9 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 
 <div style="background-color:#181717; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00;">
   <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90; font-size: 18px;">
-    The digital expanse is vast; let's navigate its complexities together. Open to collaborations and discussions. Channels are secure. Transmission initiated.
+    >Navigating the evolving cybersecurity landscape is a shared mission.  
+    >Open to collaboration, conversation, and contribution- let's build safer systems together.
+
   </p>
 
   <div align="center" style="margin-top: 20px;">
@@ -143,11 +145,10 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   </div>
 
   <div align="center" style="margin-top: 25px;">
-    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔑 Transmission Ended:</p>
-    <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
-      **// ZeroHack01 :: TRANSMISSION_ENDS //**
-    </p>
-  </div>
+  <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔑 Transmission Ended:</p>
+  <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
+    **// ZeroHack01 :: TRANSMISSION_ENDS //</br>Thank you for tuning in. Your time and interest are truly appreciated. Stay curious, stay secure.**
+  </p>
 </div>
 
 
