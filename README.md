@@ -114,41 +114,35 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 ---
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📡 Communication Protocol: ACTIVE 📡</h2>
 
-<p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-  The digital expanse is vast; let's navigate its complexities together.  
-  Open to collaborations and discussions. Channels are secure. Transmission initiated.
-</p>
+<div style="background-color:#181717; padding: 20px; border-radius: 10px; margin-top: 20px; border: 2px solid #00FF00;">
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
+    The digital expanse is vast; let's navigate its complexities together.  
+    Open to collaborations and discussions. Channels are secure. Transmission initiated.
+  </p>
 
----
+  <p align="center">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/GitHub-Code_Repository-181717?style=for-the-badge&logo=github&logoColor=white&logoColor=00FF00" alt="GitHub">
+    <img src="https://img.shields.io/badge/Medium-Knowledge_Exchange-292929?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
+    <img src="https://img.shields.io/badge/TryHackMe-Training_Grounds-88C900?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe">
+    <img src="https://img.shields.io/badge/Credly-Validated_Skills-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly">
+  </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  <img src="https://img.shields.io/badge/GitHub-Code_Repository-181717?style=for-the-badge&logo=github&logoColor=white&logoColor=00FF00" alt="GitHub">
-  <img src="https://img.shields.io/badge/Medium-Knowledge_Exchange-292929?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
-  <img src="https://img.shields.io/badge/TryHackMe-Training_Grounds-88C900?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe">
-  <img src="https://img.shields.io/badge/Credly-Validated_Skills-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly">
-</p>
+  <h3 align="center" style="color:#00FF00;">📈 Profile Access Log</h3>
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
+  </p>
 
----
+  <h3 align="center" style="color:#00FF00;">💬 Transmission Message</h3>
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
+    "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
+  </p>
 
-<h3 align="center" style="color:#00FF00;">📈 Profile Access Log</h3>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
-</p>
-
----
-
-<h3 align="center" style="color:#00FF00;">💬 Transmission Message</h3>
-<p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-  "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
-</p>
-
----
-
-<h3 align="center" style="color:#00FF00;">🔑 Transmission Ended</h3>
-<p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
-  **// ZeroHack01 :: TRANSMISSION_ENDS //**
-</p>
+  <h3 align="center" style="color:#00FF00;">🔑 Transmission Ended</h3>
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90;">
+    **// ZeroHack01 :: TRANSMISSION_ENDS //**
+  </p>
+</div>
 
 ## 📝 License
 
