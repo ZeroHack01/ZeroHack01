@@ -103,7 +103,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 
 ---
 
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">🖋️ Published Intel Dumps 🖋️</h2>
+<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
 
 <p style="color:#90EE90; text-align:center;">Sharing knowledge is part of the protocol. Find my analyses and guides on Medium:</p>
 <ul style="list-style-type: none; padding-left: 0; text-align: center;">
@@ -112,30 +112,30 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </ul>
 
 ---
+## 🛰️ Communication Protocol: ACTIVE
 
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📡 Establish Secure Comms 📡</h2>
-
-<p style="color:#90EE90; text-align:center;">The digital expanse is vast; let's navigate its complexities together. Open to collaborations and discussions.</p>
-
-<p align="center" style="margin-top: 20px;">
-  <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/ZeroHack01" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/GitHub-Code_Repository-181717?style=for-the-badge&logo=github&logoColor=white&logoColor=00FF00" alt="GitHub"></a>
-  <a href="https://medium.com/@NextGencyber" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Medium-Knowledge_Exchange-292929?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/TryHackMe-Training_Grounds-88C900?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe"></a>
-  <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img src="https://img.shields.io/badge/Credly-Validated_Skills-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
-</p>
-
-<p align="center" style="margin-top: 25px;">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
-</p>
+> The digital expanse is vast; let's navigate its complexities together.  
+> Open to collaborations and discussions. Channels are secure. Transmission initiated.
 
 ---
-<p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1em; text-shadow: 0 0 3px #00FF00;">
-  <em>"In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."</em>
-  <br><br>
-  <strong style="color:#39FF14;">// ZeroHack01 :: TRANSMISSION_ENDS //</strong>
-</p>
 
+> **LinkedIn:** [Professional Network](https://bd.linkedin.com/in/mongwoi)  
+> **GitHub:** [Code Repository](https://github.com/ZeroHack01)  
+> **Medium:** [Knowledge Exchange](https://medium.com/@NextGencyber)  
+> **TryHackMe:** [Training Grounds](https://tryhackme.com/p/Mongwoiching)  
+> **Credly:** [Validated Skills](https://www.credly.com/users/mongwoiching-marma)
+
+---
+
+> **Profile Access Log:** 🛠️ [View Counter](https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square)
+
+---
+
+### Transmission Message:
+
+> "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
+
+> **// ZeroHack01 :: TRANSMISSION_ENDS //**
 ## 📝 License
 
 © 2025 Mongwoiching Marma  
