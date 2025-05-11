@@ -119,7 +119,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 <div style="background-color:#101010; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00; box-shadow: 0 0 15px #00FF00;">
   <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #BFFF00; font-size: 18px; line-height: 1.6;">
     Navigating the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">evolving cybersecurity landscape</span> is a <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">shared mission</span>.
-    <br>>Open to <span style="color: #39FF14; text-shadow: 0 0 4px #39FF14;"collaboration</span>, <span style="color: #ADFF2F; text-shadow: 0 0 4px #ADFF2F;">conversation</span>, and <span style="color: #00FF00; text-shadow: 0 0 4px #00FF00;">contribution</span> - let's build <span style="color: #FFFFFF; text-shadow: 0 0 6px #00FF00;">safer systems</span> together.
+    <br>Open to <span style="color: #39FF14; text-shadow: 0 0 4px #39FF14;">collaboration</span>, <span style="color: #ADFF2F; text-shadow: 0 0 4px #ADFF2F;">conversation</span>, and <span style="color: #00FF00; text-shadow: 0 0 4px #00FF00;">contribution</span> - let's build <span style="color: #FFFFFF; text-shadow: 0 0 6px #00FF00;">safer systems</span> together.
   </p>
 
   <div align="center" style="margin-top: 25px;">
