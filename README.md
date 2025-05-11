@@ -112,251 +112,52 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </ul>
 
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<title>ZeroHack01 Transmission</title>
-<style>
-  body {
-    background-color: #0a0a0a; /* Dark background for the whole page */
-    color: #00FF00;
-    font-family: 'Consolas', 'Courier New', monospace;
-    margin: 0;
-    padding: 20px;
-  }
-
-  .glow-text {
-    text-shadow: 0 0 5px currentColor, 0 0 7px currentColor;
-  }
-
-  .header-title {
-    color: #00FF00;
-    text-shadow: 0 0 7px #00FF00, 0 0 10px #00FF00;
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  .header-title .protocol-status {
-    font-weight: bold;
-    text-shadow: 0 0 8px currentColor, 0 0 12px currentColor;
-  }
-  .header-title .protocol-status:hover {
-    color: #FFFF00; /* Yellow on hover for ACTIVE */
-    transform: scale(1.05);
-  }
-
-  .content-box {
-    background-color: #101010;
-    border-radius: 15px;
-    padding: 30px;
-    margin-top: 20px;
-    border: 2px solid #00FF00;
-    box-shadow: 0 0 10px #00FF00;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  .content-box:hover {
-    border-color: #39FF14;
-    box-shadow: 0 0 20px #39FF14, 0 0 5px #39FF14 inset;
-  }
-
-  .intro-paragraph {
-    color: #BFFF00;
-    font-size: 18px;
-    line-height: 1.7;
-    text-shadow: 0 0 2px #BFFF00;
-  }
-  .intro-paragraph .highlight-cyan { color: #00FFFF; text-shadow: 0 0 5px #00FFFF; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .intro-paragraph .highlight-cyan:hover { color: #87CEFA; text-shadow: 0 0 8px #87CEFA; }
-  .intro-paragraph .highlight-green1 { color: #7FFF00; text-shadow: 0 0 4px #7FFF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .intro-paragraph .highlight-green1:hover { color: #ADFF2F; text-shadow: 0 0 7px #ADFF2F; }
-  .intro-paragraph .highlight-green2 { color: #39FF14; text-shadow: 0 0 4px #39FF14; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .intro-paragraph .highlight-green2:hover { color: #90EE90; text-shadow: 0 0 7px #90EE90; }
-  .intro-paragraph .highlight-bright-green { color: #00FF00; text-shadow: 0 0 4px #00FF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .intro-paragraph .highlight-bright-green:hover { color: #7CFC00; text-shadow: 0 0 7px #7CFC00; }
-  .intro-paragraph .highlight-white { color: #FFFFFF; text-shadow: 0 0 6px #00FF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .intro-paragraph .highlight-white:hover { text-shadow: 0 0 10px #39FF14, 0 0 5px #FFFFFF; }
-
-
-  .section-title {
-    color: #00FF00;
-    font-size: 20px;
-    text-shadow: 0 0 5px #00FF00;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-  }
-  .section-title:hover {
-    color: #39FF14;
-    text-shadow: 0 0 8px #39FF14;
-  }
-
-  .connection-links a {
-    font-size: 17px;
-    text-decoration: none;
-    margin: 0 8px;
-    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.2s ease;
-  }
-  .connection-links a:hover {
-    text-shadow: 0 0 8px currentColor !important; /* Use !important to override specific link colors if needed for shadow */
-    transform: translateY(-2px);
-  }
-  .link-linkedin { color: #00A0DC; text-shadow: 0 0 3px #00A0DC; }
-  .link-github { color: #39FF14; text-shadow: 0 0 3px #39FF14; }
-  .link-medium { color: #A0A0A0; text-shadow: 0 0 3px #A0A0A0; }
-  .link-tryhackme { color: #88C900; text-shadow: 0 0 3px #88C900; }
-  .link-credly { color: #FF8C00; text-shadow: 0 0 3px #FF8C00; }
-
-
-  .profile-log img {
-    box-shadow: 0 0 8px #00FF00;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-    border-radius: 3px;
-  }
-  .profile-log img:hover {
-    box-shadow: 0 0 15px #39FF14;
-    transform: scale(1.03);
-  }
-
-  .transmission-message-text {
-    color: #BFFF00;
-    font-size: 17px;
-    line-height: 1.7;
-    text-shadow: 0 0 3px #BFFF00;
-  }
-  .transmission-message-text .tm-highlight-cyan { color: #00FFFF; text-shadow: 0 0 5px #00FFFF; transition: color 0.3s ease, text-shadow 0.3s ease;}
-  .transmission-message-text .tm-highlight-cyan:hover { color: #7FFFD4; text-shadow: 0 0 8px #7FFFD4;}
-  .transmission-message-text .tm-highlight-green1 { color: #7FFF00; text-shadow: 0 0 5px #7FFF00; transition: color 0.3s ease, text-shadow 0.3s ease;}
-  .transmission-message-text .tm-highlight-green1:hover { color: #ADFF2F; text-shadow: 0 0 8px #ADFF2F;}
-  .transmission-message-text .tm-highlight-yellow { color: #FFFF00; text-shadow: 0 0 6px #FFFF00; transition: color 0.3s ease, text-shadow 0.3s ease;}
-  .transmission-message-text .tm-highlight-yellow:hover { color: #FFFACD; text-shadow: 0 0 9px #FFFACD;}
-  .transmission-message-text .tm-highlight-green2 { color: #39FF14; text-shadow: 0 0 5px #39FF14; transition: color 0.3s ease, text-shadow 0.3s ease;}
-  .transmission-message-text .tm-highlight-green2:hover { color: #98FB98; text-shadow: 0 0 8px #98FB98;}
-  .transmission-message-text .tm-highlight-master { color: #FFFFFF; font-weight: bold; text-shadow: 0 0 8px #00FF00, 0 0 3px #FFFFFF; transition: text-shadow 0.3s ease, color 0.3s ease;}
-  .transmission-message-text .tm-highlight-master:hover { color: #F0FFFF; text-shadow: 0 0 12px #39FF14, 0 0 6px #F0FFFF;}
-
-
-  .thank-you-box {
-    margin-top: 35px;
-    padding: 25px;
-    border: 3px solid #39FF14;
-    border-radius: 12px;
-    background-color: #0A0A0A;
-    box-shadow: 0 0 10px #39FF14 inset, 0 0 15px #39FF14;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-  }
-  .thank-you-box:hover {
-    border-color: #7FFF00;
-    box-shadow: 0 0 15px #7FFF00 inset, 0 0 25px #7FFF00;
-    transform: scale(1.02);
-  }
-
-  .thank-you-header {
-    color: #00FF00;
-    font-size: 26px;
-    font-family: 'Consolas', monospace;
-    text-shadow: 0 0 6px #00FF00, 0 0 10px #00FF00;
-    margin-bottom: 15px;
-  }
-  .thank-you-header .th-transmi { color: #7FFF00; text-shadow: 0 0 7px #7FFF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-header .th-transmi:hover { color: #ADFF2F; text-shadow: 0 0 10px #ADFF2F; }
-  .thank-you-header .th-ssion { color: #ADFF2F; text-shadow: 0 0 7px #ADFF2F; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-header .th-ssion:hover { color: #BFFF00; text-shadow: 0 0 10px #BFFF00; }
-  .thank-you-header .th-ended { color: #00FFFF; font-weight:bold; text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-header .th-ended:hover { color: #AFEEEE; text-shadow: 0 0 12px #AFEEEE, 0 0 16px #AFEEEE; }
-
-
-  .thank-you-message {
-    color: #BFFF00;
-    font-size: 20px;
-    font-family: 'Consolas', monospace;
-    text-shadow: 0 0 5px #BFFF00;
-    line-height:1.7;
-    margin-bottom: 15px;
-  }
-  .thank-you-message .tym-thankyou { color: #FFFF00; text-shadow: 0 0 6px #FFFF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-message .tym-thankyou:hover { color: #FFFACD; text-shadow: 0 0 9px #FFFACD; }
-  .thank-you-message .tym-tuning { color: #00E0FF; text-shadow: 0 0 5px #00E0FF; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-message .tym-tuning:hover { color: #7FFFD4; text-shadow: 0 0 8px #7FFFD4; }
-  .thank-you-message .tym-presence { color: #7FFF00; text-shadow: 0 0 5px #7FFF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-message .tym-presence:hover { color: #ADFF2F; text-shadow: 0 0 8px #ADFF2F; }
-  .thank-you-message .tym-appreciated { color: #FFFFFF; font-weight:bold; text-shadow: 0 0 8px #39FF14, 0 0 10px #FFFFFF; transition: text-shadow 0.3s ease; }
-  .thank-you-message .tym-appreciated:hover { text-shadow: 0 0 12px #7FFF00, 0 0 15px #FFFFFF; }
-  .thank-you-message .tym-curious { color: #C1FF33; text-shadow: 0 0 5px #C1FF33; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-message .tym-curious:hover { color: #DFFF80; text-shadow: 0 0 8px #DFFF80; }
-  .thank-you-message .tym-secure { color: #50C878; font-weight:bold; text-shadow: 0 0 6px #50C878; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-message .tym-secure:hover { color: #98FB98; text-shadow: 0 0 9px #98FB98; }
-
-  .thank-you-footer {
-    color: #90EE90;
-    font-size: 17px;
-    font-family: 'Consolas', monospace;
-    margin-top:15px;
-  }
-  .thank-you-footer strong .tyf-zerohack { color: #00FF00; text-shadow: 0 0 6px #00FF00; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-footer strong .tyf-zerohack:hover { color: #7FFF00; text-shadow: 0 0 9px #7FFF00; }
-  .thank-you-footer strong .tyf-exit { color: #00FFFF; text-shadow: 0 0 6px #00FFFF; transition: color 0.3s ease, text-shadow 0.3s ease; }
-  .thank-you-footer strong .tyf-exit:hover { color: #AFEEEE; text-shadow: 0 0 9px #AFEEEE; }
-
-  /* General transition for interactive elements */
-  span[class*="highlight-"], span[class*="tm-highlight-"], span[class*="tym-"], span[class*="tyf-"], .protocol-status {
-    display: inline-block; /* Allows transform to work correctly */
-    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.2s ease;
-  }
-  span[class*="highlight-"]:hover, span[class*="tm-highlight-"]:hover, span[class*="tym-"]:hover, span[class*="tyf-"]:hover {
-    transform: scale(1.03) translateY(-1px); /* Subtle lift and scale on hover for highlighted words */
-  }
-
-</style>
-</head>
-<body>
-
-<h2 align="center" class="header-title">
-  📡 <span style="color:#39FF14;" class="glow-text">Communication</span> <span style="color:#7FFF00;" class="glow-text">Protocol</span>: <span style="color:#ADFF2F;" class="protocol-status">ACTIVE</span> 📡
+<h2 align="center" style="color:#00FF00; text-shadow: 0 0 7px #00FF00, 0 0 10px #00FF00;">
+  📡 <span style="color:#39FF14; text-shadow: 0 0 6px #39FF14;">Communication</span> <span style="color:#7FFF00; text-shadow: 0 0 6px #7FFF00;">Protocol</span>: <span style="color:#ADFF2F; font-weight:bold; text-shadow: 0 0 8px #ADFF2F;">ACTIVE</span> 📡
 </h2>
 
-<div class="content-box">
-  <p align="center" class="intro-paragraph">
-    >Navigating the <span class="highlight-cyan">evolving cybersecurity landscape</span> is a <span class="highlight-green1">shared mission</span>.
-    <br>>Open to <span class="highlight-green2">collaboration</span>, <span class="highlight-green1">conversation</span>, and <span class="highlight-bright-green">contribution</span> - let's build <span class="highlight-white">safer systems</span> together.
+<div style="background-color:#101010; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00; box-shadow: 0 0 15px #00FF00;">
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #BFFF00; font-size: 18px; line-height: 1.6;">
+    >Navigating the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">evolving cybersecurity landscape</span> is a <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">shared mission</span>.
+    <br>>Open to <span style="color: #39FF14; text-shadow: 0 0 4px #39FF14;">collaboration</span>, <span style="color: #ADFF2F; text-shadow: 0 0 4px #ADFF2F;">conversation</span>, and <span style="color: #00FF00; text-shadow: 0 0 4px #00FF00;">contribution</span> - let's build <span style="color: #FFFFFF; text-shadow: 0 0 6px #00FF00;">safer systems</span> together.
   </p>
 
-  <div align="center">
-    <p class="section-title">🔗 Connection Points:</p>
-    <p class="connection-links">
-      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" class="link-linkedin">LinkedIn</a> |
-      <a href="https://github.com/ZeroHack01" target="_blank" class="link-github">GitHub</a> |
-      <a href="https://medium.com/@NextGencyber" target="_blank" class="link-medium">Medium</a> |
-      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" class="link-tryhackme">TryHackMe</a> |
-      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" class="link-credly">Credly</a>
+  <div align="center" style="margin-top: 25px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">🔗 Connection Points:</p>
+    <p style="font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
+      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" style="color:#00A0DC; text-decoration:none; text-shadow: 0 0 3px #00A0DC;">LinkedIn</a> |
+      <a href="https://github.com/ZeroHack01" target="_blank" style="color:#39FF14; text-decoration:none; text-shadow: 0 0 3px #39FF14;">GitHub</a> |
+      <a href="https://medium.com/@NextGencyber" target="_blank" style="color:#A0A0A0; text-decoration:none; text-shadow: 0 0 3px #A0A0A0;">Medium</a> |
+      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" style="color:#88C900; text-decoration:none; text-shadow: 0 0 3px #88C900;">TryHackMe</a> |
+      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color:#FF8C00; text-decoration:none; text-shadow: 0 0 3px #FF8C00;">Credly</a>
     </p>
   </div>
 
-  <div align="center" class="profile-log">
-    <p class="section-title">📈 Profile Access Log:</p>
-    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
+  <div align="center" style="margin-top: 30px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">📈 Profile Access Log:</p>
+    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter" style="box-shadow: 0 0 8px #00FF00;">
   </div>
 
-  <div align="center">
-    <p class="section-title">💬 Transmission Message:</p>
-    <p class="transmission-message-text">
-      "In the <span class="tm-highlight-cyan">ever-shifting datascape</span> of <span class="tm-highlight-green1">cyberspace</span>, <span class="tm-highlight-yellow">adaptability</span> is key, <span class="tm-highlight-yellow">knowledge</span> is power, and <span class="tm-highlight-green2">ethical conduct</span> is the <span class="tm-highlight-master">master algorithm</span>."
+  <div align="center" style="margin-top: 30px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">💬 Transmission Message:</p>
+    <p style="color: #BFFF00; font-size: 17px; font-family: 'Consolas', 'Courier New', monospace; line-height: 1.7; text-shadow: 0 0 3px #BFFF00;">
+      "In the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">ever-shifting datascape</span> of <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">cyberspace</span>, <span style="color: #ADFF2F; text-shadow: 0 0 5px #ADFF2F;">adaptability</span> is key, <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">knowledge</span> is power, and <span style="color: #39FF14; text-shadow: 0 0 5px #39FF14;">ethical conduct</span> is the <span style="color: #FFFFFF; font-weight: bold; text-shadow: 0 0 8px #00FF00;">master algorithm</span>."
     </p>
   </div>
 
-  <div align="center" class="thank-you-box">
-    <p class="thank-you-header">
-      🔚 <span class="th-transmi">TRANSMI</span><span class="th-ssion">SSION</span> <span class="th-ended">ENDED</span>
-    </p>
-    <p class="thank-you-message">
-      💬 <span class="tym-thankyou">Thank you</span> for <span class="tym-tuning">tuning in</span> — your <span class="tym-presence">presence</span> in this signal stream is <span class="tym-appreciated">truly appreciated</span>. <span class="tym-curious">Stay curious</span>, <span class="tym-secure">stay secure</span>.
-    </p>
-    <p class="thank-you-footer">
-      <br><strong>// <span class="tyf-zerohack">ZeroHack01</span> :: <span class="tyf-exit">Exit</span> //</strong>
-    </p>
-  </div>
+<div align="center" style="margin-top: 35px; padding: 20px; border: 3px solid #39FF14; border-radius: 12px; background-color: #0A0A0A; box-shadow: 0 0 10px #39FF14 inset, 0 0 15px #39FF14;">
+  <p style="color: #00FF00; font-size: 24px; font-family: 'Consolas', monospace; text-shadow: 0 0 6px #00FF00, 0 0 10px #00FF00;">
+    🔚 <span style="color: #7FFF00; text-shadow: 0 0 7px #7FFF00;">TRANSMI</span><span style="color: #ADFF2F; text-shadow: 0 0 7px #ADFF2F;">SSION</span> <span style="color: #00FFFF; font-weight:bold; text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF;">ENDED</span>
+  </p>
+  <p style="color: #BFFF00; font-size: 19px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #BFFF00; line-height:1.6;">
+    💬 <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">Thank you</span> for <span style="color: #00E0FF; text-shadow: 0 0 5px #00E0FF;">tuning in</span> — your <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">presence</span> in this signal stream is <span style="color: #FFFFFF; font-weight:bold; text-shadow: 0 0 8px #39FF14, 0 0 10px #FFFFFF;">truly appreciated</span>. <span style="color: #C1FF33; text-shadow: 0 0 5px #C1FF33;">Stay curious</span>, <span style="color: #50C878; font-weight:bold; text-shadow: 0 0 6px #50C878;">stay secure</span>.
+  </p>
+  <p style="color: #90EE90; font-size: 17px; font-family: 'Consolas', monospace; margin-top:15px;">
+    <strong>// <span style="color: #00FF00; text-shadow: 0 0 6px #00FF00;">ZeroHack01</span> :: <span style="color: #00FFFF; text-shadow: 0 0 6px #00FFFF;">Exit</span> //</strong>
+  </p>
+</div>
 </div>
 
-</body>
-</html>
 ## 📝 License
 
 © 2025 Mongwoiching Marma  
