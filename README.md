@@ -87,7 +87,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <img src="https://img.shields.io/badge/QEMU_/_KVM_/_VMware-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU / KVM / VMware">
   <img src="https://img.shields.io/badge/Ansible_/_Terraform-F8981D?style=flat-square&logo=ansible&logoColor=white" alt="Ansible / Terraform">
 </p>
-<p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em>(This arsenal is perpetually evolving...)</em></p>
+<p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
 
 ---
 
