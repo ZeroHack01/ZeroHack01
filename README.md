@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00¢er=true&vCenter=true&width=800&height=80&lines=%22The+best+way+to+predict+the+future+is+to+invent+it.%22%0A-%22Alan+Kay%22">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=%22The+best+way+to+predict+the+future+is+to+invent+it.%22%0A-%22Alan+Kay%22">
 </h1>
 
 <p align="center">
@@ -10,11 +10,11 @@
 </p>
 
 <div align="center" style="margin-bottom: 20px; margin-top: 20px;">
-  <p style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1.8em; text-shadow: 0 0 8px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00; line-height: 1.2; border: 3px solid #39FF14; padding: 15px 25px; display: inline-block; background-color: rgba(0, 40, 0, 0.9); border-radius: 8px; margin-bottom: 15px; box-shadow: 0 0 15px #00FF00;">
+  <p style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1.8em; text-shadow: 0 0 8px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00; line-height: 1.2; border: 3px solid #39FF14; padding: 15px 25px; display: inline-block; background-color: #005500; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 0 15px #00FF00;">
     █▓▒▒░ WELCOME, CYBER EXPLORER ░▒▒▓█
   </p>
   <p style="font-family: 'Courier New', Courier, monospace; color:#00FF00; font-size: 1.1em; text-shadow: 0 0 3px #00FF00;">
-    You've jacked into the digital nexus of a dedicated cybersecurity architect.
+    You've jacked into the digital nexus of a dedicated cybersecurity operative.
     <br>
     A warm welcome from this side of the screen! I trust your journey through the ones and zeros is enlightening.
     <br>
@@ -33,7 +33,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 
 <p align="center" style="color:#39FF14; font-style: italic;">My primary operational toolkit, constantly refined and battle-tested.</p>
 
-<h3 style="color:#00FF00;"><strong>Languages & Operating Systems</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">💻</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
   <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
@@ -43,49 +43,49 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <img src="https://img.shields.io/badge/Ubuntu_&_Debian-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu & Debian">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Reconnaissance, OSINT & Enumeration</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">📡</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Nmap-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
   <img src="https://img.shields.io/badge/Amass-FFCD00?style=flat-square&logoColor=black" alt="Amass">
   <img src="https://img.shields.io/badge/Shodan_/_Censys-00AEEF?style=flat-square&logo=shodan&logoColor=white" alt="Shodan / Censys">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Exploitation, Post-Exploitation & C2</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">💥</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Metasploit_Framework-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit Framework">
   <img src="https://img.shields.io/badge/Impacket_Suite-008080?style=flat-square&logoColor=white" alt="Impacket Suite">
   <img src="https://img.shields.io/badge/Sliver_C2_/_Mythic_C2-7A00CC?style=flat-square&logoColor=white" alt="Sliver C2 / Mythic C2">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Credential & Network Attacks</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">🔑</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Hashcat-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
   <img src="https://img.shields.io/badge/Mimikatz_/_LaZagne-FF4500?style=flat-square&logoColor=white" alt="Mimikatz / LaZagne">
   <img src="https://img.shields.io/badge/Wireshark_/_tcpdump-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark / tcpdump">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Active Directory & Windows Domains</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">🏰</p>
 <p align="center">
   <img src="https://img.shields.io/badge/BloodHound-990000?style=flat-square&logoColor=white" alt="BloodHound">
   <img src="https://img.shields.io/badge/Kerbrute_/_Rubeus-FFBF00?style=flat-square&logoColor=black" alt="Kerbrute / Rubeus">
   <img src="https://img.shields.io/badge/CrackMapExec-FFD700?style=flat-square&logoColor=black" alt="CrackMapExec">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Privilege Escalation & Persistence</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">📈</p>
 <p align="center">
   <img src="https://img.shields.io/badge/LinPEAS_/_WinPEAS-FFA500?style=flat-square&logoColor=black" alt="LinPEAS / WinPEAS">
   <img src="https://img.shields.io/badge/GTFOBins_/_LOLBAS-40E0D0?style=flat-square&logoColor=black" alt="GTFOBins / LOLBAS">
   <img src="https://img.shields.io/badge/Scheduled_Tasks_/_Services-708090?style=flat-square&logoColor=white" alt="Scheduled Tasks / Services">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Defensive Tech & Security Operations</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">🛡️</p>
 <p align="center">
   <img src="https://img.shields.io/badge/SIEM:_Splunk_/_Elastic-000000?style=flat-square&logo=splunk&logoColor=white" alt="SIEM: Splunk / Elastic">
   <img src="https://img.shields.io/badge/EDR:_Sysmon_/_Velociraptor-5cb85c?style=flat-square&logoColor=white" alt="EDR: Sysmon / Velociraptor">
   <img src="https://img.shields.io/badge/Firewalls:_iptables_/_pfSense-D9534F?style=flat-square&logoColor=white" alt="Firewalls: iptables / pfSense">
 </p>
 
-<h3 style="color:#00FF00;"><strong>Infrastructure, Virtualization & Automation</strong></h3>
+<p align="center" style="font-size: 1.8em; margin-bottom: 5px; margin-top: 20px;">🏗️</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Docker_/_Podman-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker / Podman">
   <img src="https://img.shields.io/badge/QEMU_/_KVM_/_VMware-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU / KVM / VMware">
