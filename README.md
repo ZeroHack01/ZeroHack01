@@ -111,51 +111,51 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <li style="margin-bottom: 8px;"><a href="https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e" target="_blank" rel="noopener noreferrer" style="color:#39FF14; text-decoration:none;">🏰 <strong style="color:#00FF00;">Securing the AD Kingdom:</strong> A Practitioner's Guide to Domain Controller Hardening</a></li>
 </ul>
 
----
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📡 Communication Protocol: ACTIVE 📡</h2>
+---<h2 align="center" style="color:#00FF00; text-shadow: 0 0 7px #00FF00, 0 0 10px #00FF00;">
+  📡 <span style="color:#39FF14; text-shadow: 0 0 6px #39FF14;">Communication</span> <span style="color:#7FFF00; text-shadow: 0 0 6px #7FFF00;">Protocol</span>: <span style="color:#ADFF2F; font-weight:bold; text-shadow: 0 0 8px #ADFF2F;">ACTIVE</span> 📡
+</h2>
 
-<div style="background-color:#181717; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00;">
-  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #90EE90; font-size: 18px;">
-    >Navigating the evolving cybersecurity landscape is a shared mission.  
-    >Open to collaboration, conversation, and contribution- let's build safer systems together.
-
+<div style="background-color:#101010; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00; box-shadow: 0 0 15px #00FF00;">
+  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #BFFF00; font-size: 18px; line-height: 1.6;">
+    >Navigating the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">evolving cybersecurity landscape</span> is a <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">shared mission</span>.
+    <br>>Open to <span style="color: #39FF14; text-shadow: 0 0 4px #39FF14;">collaboration</span>, <span style="color: #ADFF2F; text-shadow: 0 0 4px #ADFF2F;">conversation</span>, and <span style="color: #00FF00; text-shadow: 0 0 4px #00FF00;">contribution</span> - let's build <span style="color: #FFFFFF; text-shadow: 0 0 6px #00FF00;">safer systems</span> together.
   </p>
 
-  <div align="center" style="margin-top: 20px;">
-    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">🔗 Connection Points:</p>
-    <p>
-      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" style="color:#0077B5;">LinkedIn</a> | 
-      <a href="https://github.com/ZeroHack01" target="_blank" style="color:#00FF00;">GitHub</a> | 
-      <a href="https://medium.com/@NextGencyber" target="_blank" style="color:#292929;">Medium</a> | 
-      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" style="color:#88C900;">TryHackMe</a> | 
-      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color:#FF6B00;">Credly</a>
+  <div align="center" style="margin-top: 25px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">🔗 Connection Points:</p>
+    <p style="font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
+      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" style="color:#00A0DC; text-decoration:none; text-shadow: 0 0 3px #00A0DC;">LinkedIn</a> |
+      <a href="https://github.com/ZeroHack01" target="_blank" style="color:#39FF14; text-decoration:none; text-shadow: 0 0 3px #39FF14;">GitHub</a> |
+      <a href="https://medium.com/@NextGencyber" target="_blank" style="color:#A0A0A0; text-decoration:none; text-shadow: 0 0 3px #A0A0A0;">Medium</a> |
+      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" style="color:#88C900; text-decoration:none; text-shadow: 0 0 3px #88C900;">TryHackMe</a> |
+      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color:#FF8C00; text-decoration:none; text-shadow: 0 0 3px #FF8C00;">Credly</a>
     </p>
   </div>
 
-  <div align="center" style="margin-top: 25px;">
-    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">📈 Profile Access Log:</p>
-    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter">
+  <div align="center" style="margin-top: 30px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">📈 Profile Access Log:</p>
+    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter" style="box-shadow: 0 0 8px #00FF00;">
   </div>
 
-  <div align="center" style="margin-top: 25px;">
-    <p style="color: #00FF00; font-size: 18px; font-family: 'Consolas', 'Courier New', monospace;">💬 Transmission Message:</p>
-    <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
-      "In the ever-shifting datascape of cyberspace, adaptability is key, knowledge is power, and ethical conduct is the master algorithm."
+  <div align="center" style="margin-top: 30px;">
+    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">💬 Transmission Message:</p>
+    <p style="color: #BFFF00; font-size: 17px; font-family: 'Consolas', 'Courier New', monospace; line-height: 1.7; text-shadow: 0 0 3px #BFFF00;">
+      "In the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">ever-shifting datascape</span> of <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">cyberspace</span>, <span style="color: #ADFF2F; text-shadow: 0 0 5px #ADFF2F;">adaptability</span> is key, <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">knowledge</span> is power, and <span style="color: #39FF14; text-shadow: 0 0 5px #39FF14;">ethical conduct</span> is the <span style="color: #FFFFFF; font-weight: bold; text-shadow: 0 0 8px #00FF00;">master algorithm</span>."
     </p>
   </div>
 
-<div align="center" style="margin-top: 30px; padding: 15px; border: 2px solid #00FF00; border-radius: 10px; background-color: #000000;">
-  <p style="color: #00FF00; font-size: 22px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #00FF00;">
-    🔚 <span style="color: #00FF00; text-shadow: 0 0 6px #00FF00;">TRANSMI</span><span style="color: #39FF14; text-shadow: 0 0 6px #39FF14;">SSION</span> <span style="color: #7FFF00; text-shadow: 0 0 7px #7FFF00;">ENDED</span>
+<div align="center" style="margin-top: 35px; padding: 20px; border: 3px solid #39FF14; border-radius: 12px; background-color: #0A0A0A; box-shadow: 0 0 10px #39FF14 inset, 0 0 15px #39FF14;">
+  <p style="color: #00FF00; font-size: 24px; font-family: 'Consolas', monospace; text-shadow: 0 0 6px #00FF00, 0 0 10px #00FF00;">
+    🔚 <span style="color: #7FFF00; text-shadow: 0 0 7px #7FFF00;">TRANSMI</span><span style="color: #ADFF2F; text-shadow: 0 0 7px #ADFF2F;">SSION</span> <span style="color: #00FFFF; font-weight:bold; text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF;">ENDED</span>
   </p>
-  <p style="color: #39FF14; font-size: 18px; font-family: 'Consolas', monospace; text-shadow: 0 0 4px #39FF14;">
-    💬 <span style="color: #ADFF2F; text-shadow: 0 0 5px #ADFF2F;">Thank you</span> for <span style="color: #00FFFF; text-shadow: 0 0 4px #00FFFF;">tuning in</span> — your <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">presence</span> in this signal stream is <span style="color: #FFFFFF; text-shadow: 0 0 6px #39FF14;">truly appreciated</span>. <span style="color: #AFFF33; text-shadow: 0 0 4px #AFFF33;">Stay curious</span>, <span style="color: #50C878; text-shadow: 0 0 4px #50C878;">stay secure</span>.
+  <p style="color: #BFFF00; font-size: 19px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #BFFF00; line-height:1.6;">
+    💬 <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">Thank you</span> for <span style="color: #00E0FF; text-shadow: 0 0 5px #00E0FF;">tuning in</span> — your <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">presence</span> in this signal stream is <span style="color: #FFFFFF; font-weight:bold; text-shadow: 0 0 8px #39FF14, 0 0 10px #FFFFFF;">truly appreciated</span>. <span style="color: #C1FF33; text-shadow: 0 0 5px #C1FF33;">Stay curious</span>, <span style="color: #50C878; font-weight:bold; text-shadow: 0 0 6px #50C878;">stay secure</span>.
   </p>
-  <p style="color: #90EE90; font-size: 16px; font-family: 'Consolas', monospace;">
-    <br><strong>// <span style="color: #00FF00; text-shadow: 0 0 5px #00FF00;">ZeroHack01</span> :: <span style="color: #00FFFF; text-shadow: 0 0 4px #00FFFF;">Exit</span> //</strong>
+  <p style="color: #90EE90; font-size: 17px; font-family: 'Consolas', monospace; margin-top:15px;">
+    <strong>// <span style="color: #00FF00; text-shadow: 0 0 6px #00FF00;">ZeroHack01</span> :: <span style="color: #00FFFF; text-shadow: 0 0 6px #00FFFF;">Exit</span> //</strong>
   </p>
 </div>
-
+</div>
 
 ## 📝 License
 
