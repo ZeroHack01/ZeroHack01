@@ -116,10 +116,8 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" width="100%" alt="GitHub Trophies" />
 </div>
 
-## 🐍 Contribution Snake
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/1999AZZAR/1999AZZAR/snake/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 ---
 
