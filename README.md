@@ -90,31 +90,40 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 <p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
 
 ---
-name: Generate Snake
+<!-- GitHub Profile Stats Section -->
+# 🌟 GitHub Stats & Contributions 🌟
 
-on:
-  schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
-  workflow_dispatch:
+<div align="center">
+  
+![Profile Views](https://komarev.com/ghpvc/?username=ZeroHack01&color=brightgreen&style=flat-square&label=Profile+Views)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: ZeroHack01
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          svg_out_path_dark: dist/github-contribution-grid-snake-dark.svg
+</div>
 
-      - uses: crazy-max/ghaction-github-pages@v2.6.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" width="49%" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="58%" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=github_dark" width="100%" alt="GitHub Activity Graph" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" width="100%" alt="GitHub Trophies" />
+</div>
+
+<!-- Contributions Snake Animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/ZeroHack01/ZeroHack01/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</div>
 ---
 
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
