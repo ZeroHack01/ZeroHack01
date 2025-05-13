@@ -97,7 +97,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
     src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dark&border_radius=10&card_width=440&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=90EE90&border_color=00FF00"
     width="48%" alt="GitHub Stats" />
   <img
-    src="https://streak-stats.demolab.com?user=ZeroHack01&theme=dark&border_radius=10&card_width=440&date_format=M%20j%5B%2C%20Y%5D&background=000000&stroke=00FF00&ring=00FF00&fire=39FF14&currStreakNum=00FF00&sideNums=90EE90&sideLabels=90EE90&currStreakLabel=00FF00&border=00FF00"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=dark&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&fire=39FF14"
     width="48%" alt="GitHub Streak" />
 </p>
 
@@ -106,6 +106,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
     src="https://github-readme-stats.vercel.app/api/top-langs?username=ZeroHack01&layout=compact&theme=dark&border_radius=10&langs_count=10&card_width=880&bg_color=000000&title_color=00FF00&text_color=90EE90&border_color=00FF00"
     width="97%" alt="Top Languages" />
 </p>
+
 ---
 
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
