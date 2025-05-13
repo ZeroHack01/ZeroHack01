@@ -90,20 +90,31 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 <p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
 
 ---
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📈 GitHub Matrix Activity 📈</h2>
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dark&border_radius=10&card_width=440&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=90EE90&border_color=00FF00"
-    width="48%" alt="ZeroHack01's GitHub Stats" />
-  <img
-    src="https://streak-stats.demolab.com?user=ZeroHack01&theme=github-dark&background=000000&border=00FF00&stroke=00FF00&ring=00FF00&fire=39FF14&currStreakNum=00FF00&sideNums=90EE90&sideLabels=90EE90&currStreakLabel=00FF00&dates=FFFFFF&border_radius=10&card_width=440"
-    width="48%" alt="ZeroHack01's GitHub Streak" />
-</p>
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=ZeroHack01&layout=compact&theme=dark&border_radius=10&langs_count=10&card_width=880&bg_color=000000&title_color=00FF00&text_color=90EE90&border_color=00FF00"
-    width="97%" alt="ZeroHack01's Top Languages" />
-</p>
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # runs every 12 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: ZeroHack01
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path_dark: dist/github-contribution-grid-snake-dark.svg
+
+      - uses: crazy-max/ghaction-github-pages@v2.6.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ---
 
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
