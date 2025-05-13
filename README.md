@@ -90,15 +90,67 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 <p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
 
 ---
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📈 GitHub Matrix Activity 📈</h2>
+<h2 align="center" style="color:#00FF00; text-shadow:0 0 5px #00FF00;">
+  📈 GitHub Matrix Activity 📈
+</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&rank_icon=github&border_radius=10&card_width=440&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=90EE90&border_color=00FF00&hide_border=false&cache_seconds=1800" width="48%" alt="ZeroHack01's GitHub Stats">
-  <img src="https://streak-stats.demolab.com?user=ZeroHack01&border_radius=10&card_width=440&date_format=M%20j%5B%2C%20Y%5D&background=000000&stroke=00FF00&ring=00FF00&fire=39FF14&currStreakNum=00FF00&sideNums=90EE90&sideLabels=90EE90&currStreakLabel=00FF00&border=00FF00&cache_seconds=1800" width="48%" alt="ZeroHack01's GitHub Streak">
+  <img
+    alt="GitHub Stats"
+    width="48%"
+    src="https://github-readme-stats.vercel.app/api?username=ZeroHack01
+      &show_icons=true
+      &theme=dark
+      &border_radius=10
+      &card_width=440
+      &bg_color=000000
+      &title_color=00FF00
+      &icon_color=00FF00
+      &text_color=90EE90
+      &border_color=00FF00
+      &hide_border=false
+      &cache_seconds=1800"
+  />
+  <img
+    alt="GitHub Streak"
+    width="48%"
+    src="https://streak-stats.demolab.com?user=ZeroHack01
+      &theme=dark
+      &border_radius=10
+      &card_width=440
+      &date_format=M%20j%5B%2C%20Y%5D
+      &background=000000
+      &stroke=00FF00
+      &ring=00FF00
+      &fire=39FF14
+      &currStreakNum=00FF00
+      &sideNums=90EE90
+      &sideLabels=90EE90
+      &currStreakLabel=00FF00
+      &border=00FF00
+      &cache_seconds=1800"
+  />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&border_radius=10&langs_count=10&card_width=440&bg_color=000000&title_color=00FF00&text_color=90EE90&hide_border=false&border_color=00FF00&cache_seconds=1800" width="97%" alt="ZeroHack01's Top Languages">
+  <img
+    alt="Top Languages"
+    width="97%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01
+      &layout=compact
+      &theme=dark
+      &border_radius=10
+      &langs_count=10
+      &card_width=880
+      &bg_color=000000
+      &title_color=00FF00
+      &text_color=90EE90
+      &border_color=00FF00
+      &hide_border=false
+      &cache_seconds=1800"
+  />
 </p>
+
 ---
 
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
