@@ -128,20 +128,6 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <a href="https://medium.com">
     <img src="https://img.shields.io/badge/Medium-Securing%20AD%20Kingdom-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium AD Kingdom" />
   </a>
-</div>
-<div align="center">
-  <h3>🌟 Let's Connect & Collaborate!</h3>
-  <a href="https://medium.com">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge" />
-  </a>
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
-  </a>
-</div>
-
-<div align="center">
-  <p>✨ Crafting secure systems and sharing tech wisdom, one commit at a time! ✨</p>
-</div>
 <!-- Communication Protocol Section -->
 <div align="center">
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" /> 📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡
@@ -173,10 +159,12 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   </tr>
 </table>
 <div align="center">
-🔚 TRANSM1SS10N ENDED
-💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.
-// ZeroHack01 :: Exit //
+  
+<h3>🔚 TRANSM1SS10N ENDED</h3>
+  <p>💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.</p>
+  <p><b>// ZeroHack01 :: Exit //</b></p>
 </div>
+
 ## 📝 License
 
 © 2025 Mongwoiching Marma  
