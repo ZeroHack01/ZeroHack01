@@ -117,30 +117,18 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 ---
-# 🚀 Welcome to My GitHub Universe!
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Newspaper.png" alt="Newspaper" width="40" height="40" />
-  <h2>📰 Published Insights & Analysis</h2>
-</div>
+  <h1>✨ Published Insights & Analysis 📰</h1>
+  <p>Explore my tech deep-dives on Medium! 🚀</p>
 
-<div align="center">
-  <p>Sharing knowledge is my protocol! Dive into my in-depth analyses and guides on Medium:</p>
-</div>
-
-<div align="center">
   <a href="https://medium.com">
-    <img align="center" width="24px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" alt="Medium Logo" />
-    <b>Kerberos Deciphered: An In-Depth Look at Digital Authentication's Gatekeeper</b>
+    <img src="https://img.shields.io/badge/Medium-Kerberos%20Deciphered-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium Kerberos" />
+  </a>
+  <br>
+  <a href="https://medium.com">
+    <img src="https://img.shields.io/badge/Medium-Securing%20AD%20Kingdom-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium AD Kingdom" />
   </a>
 </div>
-<div align="center">
-  <a href="https://medium.com">
-    <img align="center" width="24px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" alt="Medium Logo" />
-    <b>Securing the AD Kingdom: A Practitioner's Guide to Domain Controller Hardening</b>
-  </a>
-</div>
-
 <div align="center">
   <h3>🌟 Let's Connect & Collaborate!</h3>
   <a href="https://medium.com">
