@@ -118,61 +118,47 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </div>
 ---
 
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">📰 Published Insights & Analysis</h2>
-
-<p style="color:#90EE90; text-align:center;">Sharing knowledge is part of the protocol. Find my analyses and guides on Medium:</p>
-<ul style="list-style-type: none; padding-left: 0; text-align: center;">
-  <li style="margin-bottom: 8px;"><a href="https://medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69" target="_blank" rel="noopener noreferrer" style="color:#39FF14; text-decoration:none;">🔑 <strong style="color:#00FF00;">Kerberos Deciphered:</strong> An In-Depth Look at Digital Authentication's Gatekeeper</a></li>
-  <li style="margin-bottom: 8px;"><a href="https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e" target="_blank" rel="noopener noreferrer" style="color:#39FF14; text-decoration:none;">🏰 <strong style="color:#00FF00;">Securing the AD Kingdom:</strong> A Practitioner's Guide to Domain Controller Hardening</a></li>
-</ul>
-
----
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 7px #00FF00, 0 0 10px #00FF00;">
-  📡 <span style="color:#39FF14; text-shadow: 0 0 6px #39FF14;">Communication</span> <span style="color:#7FFF00; text-shadow: 0 0 6px #7FFF00;">Protocol</span>: <span style="color:#ADFF2F; font-weight:bold; text-shadow: 0 0 8px #ADFF2F;">ACTIVE</span> 📡
-</h2>
-
-<div style="background-color:#101010; border-radius: 15px; padding: 25px; margin-top: 20px; border: 2px solid #00FF00; box-shadow: 0 0 15px #00FF00;">
-  <p align="center" style="font-family: 'Consolas', 'Courier New', monospace; color: #BFFF00; font-size: 18px; line-height: 1.6;">
-    Navigating the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">evolving cybersecurity landscape</span> is a <span style="color: #7FFF00; text-shadow: 0 0 4px #7FFF00;">shared mission</span>.
-    <br>Open to <span style="color: #39FF14; text-shadow: 0 0 4px #39FF14;">collaboration</span>, <span style="color: #ADFF2F; text-shadow: 0 0 4px #ADFF2F;">conversation</span>, and <span style="color: #00FF00; text-shadow: 0 0 4px #00FF00;">contribution</span> - let's build <span style="color: #FFFFFF; text-shadow: 0 0 6px #00FF00;">safer systems</span> together.
-  </p>
-
-  <div align="center" style="margin-top: 25px;">
-    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">🔗 Connection Points:</p>
-    <p style="font-size: 16px; font-family: 'Consolas', 'Courier New', monospace;">
-      <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" style="color:#00A0DC; text-decoration:none; text-shadow: 0 0 3px #00A0DC;">LinkedIn</a> |
-      <a href="https://github.com/ZeroHack01" target="_blank" style="color:#39FF14; text-decoration:none; text-shadow: 0 0 3px #39FF14;">GitHub</a> |
-      <a href="https://medium.com/@NextGencyber" target="_blank" style="color:#A0A0A0; text-decoration:none; text-shadow: 0 0 3px #A0A0A0;">Medium</a> |
-      <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" style="color:#88C900; text-decoration:none; text-shadow: 0 0 3px #88C900;">TryHackMe</a> |
-      <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color:#FF8C00; text-decoration:none; text-shadow: 0 0 3px #FF8C00;">Credly</a>
-    </p>
-  </div>
-
-  <div align="center" style="margin-top: 30px;">
-    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">📈 Profile Access Log:</p>
-    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=flat-square" alt="Profile Visitor Counter" style="box-shadow: 0 0 8px #00FF00;">
-  </div>
-
-  <div align="center" style="margin-top: 30px;">
-    <p style="color: #00FF00; font-size: 19px; font-family: 'Consolas', 'Courier New', monospace; text-shadow: 0 0 5px #00FF00;">💬 Transmission Message:</p>
-    <p style="color: #BFFF00; font-size: 17px; font-family: 'Consolas', 'Courier New', monospace; line-height: 1.7; text-shadow: 0 0 3px #BFFF00;">
-      "In the <span style="color: #00FFFF; text-shadow: 0 0 5px #00FFFF;">ever-shifting datascape</span> of <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">cyberspace</span>, <span style="color: #ADFF2F; text-shadow: 0 0 5px #ADFF2F;">adaptability</span> is key, <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">knowledge</span> is power, and <span style="color: #39FF14; text-shadow: 0 0 5px #39FF14;">ethical conduct</span> is the <span style="color: #FFFFFF; font-weight: bold; text-shadow: 0 0 8px #00FF00;">master algorithm</span>."
-    </p>
-  </div>
-
-<div align="center" style="margin-top: 35px; padding: 20px; border: 3px solid #39FF14; border-radius: 12px; background-color: #0A0A0A; box-shadow: 0 0 10px #39FF14 inset, 0 0 15px #39FF14;">
-  <p style="color: #00FF00; font-size: 24px; font-family: 'Consolas', monospace; text-shadow: 0 0 6px #00FF00, 0 0 10px #00FF00;">
-    🔚 <span style="color: #7FFF00; text-shadow: 0 0 7px #7FFF00;">TRANSMI</span><span style="color: #ADFF2F; text-shadow: 0 0 7px #ADFF2F;">SSION</span> <span style="color: #00FFFF; font-weight:bold; text-shadow: 0 0 8px #00FFFF, 0 0 12px #00FFFF;">ENDED</span>
-  </p>
-  <p style="color: #BFFF00; font-size: 19px; font-family: 'Consolas', monospace; text-shadow: 0 0 5px #BFFF00; line-height:1.6;">
-    💬 <span style="color: #FFFF00; text-shadow: 0 0 6px #FFFF00;">Thank you</span> for <span style="color: #00E0FF; text-shadow: 0 0 5px #00E0FF;">tuning in</span> — your <span style="color: #7FFF00; text-shadow: 0 0 5px #7FFF00;">presence</span> in this signal stream is <span style="color: #FFFFFF; font-weight:bold; text-shadow: 0 0 8px #39FF14, 0 0 10px #FFFFFF;">truly appreciated</span>. <span style="color: #C1FF33; text-shadow: 0 0 5px #C1FF33;">Stay curious</span>, <span style="color: #50C878; font-weight:bold; text-shadow: 0 0 6px #50C878;">stay secure</span>.
-  </p>
-  <p style="color: #90EE90; font-size: 17px; font-family: 'Consolas', monospace; margin-top:15px;">
-    <strong>// <span style="color: #00FF00; text-shadow: 0 0 6px #00FF00;">ZeroHack01</span> :: <span style="color: #00FFFF; text-shadow: 0 0 6px #00FFFF;">Exit</span> //</strong>
-  </p>
-</div>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Newspaper.png" alt="Newspaper" width="35" height="35" /> <span style="color: #00FF00;">📰 Published Insights & Analysis</span>
+Sharing knowledge is part of the protocol. Find my analyses and guides on Medium:
+<img align="center" width="22px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" /> Kerberos Deciphered: An In-Depth Look at Digital Authentication's Gatekeeper
+<img align="center" width="22px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" /> Securing the AD Kingdom: A Practitioner's Guide to Domain Controller Hardening
 </div>
 
+<!-- Communication Protocol Section -->
+<div align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" /> 📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡
+</div>
+<table align="center" border="0">
+  <tr>
+    <td align="center">
+      <p align="center">
+        Navigating the <b>evolving cybersecurity landscape</b> is a <b>shared mission</b>.
+        <br>Open to <b>collaboration</b>, <b>conversation</b>, and <b>contribution</b> - let's build <b>safer systems</b> together.
+      </p>
+      <h3 align="center">🔗 Connection Points:</h3>
+      <p align="center">
+        <a href="https://bd.linkedin.com/in/mongwoi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+        <a href="https://github.com/ZeroHack01"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
+        <a href="https://medium.com/@NextGencyber"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+        <a href="https://tryhackme.com/p/Mongwoiching"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=88C900" /></a>
+        <a href="https://www.credly.com/users/mongwoiching-marma"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" /></a>
+      </p>
+      <h3 align="center">📈 Profile Access Log:</h3>
+      <p align="center">
+        <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=for-the-badge" alt="Profile Visitor Counter">
+      </p>
+      <h3 align="center">💬 Transmission Message:</h3>
+      <p align="center">
+        <i>"In the <b>ever-shifting datascape</b> of <b>cyberspace</b>, <b>adaptability</b> is key, <b>knowledge</b> is power, and <b>ethical conduct</b> is the <b>master algorithm</b>."</i>
+      </p>
+    </td>
+  </tr>
+</table>
+<div align="center">
+🔚 TRANSM1SS10N ENDED
+💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.
+// ZeroHack01 :: Exit //
+</div>
 ## 📝 License
 
 © 2025 Mongwoiching Marma  
