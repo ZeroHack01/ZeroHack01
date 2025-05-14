@@ -117,13 +117,43 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 ---
+# 🚀 Welcome to My GitHub Universe!
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Newspaper.png" alt="Newspaper" width="35" height="35" /> <span style="color: #00FF00;">📰 Published Insights & Analysis</span>
-Sharing knowledge is part of the protocol. Find my analyses and guides on Medium:
-<img align="center" width="22px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" /> Kerberos Deciphered: An In-Depth Look at Digital Authentication's Gatekeeper
-<img align="center" width="22px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" /> Securing the AD Kingdom: A Practitioner's Guide to Domain Controller Hardening
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Newspaper.png" alt="Newspaper" width="40" height="40" />
+  <h2>📰 Published Insights & Analysis</h2>
 </div>
 
+<div align="center">
+  <p>Sharing knowledge is my protocol! Dive into my in-depth analyses and guides on Medium:</p>
+</div>
+
+<div align="center">
+  <a href="https://medium.com">
+    <img align="center" width="24px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" alt="Medium Logo" />
+    <b>Kerberos Deciphered: An In-Depth Look at Digital Authentication's Gatekeeper</b>
+  </a>
+</div>
+<div align="center">
+  <a href="https://medium.com">
+    <img align="center" width="24px" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/258_Medium_logo-512.png" alt="Medium Logo" />
+    <b>Securing the AD Kingdom: A Practitioner's Guide to Domain Controller Hardening</b>
+  </a>
+</div>
+
+<div align="center">
+  <h3>🌟 Let's Connect & Collaborate!</h3>
+  <a href="https://medium.com">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge" />
+  </a>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+</div>
+
+<div align="center">
+  <p>✨ Crafting secure systems and sharing tech wisdom, one commit at a time! ✨</p>
+</div>
 <!-- Communication Protocol Section -->
 <div align="center">
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" /> 📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡
