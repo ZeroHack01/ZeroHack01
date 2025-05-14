@@ -98,7 +98,7 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </div>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ZeroHack01&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=ZeroHack01&theme=github-dark-blue&hide_border=true" width="49%" alt="GitHub Streak" />
 </div>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="58%" alt="Top Languages" />
