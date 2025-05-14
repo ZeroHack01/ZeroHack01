@@ -128,9 +128,8 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
     <img src="https://img.shields.io/badge/Medium-Securing%20AD%20Kingdom-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium AD Kingdom" />
   </a>
 <!-- Communication Protocol Section -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" /> # 📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡
-</div>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" />
+  <h1>📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡</h1>
 <table align="center" border="0">
   <tr>
     <td align="center">
