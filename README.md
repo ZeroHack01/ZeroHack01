@@ -92,54 +92,32 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 # 🌟 GitHub Stats & Contributions 🌟
 
 <div align="center">
-  
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+my+Digital+Universe!;Passionate+Developer+%26+Tech+Explorer;Creating+the+Future+One+Line+at+a+Time)
-
-  [![Profile Views](https://komarev.com/ghpvc/?username=ZeroHack01&color=blueviolet&style=for-the-badge&label=COSMIC+VISITORS)](https://github.com/ZeroHack01)
-  
-  > *"Code is poetry written for machines but read by humans"*
-
+  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&color=brightgreen&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
 
-## 🚀 Interstellar Stats Dashboard
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=dark&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  </a>
+</p>
 
 <div align="center">
-  
-  <table>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" alt="Streak Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&bg_color=0D1117&title_color=f9748f&text_color=7FDBCA&icon_color=F19A1A&hide_border=true&show_icons=true&border_radius=10" alt="GitHub Stats" />
-      </td>
-    </tr>
-  </table>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&bg_color=0D1117&title_color=5BCDEC&text_color=C9D1D9&hide_border=true&langs_count=8&border_radius=10" width="58%" alt="Top Languages" />
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="58%" alt="Top Languages" />
 </div>
 
-## 🌌 Contribution Nebula
-
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=radical" width="100%" alt="Contribution Galaxy" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=github_dark" width="100%" alt="GitHub Activity Graph" />
 </div>
 
-## 🏆 Achievement Constellation 
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=radical&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" width="100%" alt="GitHub Trophies" />
 </div>
 
-## 🐍 Contribution Snake
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </div>
 ---
 <div align="center">
