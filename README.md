@@ -89,30 +89,69 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </p>
 <p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
 
-# 🌟 GitHub Stats & Contributions 🌟
+# 📊 My GitHub Prowess & Contributions 🚀
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&color=brightgreen&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&color=00AEFF&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <!-- Changed color to a nice blue, you can pick any hex code! -->
 </div>
+
+---
+
+## 📈 Core Statistics
+
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=dark&hide_border=true" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+    <!-- Theme: tokyonight (example, try radical, dracula, gruvbox, etc.) -->
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=tokyonight&hide_border=true&border_radius=6&rank_icon=github" alt="GitHub Stats" />
+    <!-- Theme: tokyonight (consistent with streak) -->
   </a>
 </p>
+
+---
+
+## 💻 Top Languages
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="58%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=github_dark&hide_border=true&border_radius=6&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="55%" alt="Top Languages" />
+  <!-- Adjusted width slightly, added border_radius -->
 </div>
+
+---
+
+## 📝 Profile Summary Card
+
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=github_dark" width="100%" alt="GitHub Activity Graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=github_dark&border_radius=6" width="95%" alt="GitHub Profile Summary Card" />
+  <!-- Added border_radius, slightly reduced width for better padding on some screens -->
 </div>
+
+---
+
+## 🏆 GitHub Trophies
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&margin-w=15&margin-h=15&row=1&column=6" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&margin-h=15&row=1&column=6" width="95%" alt="GitHub Trophies" />
+  <!-- Added no-bg=true if theme supports it well, adjusted width slightly -->
 </div>
+
+---
+
+## 🐍 My Contribution Snake
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation of GitHub Contributions" />
+  <!-- More descriptive alt text -->
 </div>
+
+---
+
+<p align="center">
+  <em>✨ Thanks for visiting! ✨</em>
+</p>
 ---
 <div align="center">
   <h1>✨ Published Insights & Analysis 📰</h1>
