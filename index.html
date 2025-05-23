@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroHack01 - Creative Developer</title>
+    <!-- Add a simple favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --primary: #00ff88;
+            --secondary: #ff0088;
+            --accent: #0088ff;
+            --dark: #0a0a0a;
+            --dark-secondary: #111111;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --border-glow-primary: rgba(0, 255, 136, 0.5);
+            --border-glow-secondary: rgba(255, 0, 136, 0.5);
+            --border-glow-accent: rgba(0, 136, 255, 0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--dark);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--dark-secondary);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+
+        /* Matrix Background Effect */
+        .matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.07; /* Made it more subtle */
+            pointer-events: none;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.85); /* Slightly less opaque */
+            backdrop-filter: blur(15px); /* Soften blur */
+            border-bottom: 1px solid rgba(0, 255, 136, 0.15);
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            position: relative;
+        }
+
+        .logo::before {
+            content: '> ';
+            color: var(--secondary);
+            animation: blink 1.5s infinite; /* Slightly faster blink */
+        }
+
+        @keyframes blink {
+            0%, 40% { opacity: 1; }
+            41%, 100% { opacity: 0; }
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 0.2em 0;
+        }
+        .nav-links a::after { /* Underline effect */
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+            text-shadow: 0 0 8px var(--primary);
+        }
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh; /* Use min-height for flexibility */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: 
+                radial-gradient(circle at 50% 50%, rgba(0, 255, 136, 0.08) 0%, transparent 60%),
+                var(--dark); /* Ensure dark background is primary for hero */
+            padding-top: 80px; /* Account for fixed nav */
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+
+        .glitch {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: clamp(2.5rem, 10vw, 4rem); /* Responsive font size */
+            font-weight: 700;
+            color: var(--primary);
+            position: relative;
+            margin-bottom: 1rem;
+            animation: glitch-subtle 3s infinite alternate; /* More subtle continuous glitch */
+        }
+
+        @keyframes glitch-subtle { /* Refined glitch */
+            0% { transform: translate(0); text-shadow: 0 0 var(--primary); }
+            25% { transform: translate(1px, -1px) skewX(-2deg); text-shadow: -1px 1px 3px var(--secondary), 1px -1px 3px var(--accent); }
+            50% { transform: translate(-1px, 1px) skewX(2deg); text-shadow: 1px -1px 3px var(--primary), -1px 1px 3px var(--secondary); }
+            75% { transform: translate(0.5px, -0.5px) skewX(-1deg); text-shadow: -0.5px 0.5px 2px var(--accent), 0.5px -0.5px 2px var(--primary); }
+            100% { transform: translate(0); text-shadow: 0 0 var(--primary); }
+        }
+
+
+        .subtitle {
+            font-size: clamp(1.2rem, 4vw, 1.5rem); /* Responsive font size */
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .typing-effect {
+            font-size: clamp(1rem, 3vw, 1.2rem); /* Responsive font size */
+            color: var(--accent);
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 3rem;
+            min-height: 1.5rem; /* Ensure space for text */
+        }
+
+        .typing-effect::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem; /* Adjusted gap */
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.8rem 1.8rem; /* Slightly adjusted padding */
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            z-index: 1; /* Ensure button content is above ::before */
+        }
+
+        .btn:hover {
+            color: var(--dark);
+            box-shadow: 0 0 15px var(--primary), 0 0 25px var(--primary); /* Enhanced glow */
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--primary);
+            transition: left 0.3s ease;
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            left: 0;
+        }
+
+        .btn-secondary {
+            border-color: var(--secondary);
+            color: var(--secondary);
+        }
+        .btn-secondary:hover {
+             box-shadow: 0 0 15px var(--secondary), 0 0 25px var(--secondary); /* Enhanced glow */
+        }
+
+        .btn-secondary::before {
+            background: var(--secondary);
+        }
+
+        /* About Section */
+        .about {
+            padding: 6rem 2rem; /* Consistent padding */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: clamp(2rem, 6vw, 2.5rem); /* Responsive font size */
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 4rem; /* Increased margin */
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '<'; /* Simplified */
+            color: var(--secondary);
+            margin-right: 0.2em;
+        }
+
+        .section-title::after {
+            content: '/>'; /* Simplified */
+            color: var(--accent);
+            margin-left: 0.2em;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem; /* Adjusted gap */
+            align-items: flex-start; /* Align items to top */
+        }
+
+        .profile-card {
+            background: var(--dark-secondary);
+            border: 1px solid var(--border-glow-primary);
+            border-radius: 15px;
+            padding: 2.5rem; /* Increased padding */
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px var(--border-glow-primary), 0 0 30px var(--primary);
+        }
+
+        .profile-card::before { /* Animated border glow - subtle */
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 180deg at 50% 50%, transparent 0%, var(--primary) 50%, transparent 100%);
+            animation: rotate 6s linear infinite; /* Slower rotation */
+            opacity: 0.5; /* Make it more subtle */
+            z-index: 0; /* Behind content */
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .avatar {
+            width: 120px; /* Adjusted size */
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem; /* Adjusted size */
+            margin: 0 auto 1.5rem;
+            position: relative;
+            z-index: 2;
+            border: 3px solid var(--dark); /* Border to stand out from animation */
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem; /* Increased gap */
+            margin-top: 1.5rem;
+        }
+
+        .stat {
+            background: rgba(0, 255, 136, 0.05); /* More subtle background */
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid rgba(0, 255, 136, 0.1);
+        }
+
+        .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem; /* Increased size */
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .stat-label { /* New class for better styling */
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+
+        .about-content h3 {
+            color: var(--accent);
+            font-size: clamp(1.5rem, 5vw, 1.8rem);
+            margin-bottom: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .about-content p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            font-size: 1.05rem; /* Slightly larger for readability */
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 6rem 2rem;
+            background: var(--dark-secondary);
+        }
+
+        .skills-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjusted minmax */
+            gap: 2.5rem; /* Increased gap */
+            margin-top: 3rem;
+        }
+
+        .skill-category {
+            background: var(--dark);
+            border: 1px solid var(--border-glow-accent);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-10px) scale(1.03); /* Added scale */
+            border-color: var(--accent);
+            box-shadow: 0 15px 35px rgba(0, 136, 255, 0.25); /* Enhanced shadow */
+        }
+        /* Optional: Add a subtle glow effect inside card on hover */
+        .skill-category::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: radial-gradient(circle, rgba(0, 136, 255, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
+            opacity: 0;
+            z-index: 0;
+        }
+        .skill-category:hover::after {
+            width: 200%;
+            height: 200%;
+            opacity: 1;
+        }
+        .skill-content { /* Wrapper for content to be above ::after */
+            position: relative;
+            z-index: 1;
+        }
+
+
+        .skill-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+            color: var(--accent); /* Make icon use accent color */
+            transition: transform 0.3s ease;
+        }
+        .skill-category:hover .skill-icon {
+            transform: scale(1.1) rotate(-5deg);
+        }
+
+
+        .skill-category h3 {
+            color: var(--accent);
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 1rem;
+        }
+
+        .skill-list {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.7; /* Increased line height */
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .projects-grid {
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Original */
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); /* Better responsive control */
+            gap: 2.5rem; /* Increased gap */
+            margin-top: 3rem;
+        }
+        #projects-grid-loader { /* Loader for projects */
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        .project-card {
+            background: var(--dark-secondary);
+            border: 1px solid var(--border-glow-secondary);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease-out; /* Smoother transition */
+            position: relative;
+            display: flex; /* For better internal layout */
+            flex-direction: column; /* Stack header and footer */
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.02); /* More noticeable hover */
+            border-color: var(--secondary);
+            box-shadow: 0 10px 25px rgba(255, 0, 136, 0.2), 0 0 15px var(--border-glow-secondary) inset; /* Added inset glow */
+        }
+
+        .project-header {
+            padding: 1.8rem; /* Adjusted padding */
+            border-bottom: 1px solid rgba(255, 0, 136, 0.15);
+            flex-grow: 1; /* Allow header to take available space */
+        }
+
+        .project-title {
+            color: var(--secondary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.4rem; /* Increased size */
+            margin-bottom: 0.75rem;
+        }
+
+        .project-description {
+            color: var(--text-secondary);
+            margin-bottom: 1.2rem;
+            font-size: 0.95rem; /* Slightly larger */
+            min-height: 50px; /* Ensure some space for description */
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem; /* Adjusted gap */
+            margin-bottom: 1.2rem;
+        }
+
+        .tech-tag {
+            background: rgba(0, 255, 136, 0.15); /* Slightly more visible */
+            color: var(--primary);
+            padding: 0.4rem 0.9rem; /* Adjusted padding */
+            border-radius: 20px; /* More pill-like */
+            font-size: 0.75rem; /* Adjusted size */
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 500;
+        }
+        .project-footer { /* New footer for stats and links */
+            padding: 1rem 1.8rem;
+            background: rgba(10,10,10, 0.3); /* Slightly different bg */
+            border-top: 1px solid rgba(255,0,136,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project-stats {
+            display: flex;
+            gap: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .project-stats span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .project-stats .icon { /* For star/fork icon */
+            color: var(--accent);
+        }
+
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 500; /* Bolder link */
+            transition: all 0.3s ease;
+            display: inline-block; /* For transforms */
+        }
+
+        .project-link:hover {
+            color: var(--primary);
+            text-shadow: 0 0 8px var(--primary);
+            transform: translateX(3px); /* Slight movement on hover */
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 6rem 2rem;
+            background: var(--dark-secondary);
+            text-align: center;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+         .contact-container > p { /* Targeting the intro p tag */
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+        }
+
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem; /* Increased gap */
+            margin-top: 3rem;
+        }
+
+        .contact-method {
+            background: var(--dark);
+            border: 1px solid var(--border-glow-primary);
+            border-radius: 15px;
+            padding: 2.5rem; /* Increased padding */
+            transition: all 0.3s ease;
+        }
+
+        .contact-method:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px) scale(1.02); /* Enhanced hover */
+            box-shadow: 0 10px 20px rgba(0, 255, 136, 0.15);
+        }
+
+        .contact-icon {
+            font-size: 2.5rem; /* Increased size */
+            margin-bottom: 1.2rem;
+            display: block;
+            color: var(--primary); /* Icon color */
+             transition: transform 0.3s ease;
+        }
+        .contact-method:hover .contact-icon {
+            transform: scale(1.15) rotate(5deg);
+        }
+
+
+        .contact-method h3 {
+            color: var(--primary);
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 1rem;
+            font-size: 1.3rem; /* Increased size */
+        }
+
+        .contact-method a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+            font-family: 'JetBrains Mono', monospace; /* Consistent font */
+            word-break: break-all; /* Prevent overflow */
+        }
+
+        .contact-method a:hover {
+            color: var(--primary);
+            text-shadow: 0 0 5px var(--primary);
+        }
+
+        /* Terminal Footer */
+        .terminal-footer {
+            background: #080808; /* Slightly darker for footer */
+            border-top: 1px solid rgba(0, 255, 136, 0.2);
+            padding: 3rem 0; /* Increased padding */
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .terminal-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .terminal-line {
+            color: var(--text-secondary);
+            margin-bottom: 0.8rem; /* Increased margin */
+            font-size: 0.9rem; /* Slightly smaller */
+        }
+
+        .terminal-prompt {
+            color: var(--primary);
+        }
+
+        .terminal-output {
+            color: var(--accent);
+        }
+        .terminal-cursor { /* Ensure it's always visible if js fails */
+            opacity: 1;
+            animation: blink 1s infinite steps(1, start); /* Use steps for block cursor */
+        }
+
+
+        /* Responsive Design */
+        @media (max-width: 992px) { /* Adjust breakpoint for about grid */
+             .about-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2.5rem;
+            }
+            .about-content h3 {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                /* Implement a burger menu here later if needed */
+                display: none; 
+            }
+
+            /* Removed glitch font size reduction, clamp handles it */
+            /* Removed section title font size, clamp handles it */
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .btn {
+                width: 80%;
+                max-width: 300px;
+            }
+        }
+         @media (max-width: 480px) {
+            .stats {
+                grid-template-columns: 1fr; /* Stack stats on very small screens */
+            }
+            .project-footer {
+                flex-direction: column;
+                gap: 0.8rem;
+                align-items: flex-start;
+            }
+        }
+
+
+        /* Animation Classes */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(25px); /* Slightly less travel */
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out; /* Smoother ease */
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Matrix Background -->
+    <canvas class="matrix-bg" id="matrix"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">ZeroHack01</a>
+            <ul class="nav-links">
+                <li><a href="#home">~/home</a></li>
+                <li><a href="#about">~/about_me</a></li> {/* Slightly more descriptive */}
+                <li><a href="#skills">~/skill_set</a></li>
+                <li><a href="#projects">~/my_projects</a></li>
+                <li><a href="#contact">~/get_in_touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="ZeroHack01">ZeroHack01</h1> {/* data-text for pseudo element glitch */}
+            <div class="subtitle">Security Researcher & Creative Developer</div>
+            <div class="typing-effect" id="typing"></div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">Explore Projects</a>
+                <a href="https://github.com/ZeroHack01" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title fade-in">&lt;About_Me/&gt;</h2> {/* Using entities for title */}
+        <div class="about-grid fade-in">
+            <div class="profile-card">
+                <div class="avatar">🧑‍💻</div> {/* Changed icon, more generic developer */}
+                <h3>ZeroHack01</h3>
+                <p>Cybersecurity Enthusiast & Coder</p> {/* Tweaked description */}
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number" id="github-repos">--</div>
+                        <div class="stat-label">Repositories</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" id="github-stars">--</div>
+                        <div class="stat-label">Total Stars</div>
+                    </div>
+                    {/* You could add followers or years of experience here too */}
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Crafting Digital Defenses & Innovations</h3>
+                <p>I'm a dedicated security researcher and developer with an insatiable curiosity for the digital frontier. My core passion lies in dissecting complex systems, uncovering vulnerabilities, and architecting robust, secure applications. This drive extends from the depths of ethical hacking to the creative process of software development.</p>
+                <p>Specializing in penetration testing, vulnerability assessment, and the development of bespoke security tools, I thrive on the challenge of staying ahead in the ever-evolving landscape of cyber threats. When I'm not meticulously analyzing code or network traffic, I'm building tools and solutions designed to empower others in securing their digital assets.</p>
+                <p>My mission is to actively contribute to a safer, more resilient digital world through rigorous research, open-source contributions, and a commitment to continuous learning and innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="section-title fade-in">&lt;Skill_Set/&gt;</h2>
+            <div classs="skills-grid fade-in">
+                <div class="skill-category">
+                    <div class="skill-content"> {/* Wrapper for z-index */}
+                        <span class="skill-icon">🛡️</span>
+                        <h3>Cybersecurity</h3>
+                        <div class="skill-list">
+                            Penetration Testing (Web, Network)<br>
+                            Vulnerability Assessment & Management<br>
+                            Threat Modeling & Risk Analysis<br>
+                            Secure Code Review (OWASP)<br>
+                            Incident Response Playbooks
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                     <div class="skill-content">
+                        <span class="skill-icon">💻</span>
+                        <h3>Programming & Scripting</h3>
+                        <div class="skill-list">
+                            Python (Flask, Scapy, Requests)<br>
+                            JavaScript (Node.js, React Basics)<br>
+                            Bash / Shell Scripting<br>
+                            C/C++ (System Level Basics)<br>
+                            SQL & NoSQL Databases
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-content">
+                        <span class="skill-icon">🔧</span>
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-list">
+                            Metasploit Framework<br>
+                            Burp Suite Professional / Nmap<br>
+                            Wireshark & TCPDump<br>
+                            Docker & Kubernetes Basics<br>
+                            Git / GitHub / GitLab
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-content">
+                        <span class="skill-icon">🐧</span>
+                        <h3>Systems & Cloud</h3>
+                        <div class="skill-list">
+                            Linux (Debian, Arch, Kali)<br>
+                            Windows Server & Active Directory<br>
+                            Cloud Platforms (AWS, Azure Basics)<br>
+                            Virtualization (VMware, VirtualBox)<br>
+                            Network Protocols & Architecture
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title fade-in">&lt;My_Projects/&gt;</h2>
+        <div id="projects-grid-loader" class="fade-in">Loading GitHub projects...</div>
+        <div class="projects-grid fade-in" id="projects-grid-container">
+            <!-- GitHub Projects will be injected here by JavaScript -->
+            <!-- Fallback static project cards (optional, if JS fails or for non-GitHub projects) -->
+            <!--
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Placeholder Project</h3>
+                    <p class="project-description">This is a description for a project not on GitHub or if the API fails.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                     <div class="project-stats">
+                        <span title="Stars"><span class="icon">⭐</span> N/A</span>
+                        <span title="Forks"><span class="icon">🍴</span> N/A</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Code →</a>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title fade-in">&lt;Get_In_Touch/&gt;</h2>
+            <p class="fade-in">Excited about a potential collaboration, a challenging security project, or just want to discuss the latest in cyber? Let's connect!</p>
+            
+            <div class="contact-methods fade-in">
+                <div class="contact-method">
+                    <span class="contact-icon">📧</span>
+                    <h3>Email</h3>
+                    <a href="mailto:contact@zerohack01.dev">contact@zerohack01.dev</a>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-icon">🐱</span>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/ZeroHack01" target="_blank" rel="noopener noreferrer">@ZeroHack01</a>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-icon">💼</span> {/* LinkedIn icon emoji */}
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">Connect Professionally</a> {/* Replace # with your actual LinkedIn */}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal Footer -->
+    <footer class="terminal-footer">
+        <div class="terminal-content">
+            <div class="terminal-line">
+                <span class="terminal-prompt">zerohack01@portfolio:~$</span> whoami
+            </div>
+            <div class="terminal-line terminal-output">
+                Security Researcher | Ethical Hacker | Creative Developer | OSS Contributor
+            </div>
+            <div class="terminal-line">
+                <span class="terminal-prompt">zerohack01@portfolio:~$</span> date
+            </div>
+            <div class="terminal-line terminal-output" id="footer-date">
+                <!-- Date will be injected by JS -->
+            </div>
+            <div class="terminal-line">
+                <span class="terminal-prompt">zerohack01@portfolio:~$</span> echo "Thanks for visiting! Keep exploring."
+            </div>
+            <div class="terminal-line terminal-output">
+                Thanks for visiting! Keep exploring.
+            </div>
+            <div class="terminal-line">
+                <span class="terminal-prompt">zerohack01@portfolio:~$</span> <span class="terminal-cursor">█</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- CONFIGURATION ---
+        const GITHUB_USERNAME = 'ZeroHack01'; // <<<< IMPORTANT: SET YOUR GITHUB USERNAME HERE
+        const MAX_PROJECTS_TO_SHOW = 6; // Max number of projects to display
+
+        // Matrix Background Effect (no changes, kept as is)
+        const canvas = document.getElementById('matrix');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const matrixChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}ｦｧｨｩｪｫｬｭｮｯｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0.";
+        const matrixArray = matrixChars.split("");
+        const fontSize = 12; // Slightly larger for better visibility if opacity is low
+        const columns = canvas.width / fontSize;
+        const drops = [];
+
+        for (let x = 0; x < columns; x++) {
+            drops[x] = 1 + Math.random() * canvas.height; // Randomize starting y
+        }
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(10, 10, 10, 0.04)'; // Trail effect
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.fillStyle = 'var(--primary)'; // Use CSS variable
+            ctx.font = fontSize + 'px JetBrains Mono';
+            
+            for (let i = 0; i < drops.length; i++) {
+                const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0; // Reset drop
+                }
+                drops[i]++;
+            }
+        }
+        let matrixInterval = setInterval(drawMatrix, 40); // Adjusted speed slightly
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            // Recalculate columns and reset drops if necessary
+            // For simplicity, we'll just let it adjust, might have temporary visual artifacts
+        });
+
+        // Typing Animation
+        const phrases = [
+            "Breaking systems to secure them...",
+            "Automating security workflows...",
+            "Crafting elegant & secure code...",
+            "Exploring digital vulnerabilities...",
+            "Open source intelligence gathering...",
+            "Innovating with cybersecurity R&D..."
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing');
+
+        function typeEffect() {
+            if (!typingElement) return; // Guard clause
+            const currentPhrase = phrases[phraseIndex];
+            let typeSpeed = isDeleting ? 40 : 80; // Slightly faster
+
+            if (isDeleting) {
+                typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                typeSpeed = 1800; // Pause at end
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typeSpeed = 400; // Pause before new phrase
+            }
+            setTimeout(typeEffect, typeSpeed);
+        }
+        if (typingElement) typeEffect();
+
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Calculate offset for fixed navbar
+                    const navHeight = document.querySelector('nav')?.offsetHeight || 0;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll Animations (Intersection Observer)
+        const observerOptions = {
+            threshold: 0.1, // Trigger when 10% of element is visible
+            rootMargin: '0px 0px -40px 0px' // Adjust viewport for trigger
+        };
+
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Optional: unobserve after animation to save resources
+                    // obs.unobserve(entry.target); 
+                }
+                // Optional: remove 'visible' class if element scrolls out of view
+                // else { entry.target.classList.remove('visible'); }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (!nav) return;
+            if (window.scrollY > 30) { // Trigger earlier
+                nav.style.background = 'rgba(10, 10, 10, 0.9)'; // Slightly more opaque
+                nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.3)'; // Add subtle shadow
+            } else {
+                nav.style.background = 'rgba(10, 10, 10, 0.85)';
+                nav.style.boxShadow = 'none';
+            }
+        });
+
+        // Terminal cursor animation
+        const terminalCursor = document.querySelector('.terminal-cursor');
+        if (terminalCursor) {
+            setInterval(() => {
+                terminalCursor.style.opacity = terminalCursor.style.opacity === '0' ? '1' : '0';
+            }, 500);
+        }
+
+        // Footer Date
+        const footerDateEl = document.getElementById('footer-date');
+        if (footerDateEl) {
+            footerDateEl.textContent = new Date().toString();
+        }
+
+        // GitHub API Fetching
+        async function fetchGitHubData() {
+            const reposEl = document.getElementById('github-repos');
+            const starsEl = document.getElementById('github-stars');
+            const projectsGrid = document.getElementById('projects-grid-container');
+            const projectsLoader = document.getElementById('projects-grid-loader');
+
+            if (!GITHUB_USERNAME) {
+                console.error("GitHub username is not set.");
+                if (projectsLoader) projectsLoader.textContent = "GitHub username not configured.";
+                return;
+            }
+
+            try {
+                // Fetch user data for general stats (like total repos if needed, though API for repos is better)
+                // const userRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);
+                // if (!userRes.ok) throw new Error(`GitHub User API error: ${userRes.status}`);
+                // const userData = await userRes.json();
+                // if(reposEl) reposEl.textContent = userData.public_repos || 'N/A';
+                
+                // Fetch repositories (more reliable for count and details)
+                // Sort by stars or last updated: ?sort=stars&direction=desc or ?sort=updated&direction=desc
+                // Pinned repos are harder to get directly, need GraphQL or screen scraping. We'll go with stars.
+                const reposRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=stars&direction=desc&per_page=100`);
+                if (!reposRes.ok) throw new Error(`GitHub Repos API error: ${reposRes.status}`);
+                let userRepos = await reposRes.json();
+
+                // Filter out forks if you only want original projects
+                userRepos = userRepos.filter(repo => !repo.fork);
+
+                if(reposEl) reposEl.textContent = userRepos.length || '0';
+                
+                let totalStars = 0;
+                userRepos.forEach(repo => {
+                    totalStars += repo.stargazers_count;
+                });
+                if(starsEl) starsEl.textContent = totalStars || '0';
+
+                if (projectsGrid) {
+                    projectsGrid.innerHTML = ''; // Clear existing
+                    const reposToShow = userRepos.slice(0, MAX_PROJECTS_TO_SHOW);
+
+                    if (reposToShow.length === 0) {
+                        if (projectsLoader) projectsLoader.textContent = "No public repositories found or API limit reached.";
+                        return;
+                    }
+                    
+                    reposToShow.forEach(repo => {
+                        const projectCard = `
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3 class="project-title">${repo.name}</h3>
+                                    <p class="project-description">${repo.description || 'No description provided.'}</p>
+                                    <div class="project-tech">
+                                        ${repo.language ? `<span class="tech-tag">${repo.language}</span>` : ''}
+                                        ${(repo.topics && repo.topics.length > 0) ? repo.topics.slice(0,3).map(topic => `<span class="tech-tag">${topic}</span>`).join('') : ''}
+                                    </div>
+                                </div>
+                                <div class="project-footer">
+                                     <div class="project-stats">
+                                        <span title="Stars"><span class="icon">⭐</span> ${repo.stargazers_count}</span>
+                                        <span title="Forks"><span class="icon">🍴</span> ${repo.forks_count}</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="${repo.html_url}" class="project-link" target="_blank" rel="noopener noreferrer">View Code →</a>
+                                        ${repo.homepage ? `<a href="${repo.homepage}" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo 🔗</a>` : ''}
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        projectsGrid.innerHTML += projectCard;
+                    });
+                     if (projectsLoader) projectsLoader.style.display = 'none';
+                }
+
+            } catch (error) {
+                console.error("Failed to fetch GitHub data:", error);
+                if (reposEl) reposEl.textContent = 'Error';
+                if (starsEl) starsEl.textContent = 'Error';
+                if (projectsLoader) projectsLoader.textContent = "Failed to load projects. Check console.";
+            }
+        }
+
+        // Call GitHub fetch on load
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchGitHubData();
+        });
+
+        // Prefers reduced motion check for animations
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        if (prefersReducedMotion.matches) {
+            // Turn off or reduce animations
+            // For example, stop matrix animation:
+            // clearInterval(matrixInterval);
+            // Or remove animation classes (more complex, would need to adjust CSS too)
+            console.log("Reduced motion preferred. Some animations might be disabled or less intense.");
+            // For now, we'll just log it. You can conditionally apply simpler animations or disable them.
+            // Example: The glitch animation could be simplified or disabled.
+            const glitchElement = document.querySelector('.glitch');
+            if (glitchElement) glitchElement.style.animation = 'none'; // Disable glitch
+        }
+
+    </script>
+</body>
+</html>
