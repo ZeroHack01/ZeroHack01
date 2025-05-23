@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZeroHack01 - Creative Developer</title>
-    <!-- Add a simple favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <title>Mongwoiching Marma - Cybersecurity Professional</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
         
         :root {
-            --primary: #00ff88;
-            --secondary: #ff0088;
-            --accent: #0088ff;
+            --primary: #00ff88; /* Neon Green */
+            --secondary: #ff00c1; /* Neon Pink/Magenta */
+            --accent: #00ccff;   /* Neon Cyan/Blue */
             --dark: #0a0a0a;
             --dark-secondary: #111111;
-            --text-primary: #ffffff;
-            --text-secondary: #888888;
+            --text-primary: #e0e0e0; /* Slightly off-white for better readability */
+            --text-secondary: #999999; /* Lighter grey */
             --border-glow-primary: rgba(0, 255, 136, 0.5);
-            --border-glow-secondary: rgba(255, 0, 136, 0.5);
-            --border-glow-accent: rgba(0, 136, 255, 0.5);
+            --border-glow-secondary: rgba(255, 0, 193, 0.5);
+            --border-glow-accent: rgba(0, 204, 255, 0.5);
         }
 
         * {
@@ -28,24 +27,29 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             background: var(--dark);
             color: var(--text-primary);
             overflow-x: hidden;
-            line-height: 1.6;
+            line-height: 1.7; /* Slightly more leading */
         }
 
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
-            width: 8px;
+            width: 10px;
         }
         ::-webkit-scrollbar-track {
             background: var(--dark-secondary);
         }
         ::-webkit-scrollbar-thumb {
             background: var(--primary);
-            border-radius: 4px;
+            border-radius: 5px;
+            border: 2px solid var(--dark-secondary);
         }
         ::-webkit-scrollbar-thumb:hover {
             background: var(--accent);
@@ -60,7 +64,7 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            opacity: 0.07; /* Made it more subtle */
+            opacity: 0.08; 
             pointer-events: none;
         }
 
@@ -69,12 +73,12 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(10, 10, 10, 0.85); /* Slightly less opaque */
-            backdrop-filter: blur(15px); /* Soften blur */
-            border-bottom: 1px solid rgba(0, 255, 136, 0.15);
+            background: rgba(10, 10, 10, 0.8); 
+            backdrop-filter: blur(18px); 
+            border-bottom: 1px solid rgba(0, 255, 136, 0.2);
             z-index: 1000;
             padding: 1rem 0;
-            transition: all 0.3s ease;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
         }
 
         .nav-container {
@@ -88,127 +92,197 @@
 
         .logo {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 1.5rem;
+            font-size: 1.6rem; /* Slightly larger */
             font-weight: 700;
             color: var(--primary);
             text-decoration: none;
             position: relative;
+            letter-spacing: -1px; /* Tighter spacing */
         }
 
         .logo::before {
-            content: '> ';
+            content: 'M_Marma>'; /* Personalized prompt */
             color: var(--secondary);
-            animation: blink 1.5s infinite; /* Slightly faster blink */
+            animation: blink 1.5s infinite;
+            font-size: 0.9em; /* Slightly smaller than logo */
+            margin-right: 2px;
         }
 
         @keyframes blink {
-            0%, 40% { opacity: 1; }
-            41%, 100% { opacity: 0; }
+            0%, 45% { opacity: 1; }
+            50%, 100% { opacity: 0; }
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2rem;
+            gap: 2.2rem; /* Slightly more gap */
         }
 
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
             font-family: 'JetBrains Mono', monospace;
-            font-weight: 400;
+            font-weight: 500; /* Bolder */
             transition: all 0.3s ease;
             position: relative;
             padding: 0.2em 0;
+            font-size: 0.95rem;
         }
-        .nav-links a::after { /* Underline effect */
+        .nav-links a::after { 
             content: '';
             position: absolute;
             width: 0;
             height: 2px;
-            bottom: 0;
-            left: 0;
+            bottom: -2px; /* Slightly below text */
+            left: 50%;
+            transform: translateX(-50%);
             background-color: var(--primary);
             transition: width 0.3s ease;
         }
 
-        .nav-links a:hover {
+        .nav-links a:hover, .nav-links a.active { /* Active state for current section */
             color: var(--primary);
-            text-shadow: 0 0 8px var(--primary);
+            text-shadow: 0 0 10px var(--primary);
         }
-        .nav-links a:hover::after {
+        .nav-links a:hover::after, .nav-links a.active::after {
             width: 100%;
         }
+
+        /* Mobile Nav Toggle */
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 2rem;
+            height: 2rem;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 10;
+        }
+        .nav-toggle span {
+            width: 2rem;
+            height: 0.25rem;
+            background: var(--primary);
+            border-radius: 10px;
+            transition: all 0.3s linear;
+            position: relative;
+            transform-origin: 1px;
+        }
+        /* Hamburger animation */
+        .nav-toggle.open span:nth-child(1) { transform: rotate(45deg); }
+        .nav-toggle.open span:nth-child(2) { opacity: 0; transform: translateX(20px); }
+        .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg); }
 
 
         /* Hero Section */
         .hero {
-            min-height: 100vh; /* Use min-height for flexibility */
+            min-height: 100vh; 
             display: flex;
+            flex-direction: column; /* Allow for top padding and content centering */
             align-items: center;
             justify-content: center;
             position: relative;
             background: 
-                radial-gradient(circle at 50% 50%, rgba(0, 255, 136, 0.08) 0%, transparent 60%),
-                var(--dark); /* Ensure dark background is primary for hero */
-            padding-top: 80px; /* Account for fixed nav */
+                radial-gradient(circle at 50% 30%, rgba(0, 255, 136, 0.1) 0%, transparent 65%), /* Moved gradient up */
+                var(--dark); 
+            padding-top: 100px; /* Account for fixed nav, adjust as needed */
+            text-align: center;
         }
 
         .hero-content {
-            text-align: center;
             z-index: 2;
-            max-width: 800px;
+            max-width: 900px; /* Wider content area */
             padding: 0 2rem;
+        }
+
+        .glitch-wrapper { /* For better control of glitch effect layout */
+            margin-bottom: 1.5rem;
         }
 
         .glitch {
             font-family: 'JetBrains Mono', monospace;
-            font-size: clamp(2.5rem, 10vw, 4rem); /* Responsive font size */
+            font-size: clamp(2.8rem, 8vw, 4.5rem); 
             font-weight: 700;
             color: var(--primary);
             position: relative;
-            margin-bottom: 1rem;
-            animation: glitch-subtle 3s infinite alternate; /* More subtle continuous glitch */
+            text-transform: uppercase; /* Style choice */
+            letter-spacing: 1px;
+        }
+        /* Enhanced Glitch with pseudo-elements for more depth */
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--dark); /* Match body background */
+            overflow: hidden;
+        }
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--secondary);
+            animation: glitch-anim-1 2.5s infinite linear alternate-reverse;
+        }
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--accent), 2px 2px var(--secondary);
+            animation: glitch-anim-2 2s infinite linear alternate-reverse;
         }
 
-        @keyframes glitch-subtle { /* Refined glitch */
-            0% { transform: translate(0); text-shadow: 0 0 var(--primary); }
-            25% { transform: translate(1px, -1px) skewX(-2deg); text-shadow: -1px 1px 3px var(--secondary), 1px -1px 3px var(--accent); }
-            50% { transform: translate(-1px, 1px) skewX(2deg); text-shadow: 1px -1px 3px var(--primary), -1px 1px 3px var(--secondary); }
-            75% { transform: translate(0.5px, -0.5px) skewX(-1deg); text-shadow: -0.5px 0.5px 2px var(--accent), 0.5px -0.5px 2px var(--primary); }
-            100% { transform: translate(0); text-shadow: 0 0 var(--primary); }
+        @keyframes glitch-anim-1 {
+            0% { clip-path: inset(85% -6px 8% 0); transform: skew(0.5deg); }
+            10% { clip-path: inset(40% -6px 58% 0); } 20% { clip-path: inset(10% -6px 85% 0); }
+            30% { clip-path: inset(55% -6px 40% 0); } 40% { clip-path: inset(23% -6px 70% 0); }
+            50% { clip-path: inset(80% -6px 10% 0); } 60% { clip-path: inset(45% -6px 50% 0); }
+            70% { clip-path: inset(17% -6px 80% 0); } 80% { clip-path: inset(60% -6px 30% 0); }
+            90% { clip-path: inset(33% -6px 65% 0); } 100% { clip-path: inset(70% -6px 25% 0); transform: skew(-0.5deg);}
+        }
+        @keyframes glitch-anim-2 {
+            0% { clip-path: inset(7% 0 90% -6px); transform: skew(0.2deg); }
+            10% { clip-path: inset(90% 0 1% -6px); } 20% { clip-path: inset(60% 0 35% -6px); }
+            30% { clip-path: inset(20% 0 75% -6px); } 40% { clip-path: inset(80% 0 5% -6px); }
+            50% { clip-path: inset(40% 0 58% -6px); } 60% { clip-path: inset(5% 0 92% -6px); }
+            70% { clip-path: inset(66% 0 30% -6px); } 80% { clip-path: inset(30% 0 62% -6px); }
+            90% { clip-path: inset(88% 0 8% -6px); } 100% { clip-path: inset(44% 0 50% -6px); transform: skew(-0.2deg); }
         }
 
 
         .subtitle {
-            font-size: clamp(1.2rem, 4vw, 1.5rem); /* Responsive font size */
+            font-size: clamp(1.2rem, 4vw, 1.6rem); 
             color: var(--text-secondary);
-            margin-bottom: 2rem;
-            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 2.5rem;
+            font-family: 'Inter', sans-serif; /* More readable for subtitle */
+            font-weight: 400;
         }
 
         .typing-effect {
-            font-size: clamp(1rem, 3vw, 1.2rem); /* Responsive font size */
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem); 
             color: var(--accent);
             font-family: 'JetBrains Mono', monospace;
-            margin-bottom: 3rem;
-            min-height: 1.5rem; /* Ensure space for text */
+            margin-bottom: 3.5rem;
+            min-height: 2em; /* Ensure space for two lines if needed */
         }
 
         .typing-effect::after {
-            content: '|';
+            content: '_'; /* Underscore cursor */
             animation: blink 1s infinite;
+            font-weight: bold;
         }
 
         .cta-buttons {
             display: flex;
-            gap: 1.5rem; /* Adjusted gap */
+            gap: 1.8rem; 
             justify-content: center;
             flex-wrap: wrap;
         }
 
         .btn {
-            padding: 0.8rem 1.8rem; /* Slightly adjusted padding */
+            padding: 0.9rem 2.2rem; 
             background: transparent;
             border: 2px solid var(--primary);
             color: var(--primary);
@@ -218,12 +292,15 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
-            z-index: 1; /* Ensure button content is above ::before */
+            z-index: 1; 
+            border-radius: 5px; /* Subtle rounding */
+            letter-spacing: 0.5px;
         }
 
         .btn:hover {
             color: var(--dark);
-            box-shadow: 0 0 15px var(--primary), 0 0 25px var(--primary); /* Enhanced glow */
+            box-shadow: 0 0 18px var(--primary), 0 0 30px var(--primary); 
+            transform: translateY(-3px); /* Slight lift */
         }
 
         .btn::before {
@@ -234,7 +311,7 @@
             width: 100%;
             height: 100%;
             background: var(--primary);
-            transition: left 0.3s ease;
+            transition: left 0.35s cubic-bezier(0.7,0,0.3,1); /* Smoother transition */
             z-index: -1;
         }
 
@@ -247,74 +324,94 @@
             color: var(--secondary);
         }
         .btn-secondary:hover {
-             box-shadow: 0 0 15px var(--secondary), 0 0 25px var(--secondary); /* Enhanced glow */
+             box-shadow: 0 0 18px var(--secondary), 0 0 30px var(--secondary); 
         }
 
         .btn-secondary::before {
             background: var(--secondary);
         }
 
-        /* About Section */
-        .about {
-            padding: 6rem 2rem; /* Consistent padding */
+        /* General Section Styling */
+        section {
+            padding: 6rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
         }
-
         .section-title {
             font-family: 'JetBrains Mono', monospace;
-            font-size: clamp(2rem, 6vw, 2.5rem); /* Responsive font size */
+            font-size: clamp(2.2rem, 6vw, 2.8rem); 
             color: var(--primary);
             text-align: center;
-            margin-bottom: 4rem; /* Increased margin */
+            margin-bottom: 4.5rem; 
             position: relative;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
-
+        .section-title::before, .section-title::after { /* Brackets around title */
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: bold;
+            font-size: 1em; /* Match title size */
+            position: absolute; /* To position correctly */
+            top: 50%;
+            transform: translateY(-50%);
+        }
         .section-title::before {
-            content: '<'; /* Simplified */
+            content: '[ ';
             color: var(--secondary);
-            margin-right: 0.2em;
+            left: -0.8em; /* Adjust spacing as needed */
+            animation: title-bracket-anim 3s infinite alternate;
         }
-
         .section-title::after {
-            content: '/>'; /* Simplified */
+            content: ' ]';
             color: var(--accent);
-            margin-left: 0.2em;
+            right: -0.8em; /* Adjust spacing as needed */
+            animation: title-bracket-anim 3s infinite alternate-reverse;
+        }
+        @keyframes title-bracket-anim {
+            0%, 100% { transform: translateY(-50%) scale(1); }
+            50% { transform: translateY(-50%) scale(1.1) translateX(-2px); }
         }
 
+
+        /* About Section */
         .about-grid {
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 3rem; /* Adjusted gap */
-            align-items: flex-start; /* Align items to top */
+            grid-template-columns: 1fr 2.2fr; /* Emphasize content more */
+            gap: 3.5rem; 
+            align-items: flex-start; 
         }
 
         .profile-card {
             background: var(--dark-secondary);
             border: 1px solid var(--border-glow-primary);
-            border-radius: 15px;
-            padding: 2.5rem; /* Increased padding */
+            border-radius: 10px; /* Slightly more rounded */
+            padding: 2.5rem; 
             text-align: center;
             position: relative;
             overflow: hidden;
             transition: box-shadow 0.3s ease, transform 0.3s ease;
+             box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         }
         .profile-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 0 20px var(--border-glow-primary), 0 0 30px var(--primary);
+            transform: translateY(-8px) scale(1.02); /* More hover effect */
+            box-shadow: 0 0 25px var(--border-glow-primary), 0 0 35px var(--primary), 0 15px 30px rgba(0,0,0,0.3);
         }
 
-        .profile-card::before { /* Animated border glow - subtle */
+        .profile-card::before { 
             content: '';
             position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: conic-gradient(from 180deg at 50% 50%, transparent 0%, var(--primary) 50%, transparent 100%);
-            animation: rotate 6s linear infinite; /* Slower rotation */
-            opacity: 0.5; /* Make it more subtle */
-            z-index: 0; /* Behind content */
+            top: -75%; /* Adjust for better visual */
+            left: -75%;
+            width: 250%;
+            height: 250%;
+            background: conic-gradient(from 180deg at 50% 50%, transparent 0%, var(--primary) 30%, var(--accent) 70%, transparent 100%);
+            animation: rotate 8s linear infinite; 
+            opacity: 0.3; /* More subtle initially */
+            z-index: 0; 
+            transition: opacity 0.3s ease;
+        }
+        .profile-card:hover::before {
+            opacity: 0.5;
         }
 
         @keyframes rotate {
@@ -322,231 +419,261 @@
             to { transform: rotate(360deg); }
         }
 
-        .avatar {
-            width: 120px; /* Adjusted size */
-            height: 120px;
+        .avatar { /* Using an actual image here would be great */
+            width: 140px; 
+            height: 140px;
             border-radius: 50%;
-            background: linear-gradient(45deg, var(--primary), var(--accent));
+            background: linear-gradient(135deg, var(--primary), var(--accent));
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 3.5rem; /* Adjusted size */
-            margin: 0 auto 1.5rem;
+            font-size: 4rem; 
+            margin: 0 auto 1.8rem;
             position: relative;
             z-index: 2;
-            border: 3px solid var(--dark); /* Border to stand out from animation */
+            border: 4px solid var(--dark); 
+            color: var(--dark); /* Icon color */
+            box-shadow: 0 0 15px rgba(0,255,136,0.5);
+        }
+        .avatar img { /* If you use an image */
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .profile-card h3 {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .profile-card p.role-title {
+            font-family: 'Inter', sans-serif;
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         .stats {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1.5rem; /* Increased gap */
+            gap: 1rem; 
             margin-top: 1.5rem;
         }
 
         .stat {
-            background: rgba(0, 255, 136, 0.05); /* More subtle background */
-            padding: 1rem;
+            background: rgba(255, 255, 255, 0.03); 
+            padding: 1rem 0.5rem;
             border-radius: 8px;
             text-align: center;
-            border: 1px solid rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: background 0.3s ease;
+        }
+        .stat:hover {
+            background: rgba(0, 255, 136, 0.1);
         }
 
         .stat-number {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 1.8rem; /* Increased size */
+            font-size: 1.8rem; 
             font-weight: 700;
             color: var(--primary);
+            line-height: 1.1;
         }
-        .stat-label { /* New class for better styling */
-            font-size: 0.9rem;
+        .stat-label { 
+            font-size: 0.85rem;
             color: var(--text-secondary);
+            margin-top: 0.3rem;
         }
 
-
+        .about-content {
+            position: relative; /* For z-index if needed */
+            z-index: 1;
+        }
         .about-content h3 {
             color: var(--accent);
-            font-size: clamp(1.5rem, 5vw, 1.8rem);
-            margin-bottom: 1rem;
+            font-size: clamp(1.6rem, 5vw, 2rem);
+            margin-bottom: 1.2rem;
             font-family: 'JetBrains Mono', monospace;
         }
-
         .about-content p {
             color: var(--text-secondary);
             margin-bottom: 1.5rem;
-            line-height: 1.8;
-            font-size: 1.05rem; /* Slightly larger for readability */
+            font-size: 1.05rem; 
+            text-align: justify; /* Justified text for formal look */
+        }
+        .about-content p strong {
+            color: var(--text-primary);
+            font-weight: 600;
         }
 
         /* Skills Section */
-        .skills {
-            padding: 6rem 2rem;
+        #skills { /* ID specific for nav targeting */
             background: var(--dark-secondary);
         }
-
-        .skills-container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjusted minmax */
-            gap: 2.5rem; /* Increased gap */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 2.5rem; 
             margin-top: 3rem;
         }
 
         .skill-category {
             background: var(--dark);
             border: 1px solid var(--border-glow-accent);
-            border-radius: 15px;
-            padding: 2rem;
-            text-align: center;
-            transition: all 0.3s ease;
+            border-radius: 10px;
+            padding: 2.2rem;
+            text-align: left; /* Align text to left for lists */
+            transition: all 0.3s ease-out;
             position: relative;
             overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
         }
 
         .skill-category:hover {
-            transform: translateY(-10px) scale(1.03); /* Added scale */
+            transform: translateY(-10px) scale(1.03); 
             border-color: var(--accent);
-            box-shadow: 0 15px 35px rgba(0, 136, 255, 0.25); /* Enhanced shadow */
+            box-shadow: 0 18px 40px rgba(0, 136, 255, 0.25), 0 0 20px var(--accent) inset; 
         }
-        /* Optional: Add a subtle glow effect inside card on hover */
-        .skill-category::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 0;
-            height: 0;
-            background: radial-gradient(circle, rgba(0, 136, 255, 0.2) 0%, transparent 70%);
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
-            opacity: 0;
-            z-index: 0;
+        
+        .skill-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
         }
-        .skill-category:hover::after {
-            width: 200%;
-            height: 200%;
-            opacity: 1;
-        }
-        .skill-content { /* Wrapper for content to be above ::after */
-            position: relative;
-            z-index: 1;
-        }
-
-
         .skill-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            display: block;
-            color: var(--accent); /* Make icon use accent color */
-            transition: transform 0.3s ease;
+            font-size: 2.5rem; /* Smaller, more refined */
+            margin-right: 1rem;
+            color: var(--accent); 
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy effect */
         }
         .skill-category:hover .skill-icon {
-            transform: scale(1.1) rotate(-5deg);
+            transform: scale(1.2) rotate(-10deg);
         }
-
-
         .skill-category h3 {
             color: var(--accent);
             font-family: 'JetBrains Mono', monospace;
-            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            margin: 0; /* Remove default margin */
         }
 
         .skill-list {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            line-height: 1.7; /* Increased line height */
+            list-style: none; /* Remove default bullets */
+            padding-left: 0;
         }
+        .skill-list li {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.8; 
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.5em; /* Space for custom bullet */
+        }
+        .skill-list li::before { /* Custom bullet */
+            content: '»'; /* Or '>', '•', etc. */
+            color: var(--primary);
+            font-family: 'JetBrains Mono', monospace;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+        .skill-list li:hover::before {
+            transform: translateX(3px);
+            color: var(--secondary);
+        }
+
 
         /* Projects Section */
-        .projects {
-            padding: 6rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
         .projects-grid {
             display: grid;
-            /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Original */
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); /* Better responsive control */
-            gap: 2.5rem; /* Increased gap */
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); 
+            gap: 2.8rem; 
             margin-top: 3rem;
         }
-        #projects-grid-loader { /* Loader for projects */
+        #projects-grid-loader { 
             text-align: center;
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent);
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            padding: 2rem;
         }
 
         .project-card {
             background: var(--dark-secondary);
             border: 1px solid var(--border-glow-secondary);
-            border-radius: 15px;
+            border-radius: 10px;
             overflow: hidden;
-            transition: all 0.3s ease-out; /* Smoother transition */
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
-            display: flex; /* For better internal layout */
-            flex-direction: column; /* Stack header and footer */
+            display: flex; 
+            flex-direction: column; 
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
         }
 
         .project-card:hover {
-            transform: translateY(-8px) scale(1.02); /* More noticeable hover */
+            transform: translateY(-10px) scale(1.02); 
             border-color: var(--secondary);
-            box-shadow: 0 10px 25px rgba(255, 0, 136, 0.2), 0 0 15px var(--border-glow-secondary) inset; /* Added inset glow */
+            box-shadow: 0 12px 30px rgba(255, 0, 136, 0.25), 0 0 20px var(--secondary) inset; 
         }
 
         .project-header {
-            padding: 1.8rem; /* Adjusted padding */
-            border-bottom: 1px solid rgba(255, 0, 136, 0.15);
-            flex-grow: 1; /* Allow header to take available space */
+            padding: 1.8rem; 
+            flex-grow: 1; 
         }
 
         .project-title {
             color: var(--secondary);
             font-family: 'JetBrains Mono', monospace;
-            font-size: 1.4rem; /* Increased size */
-            margin-bottom: 0.75rem;
+            font-size: 1.45rem; 
+            margin-bottom: 0.8rem;
         }
 
         .project-description {
             color: var(--text-secondary);
-            margin-bottom: 1.2rem;
-            font-size: 0.95rem; /* Slightly larger */
-            min-height: 50px; /* Ensure some space for description */
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem; 
+            min-height: 60px; 
+            line-height: 1.6;
         }
 
         .project-tech {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.6rem; /* Adjusted gap */
-            margin-bottom: 1.2rem;
+            gap: 0.7rem; 
+            margin-bottom: 1.5rem;
         }
 
         .tech-tag {
-            background: rgba(0, 255, 136, 0.15); /* Slightly more visible */
+            background: rgba(0, 255, 136, 0.1); 
             color: var(--primary);
-            padding: 0.4rem 0.9rem; /* Adjusted padding */
-            border-radius: 20px; /* More pill-like */
-            font-size: 0.75rem; /* Adjusted size */
+            padding: 0.4rem 1rem; 
+            border-radius: 20px; 
+            font-size: 0.8rem; 
             font-family: 'JetBrains Mono', monospace;
             font-weight: 500;
+            border: 1px solid rgba(0,255,136,0.2);
+            transition: background 0.2s ease, color 0.2s ease;
         }
-        .project-footer { /* New footer for stats and links */
-            padding: 1rem 1.8rem;
-            background: rgba(10,10,10, 0.3); /* Slightly different bg */
-            border-top: 1px solid rgba(255,0,136,0.1);
+        .tech-tag:hover {
+            background: var(--primary);
+            color: var(--dark);
+        }
+
+        .project-footer { 
+            padding: 1.2rem 1.8rem;
+            background: rgba(0,0,0, 0.2); 
+            border-top: 1px solid rgba(255,0,136,0.15);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap; /* Allow wrapping on small cards */
+            gap: 0.5rem;
         }
         .project-stats {
             display: flex;
-            gap: 1rem;
+            gap: 1.2rem;
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.9rem;
             color: var(--text-secondary);
@@ -554,12 +681,12 @@
         .project-stats span {
             display: flex;
             align-items: center;
-            gap: 0.3rem;
+            gap: 0.4rem;
         }
-        .project-stats .icon { /* For star/fork icon */
+        .project-stats .icon { 
             color: var(--accent);
+            font-size: 1.1em;
         }
-
 
         .project-links {
             display: flex;
@@ -570,141 +697,170 @@
             color: var(--accent);
             text-decoration: none;
             font-family: 'JetBrains Mono', monospace;
-            font-weight: 500; /* Bolder link */
+            font-weight: 600; 
             transition: all 0.3s ease;
-            display: inline-block; /* For transforms */
+            display: inline-flex; /* For transforms and icon alignment */
+            align-items: center;
+            gap: 0.3em;
         }
-
         .project-link:hover {
             color: var(--primary);
-            text-shadow: 0 0 8px var(--primary);
-            transform: translateX(3px); /* Slight movement on hover */
+            text-shadow: 0 0 10px var(--primary);
+            transform: translateX(4px); 
+        }
+        .project-link .arrow { /* Simple arrow */
+            transition: transform 0.2s ease;
+        }
+        .project-link:hover .arrow {
+            transform: translateX(3px);
         }
 
+
         /* Contact Section */
-        .contact {
-            padding: 6rem 2rem;
+        #contact {
             background: var(--dark-secondary);
             text-align: center;
         }
-
-        .contact-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-         .contact-container > p { /* Targeting the intro p tag */
-            font-size: 1.1rem;
+        .contact-container > p.contact-intro { 
+            font-size: 1.15rem;
             color: var(--text-secondary);
-            margin-bottom: 3rem;
+            margin-bottom: 3.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
         }
-
 
         .contact-methods {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2.5rem; /* Increased gap */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem; 
             margin-top: 3rem;
         }
 
         .contact-method {
             background: var(--dark);
             border: 1px solid var(--border-glow-primary);
-            border-radius: 15px;
-            padding: 2.5rem; /* Increased padding */
-            transition: all 0.3s ease;
+            border-radius: 10px;
+            padding: 2.8rem 2rem; 
+            transition: all 0.3s ease-out;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
         }
 
         .contact-method:hover {
             border-color: var(--primary);
-            transform: translateY(-8px) scale(1.02); /* Enhanced hover */
-            box-shadow: 0 10px 20px rgba(0, 255, 136, 0.15);
+            transform: translateY(-10px) scale(1.03); 
+            box-shadow: 0 12px 25px rgba(0, 255, 136, 0.2), 0 0 15px var(--primary) inset;
         }
 
         .contact-icon {
-            font-size: 2.5rem; /* Increased size */
-            margin-bottom: 1.2rem;
+            font-size: 2.8rem; 
+            margin-bottom: 1.5rem;
             display: block;
-            color: var(--primary); /* Icon color */
-             transition: transform 0.3s ease;
+            color: var(--primary); 
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
         .contact-method:hover .contact-icon {
-            transform: scale(1.15) rotate(5deg);
+            transform: scale(1.2) rotate(8deg) translateY(-5px);
         }
-
-
         .contact-method h3 {
             color: var(--primary);
             font-family: 'JetBrains Mono', monospace;
-            margin-bottom: 1rem;
-            font-size: 1.3rem; /* Increased size */
+            margin-bottom: 1.2rem;
+            font-size: 1.4rem; 
         }
-
         .contact-method a {
             color: var(--text-secondary);
             text-decoration: none;
             transition: color 0.3s ease, text-shadow 0.3s ease;
-            font-family: 'JetBrains Mono', monospace; /* Consistent font */
-            word-break: break-all; /* Prevent overflow */
+            font-family: 'JetBrains Mono', monospace; 
+            word-break: break-all; 
+            font-size: 1rem; /* Make link text larger */
+            display: inline-block; /* Allows padding and better hover */
+            padding: 0.3em 0;
         }
-
         .contact-method a:hover {
             color: var(--primary);
-            text-shadow: 0 0 5px var(--primary);
+            text-shadow: 0 0 8px var(--primary);
         }
 
         /* Terminal Footer */
         .terminal-footer {
-            background: #080808; /* Slightly darker for footer */
-            border-top: 1px solid rgba(0, 255, 136, 0.2);
-            padding: 3rem 0; /* Increased padding */
+            background: #070707; 
+            border-top: 1px solid rgba(0, 255, 136, 0.25);
+            padding: 3.5rem 0; 
             font-family: 'JetBrains Mono', monospace;
+            font-size: 0.95rem;
         }
-
         .terminal-content {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
         .terminal-line {
             color: var(--text-secondary);
-            margin-bottom: 0.8rem; /* Increased margin */
-            font-size: 0.9rem; /* Slightly smaller */
+            margin-bottom: 0.9rem; 
+            display: flex; /* For better alignment of prompt and text */
+            align-items: baseline;
         }
-
         .terminal-prompt {
             color: var(--primary);
+            margin-right: 0.5em;
+            flex-shrink: 0; /* Prevent prompt from shrinking */
         }
-
+        .terminal-command { /* Style for typed commands */
+            color: var(--text-primary); 
+        }
         .terminal-output {
             color: var(--accent);
+            padding-left: 1em; /* Indent output slightly */
         }
-        .terminal-cursor { /* Ensure it's always visible if js fails */
+        .terminal-cursor { 
             opacity: 1;
-            animation: blink 1s infinite steps(1, start); /* Use steps for block cursor */
+            animation: blink 1s infinite steps(1, start); 
+            background-color: var(--primary); /* Block cursor */
+            display: inline-block;
+            width: 0.6em;
+            height: 1.1em; /* Adjust to match font line height */
+            margin-left: 0.1em;
+            vertical-align: text-bottom;
         }
 
 
         /* Responsive Design */
-        @media (max-width: 992px) { /* Adjust breakpoint for about grid */
+        @media (max-width: 992px) { 
              .about-grid {
                 grid-template-columns: 1fr;
                 text-align: center;
-                gap: 2.5rem;
+                gap: 3rem;
             }
-            .about-content h3 {
-                text-align: center;
-            }
+            .profile-card { margin-bottom: 2rem; }
+            .about-content h3 { text-align: center; }
+            .about-content p { text-align: left; } /* Keep p text-align left for readability */
         }
 
         @media (max-width: 768px) {
+            .nav-toggle { display: flex; }
             .nav-links {
-                /* Implement a burger menu here later if needed */
-                display: none; 
+                position: fixed;
+                top: 0;
+                right: -100%; /* Start off-screen */
+                width: min(70vw, 300px); /* Responsive width */
+                height: 100vh;
+                flex-direction: column;
+                justify-content: flex-start; /* Align items to top */
+                align-items: center;
+                background: rgba(10, 10, 10, 0.98);
+                backdrop-filter: blur(15px);
+                padding-top: 6rem; /* Space for logo/close button */
+                transition: right 0.4s cubic-bezier(0.7,0,0.3,1);
+                gap: 2.5rem; /* Increased gap for mobile */
+                border-left: 1px solid var(--border-glow-primary);
             }
+            .nav-links.active {
+                right: 0; /* Slide in */
+            }
+            .nav-links a { font-size: 1.1rem; }
 
-            /* Removed glitch font size reduction, clamp handles it */
-            /* Removed section title font size, clamp handles it */
 
             .cta-buttons {
                 flex-direction: column;
@@ -712,28 +868,29 @@
             }
             .btn {
                 width: 80%;
-                max-width: 300px;
+                max-width: 320px;
+                padding: 1rem 1.5rem;
             }
+            .section-title { font-size: clamp(1.8rem, 5vw, 2.2rem); }
+            .section-title::before, .section-title::after { display: none; } /* Hide brackets on mobile */
         }
          @media (max-width: 480px) {
-            .stats {
-                grid-template-columns: 1fr; /* Stack stats on very small screens */
-            }
+            section { padding: 4rem 1.5rem; }
+            .stats { grid-template-columns: 1fr; gap: 0.8rem; }
             .project-footer {
                 flex-direction: column;
-                gap: 0.8rem;
+                gap: 1rem;
                 align-items: flex-start;
             }
+            .terminal-content { font-size: 0.85rem; }
         }
-
 
         /* Animation Classes */
         .fade-in {
             opacity: 0;
-            transform: translateY(25px); /* Slightly less travel */
-            transition: opacity 0.7s ease-out, transform 0.7s ease-out; /* Smoother ease */
+            transform: translateY(30px); 
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out; 
         }
-
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
@@ -741,168 +898,153 @@
     </style>
 </head>
 <body>
-    <!-- Matrix Background -->
     <canvas class="matrix-bg" id="matrix"></canvas>
 
-    <!-- Navigation -->
-    <nav>
+    <nav id="navbar">
         <div class="nav-container">
             <a href="#home" class="logo">ZeroHack01</a>
-            <ul class="nav-links">
-                <li><a href="#home">~/home</a></li>
-                <li><a href="#about">~/about_me</a></li> {/* Slightly more descriptive */}
-                <li><a href="#skills">~/skill_set</a></li>
-                <li><a href="#projects">~/my_projects</a></li>
-                <li><a href="#contact">~/get_in_touch</a></li>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home" class="nav-link">~/home</a></li>
+                <li><a href="#about" class="nav-link">~/about_me</a></li>
+                <li><a href="#skills" class="nav-link">~/skill_set</a></li>
+                <li><a href="#projects" class="nav-link">~/portfolio</a></li>
+                <li><a href="#contact" class="nav-link">~/contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="glitch" data-text="ZeroHack01">ZeroHack01</h1> {/* data-text for pseudo element glitch */}
-            <div class="subtitle">Security Researcher & Creative Developer</div>
-            <div class="typing-effect" id="typing"></div>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn">Explore Projects</a>
-                <a href="https://github.com/ZeroHack01" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2 class="section-title fade-in">&lt;About_Me/&gt;</h2> {/* Using entities for title */}
-        <div class="about-grid fade-in">
-            <div class="profile-card">
-                <div class="avatar">🧑‍💻</div> {/* Changed icon, more generic developer */}
-                <h3>ZeroHack01</h3>
-                <p>Cybersecurity Enthusiast & Coder</p> {/* Tweaked description */}
-                <div class="stats">
-                    <div class="stat">
-                        <div class="stat-number" id="github-repos">--</div>
-                        <div class="stat-label">Repositories</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-number" id="github-stars">--</div>
-                        <div class="stat-label">Total Stars</div>
-                    </div>
-                    {/* You could add followers or years of experience here too */}
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="MONGWOICHING MARMA">MONGWOICHING MARMA</h1>
+                </div>
+                <p class="subtitle">Cybersecurity Professional | Technical Support Specialist | Digital Operations Enthusiast</p>
+                <div class="typing-effect" id="typing"></div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="https://github.com/ZeroHack01" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
                 </div>
             </div>
-            <div class="about-content">
-                <h3>Crafting Digital Defenses & Innovations</h3>
-                <p>I'm a dedicated security researcher and developer with an insatiable curiosity for the digital frontier. My core passion lies in dissecting complex systems, uncovering vulnerabilities, and architecting robust, secure applications. This drive extends from the depths of ethical hacking to the creative process of software development.</p>
-                <p>Specializing in penetration testing, vulnerability assessment, and the development of bespoke security tools, I thrive on the challenge of staying ahead in the ever-evolving landscape of cyber threats. When I'm not meticulously analyzing code or network traffic, I'm building tools and solutions designed to empower others in securing their digital assets.</p>
-                <p>My mission is to actively contribute to a safer, more resilient digital world through rigorous research, open-source contributions, and a commitment to continuous learning and innovation.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="skills-container">
-            <h2 class="section-title fade-in">&lt;Skill_Set/&gt;</h2>
-            <div classs="skills-grid fade-in">
+        <section id="about" class="about">
+            <h2 class="section-title fade-in">About_Me</h2>
+            <div class="about-grid fade-in">
+                <div class="profile-card">
+                    <div class="avatar">🛡️</div> 
+                    <h3>Mongwoiching Marma</h3>
+                    <p class="role-title">Cybersecurity & Tech Professional</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number" id="github-repos">--</div>
+                            <div class="stat-label">Repositories</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" id="github-stars">--</div>
+                            <div class="stat-label">Total Stars</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" id="github-commits">--</div>
+                            <div class="stat-label">Commits (Last Year)</div>
+                        </div>
+                         <div class="stat">
+                            <div class="stat-number" id="years-experience">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Objective: Driving Excellence in Secure Digital Environments</h3>
+                    <p>A versatile and adaptive professional with hands-on experience across <strong>cybersecurity, technical support, administration, and digital operations</strong>. I am seeking a dynamic role in a forward-thinking organization where I can leverage my passion for problem-solving and continuous learning.</p>
+                    <p>My goal is to contribute effectively to cross-functional teams, driving <strong>operational excellence, enhancing user satisfaction, and fortifying secure digital environments</strong>. I am committed to identifying and mitigating risks, implementing robust security measures, and optimizing system performance.</p>
+                    <p>With a background in diverse technical roles, including programming support for specialized machinery and cybersecurity internships, I bring a practical approach to tackling complex challenges and a dedication to achieving tangible results.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title fade-in">Skill_Set</h2>
+            <div class="skills-grid fade-in">
                 <div class="skill-category">
-                    <div class="skill-content"> {/* Wrapper for z-index */}
+                    <div class="skill-header">
                         <span class="skill-icon">🛡️</span>
-                        <h3>Cybersecurity</h3>
-                        <div class="skill-list">
-                            Penetration Testing (Web, Network)<br>
-                            Vulnerability Assessment & Management<br>
-                            Threat Modeling & Risk Analysis<br>
-                            Secure Code Review (OWASP)<br>
-                            Incident Response Playbooks
-                        </div>
+                        <h3>Cybersecurity & Pentesting</h3>
                     </div>
+                    <ul class="skill-list">
+                        <li>Penetration Testing & Vulnerability Assessment</li>
+                        <li>SIEM Tools (Splunk, QRadar, OpenEDR)</li>
+                        <li>Network Security Analysis</li>
+                        <li>Risk Mitigation & Threat Management</li>
+                        <li>ISO/IEC 27001 Compliance Basics</li>
+                    </ul>
                 </div>
                 <div class="skill-category">
-                     <div class="skill-content">
+                    <div class="skill-header">
                         <span class="skill-icon">💻</span>
-                        <h3>Programming & Scripting</h3>
-                        <div class="skill-list">
-                            Python (Flask, Scapy, Requests)<br>
-                            JavaScript (Node.js, React Basics)<br>
-                            Bash / Shell Scripting<br>
-                            C/C++ (System Level Basics)<br>
-                            SQL & NoSQL Databases
-                        </div>
+                        <h3>Technical & Programming</h3>
                     </div>
+                    <ul class="skill-list">
+                        <li>Python, Bash, PowerShell, SQL</li>
+                        <li>Hardware/Software Troubleshooting</li>
+                        <li>Technical Support & Maintenance</li>
+                        <li>Data Analysis & Reporting</li>
+                        <li>iptables, Diffie-Hellman, AES, HMAC</li>
+                    </ul>
                 </div>
                 <div class="skill-category">
-                    <div class="skill-content">
-                        <span class="skill-icon">🔧</span>
-                        <h3>Tools & Frameworks</h3>
-                        <div class="skill-list">
-                            Metasploit Framework<br>
-                            Burp Suite Professional / Nmap<br>
-                            Wireshark & TCPDump<br>
-                            Docker & Kubernetes Basics<br>
-                            Git / GitHub / GitLab
-                        </div>
+                    <div class="skill-header">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Operations & Management</h3>
                     </div>
+                    <ul class="skill-list">
+                        <li>Office Management & Scheduling</li>
+                        <li>CRM & Email Workflow Coordination</li>
+                        <li>Workflow Optimization</li>
+                        <li>Documentation Management</li>
+                        <li>Team Collaboration & Customer Relations</li>
+                    </ul>
                 </div>
                 <div class="skill-category">
-                    <div class="skill-content">
-                        <span class="skill-icon">🐧</span>
-                        <h3>Systems & Cloud</h3>
-                        <div class="skill-list">
-                            Linux (Debian, Arch, Kali)<br>
-                            Windows Server & Active Directory<br>
-                            Cloud Platforms (AWS, Azure Basics)<br>
-                            Virtualization (VMware, VirtualBox)<br>
-                            Network Protocols & Architecture
-                        </div>
+                    <div class="skill-header">
+                        <span class="skill-icon">💡</span>
+                        <h3>Soft Skills & Attributes</h3>
                     </div>
+                    <ul class="skill-list">
+                        <li>Problem-Solving & Analytical Thinking</li>
+                        <li>Continuous Learning & Adaptability</li>
+                        <li>Communication (Written & Verbal)</li>
+                        <li>Attention to Detail</li>
+                        <li>Proactive & Self-Motivated</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2 class="section-title fade-in">&lt;My_Projects/&gt;</h2>
-        <div id="projects-grid-loader" class="fade-in">Loading GitHub projects...</div>
-        <div class="projects-grid fade-in" id="projects-grid-container">
-            <!-- GitHub Projects will be injected here by JavaScript -->
-            <!-- Fallback static project cards (optional, if JS fails or for non-GitHub projects) -->
-            <!--
-            <div class="project-card">
-                <div class="project-header">
-                    <h3 class="project-title">Placeholder Project</h3>
-                    <p class="project-description">This is a description for a project not on GitHub or if the API fails.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">HTML</span>
-                        <span class="tech-tag">CSS</span>
-                    </div>
-                </div>
-                <div class="project-footer">
-                     <div class="project-stats">
-                        <span title="Stars"><span class="icon">⭐</span> N/A</span>
-                        <span title="Forks"><span class="icon">🍴</span> N/A</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Code →</a>
-                    </div>
-                </div>
+        <section id="projects" class="projects">
+            <h2 class="section-title fade-in">Portfolio</h2>
+            <div id="projects-grid-loader" class="fade-in">Querying GitHub Matrix for projects...</div>
+            <div class="projects-grid fade-in" id="projects-grid-container">
+                <!-- GitHub Projects will be injected here -->
             </div>
-            -->
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="contact-container">
-            <h2 class="section-title fade-in">&lt;Get_In_Touch/&gt;</h2>
-            <p class="fade-in">Excited about a potential collaboration, a challenging security project, or just want to discuss the latest in cyber? Let's connect!</p>
-            
+        <section id="contact" class="contact">
+            <h2 class="section-title fade-in">Contact_Me</h2>
+            <p class="contact-intro fade-in">
+                Interested in collaborating or discussing a project? Or perhaps you just want to talk tech and security?
+                Feel free to reach out. I'm always open to new opportunities and connections.
+            </p>
             <div class="contact-methods fade-in">
                 <div class="contact-method">
                     <span class="contact-icon">📧</span>
                     <h3>Email</h3>
-                    <a href="mailto:contact@zerohack01.dev">contact@zerohack01.dev</a>
+                    <a href="mailto:mongwoichingmarma@gmail.com">mongwoichingmarma@gmail.com</a>
                 </div>
                 <div class="contact-method">
                     <span class="contact-icon">🐱</span>
@@ -910,202 +1052,214 @@
                     <a href="https://github.com/ZeroHack01" target="_blank" rel="noopener noreferrer">@ZeroHack01</a>
                 </div>
                 <div class="contact-method">
-                    <span class="contact-icon">💼</span> {/* LinkedIn icon emoji */}
+                    <span class="contact-icon">💼</span>
                     <h3>LinkedIn</h3>
-                    <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">Connect Professionally</a> {/* Replace # with your actual LinkedIn */}
+                    <a href="https://www.linkedin.com/in/mongwoiching-marma/" target="_blank" rel="noopener noreferrer">Connect with me</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Terminal Footer -->
     <footer class="terminal-footer">
         <div class="terminal-content">
             <div class="terminal-line">
-                <span class="terminal-prompt">zerohack01@portfolio:~$</span> whoami
+                <span class="terminal-prompt">M_Marma@portfolio:~$</span><span class="terminal-command">whoami</span>
             </div>
-            <div class="terminal-line terminal-output">
-                Security Researcher | Ethical Hacker | Creative Developer | OSS Contributor
+            <div class="terminal-output">
+                Mongwoiching Marma // Cybersecurity Enthusiast // Problem Solver // Lifelong Learner
             </div>
             <div class="terminal-line">
-                <span class="terminal-prompt">zerohack01@portfolio:~$</span> date
+                <span class="terminal-prompt">M_Marma@portfolio:~$</span><span class="terminal-command">date</span>
             </div>
-            <div class="terminal-line terminal-output" id="footer-date">
+            <div class="terminal-output" id="footer-date">
                 <!-- Date will be injected by JS -->
             </div>
             <div class="terminal-line">
-                <span class="terminal-prompt">zerohack01@portfolio:~$</span> echo "Thanks for visiting! Keep exploring."
+                <span class="terminal-prompt">M_Marma@portfolio:~$</span><span class="terminal-command">echo "System integrity verified. Thanks for connecting."</span>
             </div>
-            <div class="terminal-line terminal-output">
-                Thanks for visiting! Keep exploring.
+            <div class="terminal-output">
+                System integrity verified. Thanks for connecting.
             </div>
             <div class="terminal-line">
-                <span class="terminal-prompt">zerohack01@portfolio:~$</span> <span class="terminal-cursor">█</span>
+                <span class="terminal-prompt">M_Marma@portfolio:~$</span><span class="terminal-cursor"></span>
             </div>
         </div>
     </footer>
 
     <script>
         // --- CONFIGURATION ---
-        const GITHUB_USERNAME = 'ZeroHack01'; // <<<< IMPORTANT: SET YOUR GITHUB USERNAME HERE
-        const MAX_PROJECTS_TO_SHOW = 6; // Max number of projects to display
+        const GITHUB_USERNAME = 'ZeroHack01'; 
+        const MAX_PROJECTS_TO_SHOW = 6; 
+        const YOUR_EMAIL = 'mongwoichingmarma@gmail.com'; // Used if needed elsewhere, good to have
+        const YOUR_LINKEDIN_URL = 'https://www.linkedin.com/in/mongwoiching-marma/'; // Used if needed
 
-        // Matrix Background Effect (no changes, kept as is)
+        // Matrix Background Effect
         const canvas = document.getElementById('matrix');
         const ctx = canvas.getContext('2d');
+        let animationFrameId_matrix;
 
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-
-        const matrixChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}ｦｧｨｩｪｫｬｭｮｯｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0.";
-        const matrixArray = matrixChars.split("");
-        const fontSize = 12; // Slightly larger for better visibility if opacity is low
-        const columns = canvas.width / fontSize;
-        const drops = [];
-
-        for (let x = 0; x < columns; x++) {
-            drops[x] = 1 + Math.random() * canvas.height; // Randomize starting y
-        }
-
-        function drawMatrix() {
-            ctx.fillStyle = 'rgba(10, 10, 10, 0.04)'; // Trail effect
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            
-            ctx.fillStyle = 'var(--primary)'; // Use CSS variable
-            ctx.font = fontSize + 'px JetBrains Mono';
-            
-            for (let i = 0; i < drops.length; i++) {
-                const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
-                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-                
-                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-                    drops[i] = 0; // Reset drop
-                }
-                drops[i]++;
-            }
-        }
-        let matrixInterval = setInterval(drawMatrix, 40); // Adjusted speed slightly
-
-        window.addEventListener('resize', () => {
+        function setupMatrix() {
+            if (!canvas) return;
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
-            // Recalculate columns and reset drops if necessary
-            // For simplicity, we'll just let it adjust, might have temporary visual artifacts
-        });
 
-        // Typing Animation
-        const phrases = [
-            "Breaking systems to secure them...",
-            "Automating security workflows...",
-            "Crafting elegant & secure code...",
-            "Exploring digital vulnerabilities...",
-            "Open source intelligence gathering...",
-            "Innovating with cybersecurity R&D..."
-        ];
-        let phraseIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typingElement = document.getElementById('typing');
+            const matrixChars = "モンウイチンマルマABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}ｦｧｨｩｪｫｬｭｮｯｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0.<>";
+            const matrixArray = matrixChars.split("");
+            const fontSize = 11; 
+            const columns = Math.floor(canvas.width / fontSize);
+            const drops = [];
 
-        function typeEffect() {
-            if (!typingElement) return; // Guard clause
-            const currentPhrase = phrases[phraseIndex];
-            let typeSpeed = isDeleting ? 40 : 80; // Slightly faster
-
-            if (isDeleting) {
-                typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
-                charIndex++;
+            for (let x = 0; x < columns; x++) {
+                drops[x] = 1 + Math.random() * canvas.height / fontSize; 
             }
 
-            if (!isDeleting && charIndex === currentPhrase.length) {
-                typeSpeed = 1800; // Pause at end
-                isDeleting = true;
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-                typeSpeed = 400; // Pause before new phrase
+            function drawMatrix() {
+                ctx.fillStyle = 'rgba(10, 10, 10, 0.04)'; 
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--primary').trim() || '#00ff88';
+                ctx.font = fontSize + 'px JetBrains Mono';
+                
+                for (let i = 0; i < drops.length; i++) {
+                    if(drops[i] * fontSize > canvas.height && Math.random() > 0.985) { // Slower reset
+                        drops[i] = 0; 
+                    }
+                    if (drops[i] * fontSize < canvas.height) { // Only draw if visible
+                        const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
+                        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                    }
+                    drops[i]++;
+                }
+                animationFrameId_matrix = requestAnimationFrame(drawMatrix);
             }
-            setTimeout(typeEffect, typeSpeed);
+            if (animationFrameId_matrix) cancelAnimationFrame(animationFrameId_matrix);
+            drawMatrix();
         }
-        if (typingElement) typeEffect();
+        
+        // Typing Animation
+        const typingElement = document.getElementById('typing');
+        function setupTyping() {
+            if (!typingElement) return;
+            const phrases = [
+                "Securing Digital Frontiers...",
+                "Analyzing Cyber Threats...",
+                "Crafting Resilient Systems...",
+                "Penetration Testing & VA...",
+                "Automating Security Solutions...",
+                "Continuous Learning & Adaptation..."
+            ];
+            let phraseIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typeTimeout;
 
+            function typeEffect() {
+                const currentPhrase = phrases[phraseIndex];
+                let typeSpeed = isDeleting ? 45 : 90; 
 
-        // Smooth Scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                if (isDeleting) {
+                    typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+
+                if (!isDeleting && charIndex === currentPhrase.length) {
+                    typeSpeed = 2000; 
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                    typeSpeed = 450; 
+                }
+                clearTimeout(typeTimeout);
+                typeTimeout = setTimeout(typeEffect, typeSpeed);
+            }
+            typeEffect();
+        }
+
+        // Smooth Scrolling & Active Nav Link
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('section[id]');
+        const navbar = document.getElementById('navbar');
+        const navHeight = navbar ? navbar.offsetHeight : 70; // Fallback nav height
+
+        function updateActiveNavLink() {
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - navHeight - 50; // Adjusted offset
+                if (window.scrollY >= sectionTop) {
+                    currentSectionId = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSectionId}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        navLinks.forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
-                    // Calculate offset for fixed navbar
-                    const navHeight = document.querySelector('nav')?.offsetHeight || 0;
-                    const elementPosition = targetElement.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - navHeight;
                     
                     window.scrollTo({
                         top: offsetPosition,
                         behavior: 'smooth'
                     });
+                    // Close mobile nav if open
+                    const navMenu = document.getElementById('nav-menu');
+                    const navToggle = document.getElementById('nav-toggle');
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('open');
+                        navToggle.setAttribute('aria-expanded', 'false');
+                    }
                 }
             });
         });
 
         // Scroll Animations (Intersection Observer)
-        const observerOptions = {
-            threshold: 0.1, // Trigger when 10% of element is visible
-            rootMargin: '0px 0px -40px 0px' // Adjust viewport for trigger
-        };
-
-        const observer = new IntersectionObserver((entries, obs) => {
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                    // Optional: unobserve after animation to save resources
-                    // obs.unobserve(entry.target); 
-                }
-                // Optional: remove 'visible' class if element scrolls out of view
-                // else { entry.target.classList.remove('visible'); }
+                if (entry.isIntersecting) entry.target.classList.add('visible');
             });
         }, observerOptions);
-
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
         // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('nav');
-            if (!nav) return;
-            if (window.scrollY > 30) { // Trigger earlier
-                nav.style.background = 'rgba(10, 10, 10, 0.9)'; // Slightly more opaque
-                nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.3)'; // Add subtle shadow
+        function handleNavbarScroll() {
+            if (!navbar) return;
+            if (window.scrollY > 50) { 
+                navbar.style.background = 'rgba(10, 10, 10, 0.9)'; 
+                navbar.style.boxShadow = '0 4px 15px rgba(0,0,0,0.4)'; 
             } else {
-                nav.style.background = 'rgba(10, 10, 10, 0.85)';
-                nav.style.boxShadow = 'none';
+                navbar.style.background = 'rgba(10, 10, 10, 0.8)';
+                navbar.style.boxShadow = 'none';
             }
-        });
-
-        // Terminal cursor animation
-        const terminalCursor = document.querySelector('.terminal-cursor');
-        if (terminalCursor) {
-            setInterval(() => {
-                terminalCursor.style.opacity = terminalCursor.style.opacity === '0' ? '1' : '0';
-            }, 500);
         }
+
+        // Terminal cursor animation - handled by CSS now
 
         // Footer Date
         const footerDateEl = document.getElementById('footer-date');
-        if (footerDateEl) {
-            footerDateEl.textContent = new Date().toString();
-        }
+        if (footerDateEl) footerDateEl.textContent = new Date().toLocaleString();
+        
 
         // GitHub API Fetching
         async function fetchGitHubData() {
             const reposEl = document.getElementById('github-repos');
             const starsEl = document.getElementById('github-stars');
+            const commitsEl = document.getElementById('github-commits');
             const projectsGrid = document.getElementById('projects-grid-container');
             const projectsLoader = document.getElementById('projects-grid-loader');
 
@@ -1116,36 +1270,44 @@
             }
 
             try {
-                // Fetch user data for general stats (like total repos if needed, though API for repos is better)
-                // const userRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);
-                // if (!userRes.ok) throw new Error(`GitHub User API error: ${userRes.status}`);
-                // const userData = await userRes.json();
-                // if(reposEl) reposEl.textContent = userData.public_repos || 'N/A';
-                
-                // Fetch repositories (more reliable for count and details)
-                // Sort by stars or last updated: ?sort=stars&direction=desc or ?sort=updated&direction=desc
-                // Pinned repos are harder to get directly, need GraphQL or screen scraping. We'll go with stars.
-                const reposRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=stars&direction=desc&per_page=100`);
-                if (!reposRes.ok) throw new Error(`GitHub Repos API error: ${reposRes.status}`);
+                const reposRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&direction=desc&per_page=100`);
+                if (!reposRes.ok) throw new Error(`GitHub Repos API error: ${reposRes.status} ${reposRes.statusText}`);
                 let userRepos = await reposRes.json();
-
-                // Filter out forks if you only want original projects
-                userRepos = userRepos.filter(repo => !repo.fork);
+                userRepos = userRepos.filter(repo => !repo.fork); // Filter out forks
 
                 if(reposEl) reposEl.textContent = userRepos.length || '0';
                 
                 let totalStars = 0;
-                userRepos.forEach(repo => {
-                    totalStars += repo.stargazers_count;
-                });
+                userRepos.forEach(repo => { totalStars += repo.stargazers_count; });
                 if(starsEl) starsEl.textContent = totalStars || '0';
 
+                // Fetch commits (more complex, gets last year's commits for the user)
+                // This API endpoint might be rate-limited or require authentication for high accuracy across all repos.
+                // For simplicity, we'll try to get event data.
+                let totalCommitsLastYear = 0;
+                try { // Separate try-catch for this potentially flaky part
+                    const eventsRes = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/events/public?per_page=100`);
+                    if (eventsRes.ok) {
+                        const events = await eventsRes.json();
+                        const oneYearAgo = new Date();
+                        oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+                        events.forEach(event => {
+                            if (event.type === 'PushEvent' && new Date(event.created_at) > oneYearAgo) {
+                                totalCommitsLastYear += event.payload.commits ? event.payload.commits.length : 0;
+                            }
+                        });
+                    }
+                } catch (e) { console.warn("Could not accurately fetch commit count:", e); }
+                if(commitsEl) commitsEl.textContent = totalCommitsLastYear > 0 ? totalCommitsLastYear : 'N/A';
+
+
                 if (projectsGrid) {
-                    projectsGrid.innerHTML = ''; // Clear existing
-                    const reposToShow = userRepos.slice(0, MAX_PROJECTS_TO_SHOW);
+                    projectsGrid.innerHTML = ''; 
+                    // Sort by stars for display, but fetched by updated
+                    const reposToShow = userRepos.sort((a,b) => b.stargazers_count - a.stargazers_count).slice(0, MAX_PROJECTS_TO_SHOW);
 
                     if (reposToShow.length === 0) {
-                        if (projectsLoader) projectsLoader.textContent = "No public repositories found or API limit reached.";
+                        if (projectsLoader) projectsLoader.textContent = "No public repositories found or API rate limit reached.";
                         return;
                     }
                     
@@ -1153,55 +1315,99 @@
                         const projectCard = `
                             <div class="project-card">
                                 <div class="project-header">
-                                    <h3 class="project-title">${repo.name}</h3>
-                                    <p class="project-description">${repo.description || 'No description provided.'}</p>
+                                    <h3 class="project-title">${repo.name.replace(/-/g, ' ').replace(/_/g, ' ')}</h3>
+                                    <p class="project-description">${repo.description || 'No description provided. Explore the code to learn more!'}</p>
                                     <div class="project-tech">
                                         ${repo.language ? `<span class="tech-tag">${repo.language}</span>` : ''}
-                                        ${(repo.topics && repo.topics.length > 0) ? repo.topics.slice(0,3).map(topic => `<span class="tech-tag">${topic}</span>`).join('') : ''}
+                                        ${(repo.topics && repo.topics.length > 0) ? repo.topics.slice(0,3).map(topic => `<span class="tech-tag">${topic.replace(/-/g, ' ')}</span>`).join('') : ''}
                                     </div>
                                 </div>
                                 <div class="project-footer">
                                      <div class="project-stats">
                                         <span title="Stars"><span class="icon">⭐</span> ${repo.stargazers_count}</span>
                                         <span title="Forks"><span class="icon">🍴</span> ${repo.forks_count}</span>
+                                        ${repo.watchers_count > 0 ? `<span title="Watchers"><span class="icon">👁️</span> ${repo.watchers_count}</span>` : ''}
                                     </div>
                                     <div class="project-links">
-                                        <a href="${repo.html_url}" class="project-link" target="_blank" rel="noopener noreferrer">View Code →</a>
-                                        ${repo.homepage ? `<a href="${repo.homepage}" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo 🔗</a>` : ''}
+                                        <a href="${repo.html_url}" class="project-link" target="_blank" rel="noopener noreferrer">View Code <span class="arrow">→</span></a>
+                                        ${repo.homepage ? `<a href="${repo.homepage}" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo <span class="arrow">🔗</span></a>` : ''}
                                     </div>
                                 </div>
                             </div>
                         `;
-                        projectsGrid.innerHTML += projectCard;
+                        projectsGrid.insertAdjacentHTML('beforeend', projectCard);
                     });
                      if (projectsLoader) projectsLoader.style.display = 'none';
                 }
 
             } catch (error) {
                 console.error("Failed to fetch GitHub data:", error);
-                if (reposEl) reposEl.textContent = 'Error';
-                if (starsEl) starsEl.textContent = 'Error';
-                if (projectsLoader) projectsLoader.textContent = "Failed to load projects. Check console.";
+                if (reposEl) reposEl.textContent = 'ERR';
+                if (starsEl) starsEl.textContent = 'ERR';
+                if (commitsEl) commitsEl.textContent = 'ERR';
+                if (projectsLoader) projectsLoader.textContent = `Error loading projects. API limit likely reached. Details: ${error.message}`;
             }
         }
+        
+        // Mobile Navigation Toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
 
-        // Call GitHub fetch on load
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                navToggle.classList.toggle('open');
+                const isExpanded = navMenu.classList.contains('active');
+                navToggle.setAttribute('aria-expanded', isExpanded.toString());
+            });
+        }
+
+        // Debounce function for resize/scroll events
+        function debounce(func, wait = 15, immediate = false) {
+            let timeout;
+            return function() {
+                const context = this, args = arguments;
+                const later = function() {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                const callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        }
+
+        // Event Listeners
         document.addEventListener('DOMContentLoaded', () => {
+            setupMatrix();
+            setupTyping();
             fetchGitHubData();
+            updateActiveNavLink(); // Initial check
+            handleNavbarScroll(); // Initial check
         });
 
-        // Prefers reduced motion check for animations
+        window.addEventListener('scroll', debounce(() => {
+            handleNavbarScroll();
+            updateActiveNavLink();
+        }), 100);
+
+        window.addEventListener('resize', debounce(() => {
+             // Re-initialize matrix on resize for optimal column calculation,
+             // but only if canvas exists.
+            if (canvas) setupMatrix();
+        }), 250);
+        
+        // Prefers reduced motion check
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
         if (prefersReducedMotion.matches) {
-            // Turn off or reduce animations
-            // For example, stop matrix animation:
-            // clearInterval(matrixInterval);
-            // Or remove animation classes (more complex, would need to adjust CSS too)
-            console.log("Reduced motion preferred. Some animations might be disabled or less intense.");
-            // For now, we'll just log it. You can conditionally apply simpler animations or disable them.
-            // Example: The glitch animation could be simplified or disabled.
-            const glitchElement = document.querySelector('.glitch');
-            if (glitchElement) glitchElement.style.animation = 'none'; // Disable glitch
+            console.log("Reduced motion preferred. Animations minimized.");
+            // Example: stop matrix, simplify glitch
+            if (animationFrameId_matrix) cancelAnimationFrame(animationFrameId_matrix);
+            document.querySelectorAll('.glitch').forEach(el => el.style.animation = 'none');
+            // You might want to disable more CSS animations here by adding a body class
+            // document.body.classList.add('reduced-motion');
+            // And then in CSS: .reduced-motion .animated-element { animation: none !important; transition: none !important; }
         }
 
     </script>
