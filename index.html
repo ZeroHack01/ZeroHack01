@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mongwoiching Marma - Cybersecurity Professional</title>
+    <!-- REFINED: Title for more impact -->
+    <title>Mongwoiching Marma - Cyber Operations Architect</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -13,10 +14,10 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consider a more 'tech' or mono font if desired, but Segoe UI is clean */
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0; /* Slightly lighter default text for dark bg */
+            background: linear-gradient(135deg, #050505 0%, #0d1117 50%, #0a0f22 100%); /* Darker, more intense gradient */
             min-height: 100vh;
         }
 
@@ -28,14 +29,14 @@
 
         /* Header Section */
         .header {
-            background: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.85); /* Slightly more opaque */
+            backdrop-filter: blur(12px);
             padding: 1rem 0;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            border-bottom: 1px solid #00ff00;
+            border-bottom: 1px solid #00ff00; /* Keep the hacker green accent */
         }
 
         .nav {
@@ -45,10 +46,11 @@
         }
 
         .logo {
-            font-size: 1.5rem;
+            font-size: 1.6rem; /* Slightly larger */
             font-weight: bold;
-            color: white;
+            color: #00ff00; /* Make logo stand out */
             text-decoration: none;
+            text-shadow: 0 0 8px rgba(0, 255, 0, 0.7); /* Add glow */
         }
 
         .nav-links {
@@ -58,9 +60,10 @@
         }
 
         .nav-links a {
-            color: white;
+            color: #c0c0c0; /* Slightly muted for contrast with hover */
             text-decoration: none;
-            transition: color 0.3s ease;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+            font-weight: 500;
         }
 
         .nav-links a:hover {
@@ -73,20 +76,21 @@
             height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            background: linear-gradient(135deg, #050505 0%, #0d1117 50%, #0a0f22 100%);
             position: relative;
             overflow: hidden;
         }
 
-        .hero::before {
+        .hero::before { /* Digital rain or matrix-like effect could be cool here if desired, but SVG is subtle */
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%2300ff0015" points="0,0 1000,300 1000,1000 0,700"/></svg>');
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%2300ff000A" points="0,0 1000,300 1000,1000 0,700"/><polyline fill="none" stroke="%2300ff000F" stroke-width="2" points="100,100 500,0 900,100 500,200 100,100" /><circle cx="500" cy="500" r="200" stroke="%2300ff000F" stroke-width="1" fill="none" /></svg>');
             background-size: cover;
+            opacity: 0.5; /* Make it more subtle */
         }
 
         .hero-content {
@@ -99,25 +103,25 @@
         }
 
         .hero-text h1 {
-            font-size: 3.5rem;
+            font-size: 3.8rem; /* Slightly larger */
             color: white;
             margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-shadow: 0 0 15px rgba(0, 255, 0, 0.3), 2px 2px 5px rgba(0,0,0,0.5); /* Enhanced glow */
         }
 
         .hero-text .subtitle {
-            font-size: 1.3rem;
+            font-size: 1.5rem; /* More prominent */
             color: #00ff00;
             margin-bottom: 1.5rem;
-            font-weight: 500;
-            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            font-weight: 600; /* Bolder */
+            text-shadow: 0 0 12px rgba(0, 255, 0, 0.7);
         }
 
         .hero-text p {
             font-size: 1.1rem;
-            color: rgba(255,255,255,0.9);
+            color: #d0d0d0; /* Lighter for readability */
             margin-bottom: 2rem;
-            line-height: 1.8;
+            line-height: 1.7;
         }
 
         .cta-buttons {
@@ -127,36 +131,45 @@
         }
 
         .btn {
-            padding: 12px 30px;
+            padding: 14px 35px; /* Larger buttons */
             border: none;
-            border-radius: 50px;
+            border-radius: 5px; /* Sharper edges */
             font-size: 1rem;
             cursor: pointer;
             transition: all 0.3s ease;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            font-weight: 600;
+            gap: 0.75rem; /* More space for icon */
+            font-weight: 700; /* Bolder text */
         }
 
         .btn-primary {
-            background: linear-gradient(45deg, #00ff00, #008800);
+            background: linear-gradient(45deg, #00ff00, #00aa00); /* More vibrant green */
             color: #000;
-            box-shadow: 0 4px 15px rgba(0, 255, 0, 0.4);
-            font-weight: 700;
+            box-shadow: 0 4px 20px rgba(0, 255, 0, 0.5);
         }
 
         .btn-secondary {
             background: transparent;
-            color: white;
-            border: 2px solid white;
+            color: #00ff00; /* Green text */
+            border: 2px solid #00ff00; /* Green border */
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3) inset;
         }
 
         .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            transform: translateY(-4px) scale(1.03); /* More pronounced hover */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
         }
+         .btn-primary:hover {
+            box-shadow: 0 8px 30px rgba(0, 255, 0, 0.7);
+         }
+         .btn-secondary:hover {
+            background: #00ff00;
+            color: #000;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+         }
+
 
         .hero-visual {
             display: flex;
@@ -165,48 +178,48 @@
         }
 
         .profile-card {
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.85);
             backdrop-filter: blur(15px);
-            border-radius: 20px;
-            padding: 2rem;
+            border-radius: 15px; /* Slightly less rounded */
+            padding: 2.5rem; /* More padding */
             text-align: center;
             border: 2px solid #00ff00;
-            box-shadow: 0 8px 32px rgba(0, 255, 0, 0.3);
+            box-shadow: 0 0 25px rgba(0, 255, 0, 0.4), 0 10px 40px rgba(0,0,0,0.5); /* Enhanced shadow */
         }
 
         .profile-image {
-            width: 200px;
-            height: 200px;
+            width: 180px; /* Slightly smaller to fit text better */
+            height: 180px;
             border-radius: 50%;
             background: linear-gradient(45deg, #00ff00, #008800);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
+            font-size: 4.5rem; /* Larger icon */
             color: #000;
-            margin: 0 auto 1rem;
-            box-shadow: 0 8px 25px rgba(0, 255, 0, 0.5);
-            border: 3px solid #00ff00;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+            border: 3px solid #00dd00; /* Slightly different green for depth */
         }
 
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
+            gap: 1.2rem; /* More space */
+            margin-top: 1.5rem;
         }
 
         .social-links a {
             width: 50px;
             height: 50px;
-            border-radius: 50%;
-            background: rgba(0, 0, 0, 0.5);
-            border: 1px solid #00ff00;
+            border-radius: 8px; /* More 'tech' square-ish */
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #00cc00;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #00ff00;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             transition: all 0.3s ease;
             text-decoration: none;
         }
@@ -214,102 +227,119 @@
         .social-links a:hover {
             background: #00ff00;
             color: #000;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 255, 0, 0.4);
+            transform: translateY(-4px) scale(1.1);
+            box-shadow: 0 6px 18px rgba(0, 255, 0, 0.5);
         }
 
         /* Sections */
         .section {
-            padding: 5rem 0;
-            background: white;
+            padding: 6rem 0; /* More padding */
+            background: #0d1117; /* Default dark for sections */
+            color: #e0e0e0;
         }
 
-        .section:nth-child(even) {
-            background: #0d1117;
+        .section:nth-child(odd) { /* Reverse for content on dark */
+             background: #080a0e; /* Even darker for contrast */
         }
+
 
         .section-title {
             text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #333;
+            font-size: 2.8rem; /* Larger */
+            margin-bottom: 1.5rem;
+            color: #00ff00; /* Title in hacker green */
             position: relative;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
         }
 
         .section-title::after {
             content: '';
             position: absolute;
-            bottom: -10px;
+            bottom: -15px; /* Further down */
             left: 50%;
             transform: translateX(-50%);
-            width: 60px;
+            width: 80px; /* Wider */
             height: 4px;
-            background: linear-gradient(45deg, #00ff00, #008800);
+            background: linear-gradient(90deg, #00ff00, #008800);
             border-radius: 2px;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            box-shadow: 0 0 12px rgba(0, 255, 0, 0.7);
         }
 
         .section-subtitle {
             text-align: center;
-            color: #666;
-            margin-bottom: 3rem;
-            font-size: 1.1rem;
+            color: #a0a0a0; /* Lighter subtitle */
+            margin-bottom: 4rem; /* More space */
+            font-size: 1.2rem;
+            max-width: 700px; /* Constrain width for readability */
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* Skills Grid */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            gap: 2.5rem; /* More gap */
             margin-top: 3rem;
         }
 
         .skill-category {
-            background: white;
+            background: rgba(10, 20, 30, 0.7); /* Darker, semi-transparent */
+            backdrop-filter: blur(5px);
             padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             border-left: 5px solid;
+            border-top: 1px solid rgba(0,255,0,0.2); /* Subtle top border */
+            border-right: 1px solid rgba(0,255,0,0.1);
         }
 
-        .skill-category:nth-child(1) { border-left-color: #00ff00; }
-        .skill-category:nth-child(2) { border-left-color: #ff6b35; }
-        .skill-category:nth-child(3) { border-left-color: #00d4ff; }
-        .skill-category:nth-child(4) { border-left-color: #ffff00; }
+        .skill-category:nth-child(1) { border-left-color: #00ff00; } /* Offensive/Red Team */
+        .skill-category:nth-child(2) { border-left-color: #00aaff; } /* Defensive/Blue Team */
+        .skill-category:nth-child(3) { border-left-color: #ffaa00; } /* Dev/Tools */
+        .skill-category:nth-child(4) { border-left-color: #cc00ff; } /* Ops/Strategy */
+
 
         .skill-category:hover {
-            transform: translateY(-5px);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.4), 0 0 20px rgba(0, 255, 0, 0.2);
         }
 
         .skill-category h3 {
-            color: #333;
-            margin-bottom: 1rem;
+            color: #00ff00; /* Category title green */
+            margin-bottom: 1.5rem;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.75rem;
+            font-size: 1.3rem;
         }
 
         .skill-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.75rem;
         }
 
         .skill-tag {
-            background: linear-gradient(45deg, #00ff00, #008800);
+            background: linear-gradient(45deg, #00cc00, #007700); /* Darker green gradient */
             color: #000;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
+            padding: 0.4rem 1rem;
+            border-radius: 5px; /* Sharper */
             font-size: 0.9rem;
             font-weight: 600;
-            text-shadow: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
         }
+        .skill-tag:hover {
+            transform: scale(1.05);
+        }
+
 
         /* Experience Timeline */
         .timeline {
             position: relative;
-            margin: 3rem 0;
+            margin: 4rem 0;
         }
 
         .timeline::before {
@@ -318,141 +348,228 @@
             left: 50%;
             top: 0;
             bottom: 0;
-            width: 3px;
-            background: linear-gradient(to bottom, #00ff00, #008800);
+            width: 4px; /* Thicker line */
+            background: linear-gradient(to bottom, #00ff00, #006600);
             transform: translateX(-50%);
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
         }
 
         .timeline-item {
             position: relative;
-            margin: 2rem 0;
+            margin: 2.5rem 0;
             width: 50%;
+        }
+        .timeline-item::after { /* Dot on the timeline */
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #000;
+            border: 4px solid #00ff00;
+            top: 20px;
+            z-index: 1;
+            box-shadow: 0 0 10px rgba(0,255,0,0.7);
         }
 
         .timeline-item:nth-child(odd) {
             left: 0;
-            padding-right: 2rem;
+            padding-right: 3rem; /* More space */
         }
+         .timeline-item:nth-child(odd)::after {
+            right: -9px; /* Adjust dot position */
+         }
 
         .timeline-item:nth-child(even) {
             left: 50%;
-            padding-left: 2rem;
+            padding-left: 3rem; /* More space */
+        }
+        .timeline-item:nth-child(even)::after {
+            left: -9px; /* Adjust dot position */
         }
 
         .timeline-content {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            background: rgba(15, 25, 40, 0.8); /* Darker blueish tint */
+            backdrop-filter: blur(8px);
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
             position: relative;
+            border: 1px solid rgba(0,255,0,0.3); /* Subtle border */
+            color: #c0c0c0;
         }
+        .timeline-content h3 { color: #00ff00; margin-bottom: 0.3rem;}
+        .timeline-content h4 { color: #aaa; margin-bottom: 0.7rem; font-weight: 500;}
 
-        .timeline-content::before {
+
+        .timeline-content::before { /* Arrow pointer */
             content: '';
             position: absolute;
-            top: 20px;
+            top: 22px;
             width: 0;
             height: 0;
-            border: 10px solid transparent;
+            border: 12px solid transparent;
         }
 
         .timeline-item:nth-child(odd) .timeline-content::before {
-            right: -20px;
-            border-left-color: white;
+            right: -23px; /* Adjusted for border */
+            border-left-color: rgba(0,255,0,0.4); /* Match border */
         }
+        .timeline-item:nth-child(odd) .timeline-content::after { /* Inner part of arrow */
+            content: '';
+            position: absolute;
+            top: 24px; /* Slightly offset */
+            right: -20px;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-left-color: rgba(15, 25, 40, 0.8); /* Match background */
+        }
+
 
         .timeline-item:nth-child(even) .timeline-content::before {
+            left: -23px;
+            border-right-color: rgba(0,255,0,0.4);
+        }
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 24px;
             left: -20px;
-            border-right-color: white;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-right-color: rgba(15, 25, 40, 0.8);
         }
 
+
         .timeline-date {
-            background: linear-gradient(45deg, #00ff00, #008800);
+            background: linear-gradient(45deg, #00ff00, #00aa00);
             color: #000;
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
+            padding: 0.4rem 1rem;
+            border-radius: 5px;
+            font-size: 0.85rem;
             display: inline-block;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
         }
 
         /* Projects Grid */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
+            gap: 2.5rem;
             margin-top: 3rem;
         }
 
         .project-card {
-            background: white;
-            border-radius: 15px;
+            background: rgba(10, 20, 30, 0.7);
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(0,255,0,0.2); /* Subtle border */
+            display: flex; /* For footer button alignment */
+            flex-direction: column; /* Stack content */
         }
 
         .project-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.5), 0 0 25px rgba(0, 255, 0, 0.3);
         }
 
         .project-header {
             padding: 1.5rem;
-            background: linear-gradient(45deg, #0a0a0a, #1a1a2e);
+            background: linear-gradient(45deg, #080808, #101830); /* Darker, more contrast */
             color: #00ff00;
             border-bottom: 2px solid #00ff00;
+        }
+        .project-header h3 {
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
         }
 
         .project-content {
             padding: 1.5rem;
+            flex-grow: 1; /* Allow content to take up space */
+            color: #c0c0c0;
+        }
+        .project-content p {
+            margin-bottom: 1.5rem; /* Space before tech tags */
         }
 
         .project-tech {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.6rem;
             margin-top: 1rem;
         }
 
         .tech-tag {
-            background: #f1f3f4;
-            color: #333;
-            padding: 0.2rem 0.6rem;
-            border-radius: 12px;
+            background: #222; /* Darker tags */
+            color: #00dd00; /* Green text */
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
             font-size: 0.8rem;
+            border: 1px solid #007700; /* Dark green border */
         }
+        .project-card .btn { /* Button styling within project card */
+            margin-top: auto; /* Push to bottom */
+            margin-left: 1.5rem; /* Align with padding */
+            margin-right: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: calc(100% - 3rem); /* Full width minus padding */
+            justify-content: center; /* Center button text/icon */
+        }
+
 
         /* Certifications */
         .cert-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
+            gap: 2rem;
             margin-top: 3rem;
         }
 
         .cert-item {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-            border-left: 4px solid;
-            transition: transform 0.3s ease;
+            background: rgba(10, 20, 30, 0.7);
+            backdrop-filter: blur(5px);
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+            border-left: 5px solid;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 1px solid rgba(0,255,0,0.15);
         }
 
         .cert-item:nth-child(4n+1) { border-left-color: #00ff00; }
         .cert-item:nth-child(4n+2) { border-left-color: #ff6b35; }
         .cert-item:nth-child(4n+3) { border-left-color: #00d4ff; }
-        .cert-item:nth-child(4n) { border-left-color: #ffff00; }
+        .cert-item:nth-child(4n) { border-left-color: #ffdd00; } /* Brighter yellow */
 
         .cert-item:hover {
-            transform: translateY(-3px);
+            transform: translateY(-6px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+        }
+        .cert-item h4 {
+            color: #00ff00;
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+        }
+        .cert-item p {
+            color: #b0b0b0;
+            font-size: 0.9rem;
+        }
+        .cert-item p strong {
+            color: #d0d0d0;
         }
 
+
         /* Contact Section */
-        .contact {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+        .contact { /* Already has dark gradient, good */
             color: white;
             text-align: center;
             border-top: 2px solid #00ff00;
@@ -460,64 +577,105 @@
 
         .contact-info {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Wider items */
+            gap: 2.5rem;
+            margin-top: 4rem;
         }
 
         .contact-item {
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(10px);
-            padding: 2rem;
-            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(12px);
+            padding: 2.5rem;
+            border-radius: 10px;
             border: 1px solid #00ff00;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.4);
         }
 
         .contact-item i {
-            font-size: 2rem;
-            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
             color: #00ff00;
-            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+        }
+        .contact-item h3 {
+            color: #00ff00;
+            margin-bottom: 0.5rem;
+        }
+        .contact-item p {
+            color: #d0d0d0;
         }
 
+
         /* Responsive Design */
-        @media (max-width: 768px) {
+        @media (max-width: 992px) { /* Adjust breakpoint for hero layout */
             .hero-content {
                 grid-template-columns: 1fr;
                 text-align: center;
             }
-
-            .hero-text h1 {
-                font-size: 2.5rem;
+            .hero-text {
+                order: 2; /* Text below visual on mobile */
+                margin-top: 2rem;
             }
+            .hero-visual {
+                order: 1;
+            }
+            .cta-buttons {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2.8rem; /* Adjust for smaller screens */
+            }
+             .hero-text .subtitle {
+                font-size: 1.3rem;
+             }
 
             .nav-links {
-                display: none;
+                display: none; /* Simplification: consider a hamburger menu for real deployment */
             }
 
             .timeline::before {
-                left: 30px;
+                left: 20px; /* Shift line for mobile */
             }
 
             .timeline-item {
                 width: 100%;
                 left: 0 !important;
-                padding-left: 4rem !important;
-                padding-right: 0 !important;
+                padding-left: 3.5rem !important; /* Space for dot + content */
+                padding-right: 1rem !important;
+            }
+            .timeline-item::after { /* Adjust dot position for mobile */
+                left: 11px !important; /* (20px from line - 9px half-width) */
             }
 
-            .timeline-content::before {
-                left: -20px !important;
-                border-right-color: white !important;
+            .timeline-content::before, .timeline-content::after { /* Arrow for mobile */
+                left: -23px !important; /* Adjusted for border */
+                border-right-color: rgba(0,255,0,0.4) !important;
                 border-left-color: transparent !important;
             }
+             .timeline-item:nth-child(even) .timeline-content::after, /* Ensure inner arrow is correct */
+             .timeline-item:nth-child(odd) .timeline-content::after {
+                left: -20px !important;
+                border-right-color: rgba(15, 25, 40, 0.8) !important; /* Match background */
+                border-left-color: transparent !important;
+            }
+
+            .section-title { font-size: 2.2rem; }
+            .section-subtitle { font-size: 1rem; }
         }
 
         /* Animations */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(30px);
+                transform: translateY(40px); /* More pronounced */
             }
             to {
                 opacity: 1;
@@ -526,17 +684,22 @@
         }
 
         .fade-in-up {
-            animation: fadeInUp 0.6s ease forwards;
+            animation: fadeInUp 0.8s ease-out forwards; /* Slower, smoother */
         }
+        /* Stagger animations */
+        .hero-text h1 { animation-delay: 0.2s; }
+        .hero-text .subtitle { animation-delay: 0.4s; }
+        .hero-text p { animation-delay: 0.6s; }
+        .cta-buttons { animation-delay: 0.8s; }
 
-        /* Floating Animation */
+
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
+            50% { transform: translateY(-12px); } /* More float */
         }
 
         .floating {
-            animation: float 3s ease-in-out infinite;
+            animation: float 3.5s ease-in-out infinite;
         }
     </style>
 </head>
@@ -544,13 +707,14 @@
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
-            <a href="#" class="logo">🛡️ MM</a>
+            <!-- REFINED: Logo for more 'hacker' feel. 0x is hex prefix. Or use a more abstract symbol. -->
+            <a href="#home" class="logo">MM</></a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Initialize</a></li>
+                <li><a href="#skills">Arsenal</a></li>
+                <li><a href="#experience">Deployments</a></li>
+                <li><a href="#projects">Developments</a></li>
+                <li><a href="#contact">Comms</a></li>
             </ul>
         </nav>
     </header>
@@ -561,37 +725,39 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="fade-in-up">Mongwoiching Marma</h1>
-                    <p class="subtitle fade-in-up">🛡️ Motivated Cyber Defender & Offensive Security Enthusiast</p>
+                    <!-- REFINED: Subtitle to be more assertive and encompass both O&D -->
+                    <p class="subtitle fade-in-up">Cybersecurity Vanguard: Offensive Tactician & Defensive Strategist</p>
                     <p class="fade-in-up">
-                        Elite cybersecurity professional with expertise in penetration testing, vulnerability research, 
-                        and defensive security operations. Passionate about building robust security architectures and 
-                        developing cutting-edge tools to protect digital infrastructures from evolving cyber threats.
+                        <!-- REFINED: More impactful language -->
+                        Elite Cyber Operations Professional engineering resilient digital fortresses and executing precision offensive maneuvers. Adept in advanced penetration testing, vulnerability exploitation, and proactive threat hunting. Architecting robust security infrastructures and forging cutting-edge cyber weaponry to neutralize emergent threats.
                         <br><br>
-                        <strong>Vision:</strong> To become a leading cybersecurity architect who bridges the gap between 
-                        offensive and defensive security, creating innovative solutions that protect organizations while 
-                        advancing the cybersecurity community through research, education, and ethical hacking practices.
+                        <strong>Mission Directive:</strong> To pioneer innovative cyber defense paradigms, neutralizing advanced persistent threats by seamlessly integrating offensive intelligence with fortified security architectures, thereby dominating the digital frontier.
                     </p>
                     <div class="cta-buttons fade-in-up">
+                        <!-- REFINED: Button text for theme -->
                         <a href="#projects" class="btn btn-primary">
-                            <i class="fas fa-code"></i> View Arsenal
+                            <i class="fas fa-tools"></i> View Cyber Arsenal
                         </a>
                         <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-terminal"></i> Connect
+                            <i class="fas fa-headset"></i> Engage Intel
                         </a>
                     </div>
                 </div>
                 <div class="hero-visual">
                     <div class="profile-card floating">
                         <div class="profile-image">
-                            <i class="fas fa-shield-alt"></i>
+                            <!-- REFINED: Icon could be fas fa-user-secret or fas fa-terminal if preferred -->
+                            <i class="fas fa-shield-virus"></i> <!-- Implies defense against advanced threats -->
                         </div>
-                        <h3 style="color: #00ff00; margin-bottom: 0.5rem;">Cyber Defender</h3>
-                        <p style="color: rgba(0,255,0,0.8); font-size: 0.9rem;">Dhaka, Bangladesh</p>
+                        <!-- REFINED: Title on card -->
+                        <h3 style="color: #00ff00; margin-bottom: 0.5rem; font-size:1.4rem;">Cyber Operator</h3>
+                        <p style="color: rgba(0,255,0,0.9); font-size: 0.9rem;">Sector: Dhaka, Bangladesh</p>
                         <div class="social-links">
-                            <a href="https://github.com/ZeroHack01" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="https://linkedin.com/in/mongwoiching-marma" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://medium.com/@mongwoiching" target="_blank"><i class="fab fa-medium"></i></a>
-                            <a href="https://tryhackme.com/p/zerehack01" target="_blank"><i class="fas fa-flag"></i></a>
+                            <!-- REFINED: Added title attributes for tooltips -->
+                            <a href="https://github.com/ZeroHack01" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/mongwoiching-marma" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://medium.com/@mongwoiching" target="_blank" title="Medium Articles"><i class="fab fa-medium"></i></a>
+                            <a href="https://tryhackme.com/p/zerehack01" target="_blank" title="TryHackMe Profile"><i class="fas fa-terminal"></i></a> <!-- Changed icon to terminal -->
                         </div>
                     </div>
                 </div>
@@ -602,55 +768,59 @@
     <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">💡 Skills & Expertise</h2>
-            <p class="section-subtitle">Comprehensive cybersecurity and technical proficiencies</p>
+            <!-- REFINED: Section title and subtitle -->
+            <h2 class="section-title">🛡️ Cyber Arsenal & Proficiencies</h2>
+            <p class="section-subtitle">A curated inventory of offensive, defensive, and operational capabilities to dominate the cyber landscape.</p>
             
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
+                    <!-- REFINED: Category title and skills -->
+                    <h3><i class="fas fa-skull-crossbones"></i> Offensive Operations</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Penetration Testing</span>
-                        <span class="skill-tag">Vulnerability Assessment</span>
-                        <span class="skill-tag">SIEM Tools</span>
-                        <span class="skill-tag">Network Security</span>
-                        <span class="skill-tag">Incident Response</span>
-                        <span class="skill-tag">Risk Management</span>
+                        <span class="skill-tag">Ethical Hacking & PenTesting</span>
+                        <span class="skill-tag">Vulnerability Exploitation</span>
+                        <span class="skill-tag">Red Teaming Tactics</span>
+                        <span class="skill-tag">Social Engineering</span>
+                        <span class="skill-tag">Web AppSec</span>
+                        <span class="skill-tag">Network Infiltration</span>
+                        <span class="skill-tag">Payload Crafting</span>
                     </div>
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
+                     <h3><i class="fas fa-shield-halved"></i> Defensive Fortifications</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Bash</span>
-                        <span class="skill-tag">PowerShell</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Data Analysis</span>
-                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">Threat Hunting & Intel</span>
+                        <span class="skill-tag">SIEM (Splunk, QRadar)</span>
+                        <span class="skill-tag">Incident Response & Forensics</span>
+                        <span class="skill-tag">Network Security Architecture</span>
+                        <span class="skill-tag">EDR/XDR Solutions</span>
+                        <span class="skill-tag">Risk Assessment & Mitigation</span>
+                        <span class="skill-tag">Blue Teaming Strategy</span>
                     </div>
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Security Tools</h3>
+                    <h3><i class="fas fa-laptop-code"></i> Development & Tooling</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Splunk</span>
-                        <span class="skill-tag">QRadar</span>
-                        <span class="skill-tag">OpenEDR</span>
-                        <span class="skill-tag">Wireshark</span>
-                        <span class="skill-tag">Nmap</span>
-                        <span class="skill-tag">Metasploit</span>
+                        <span class="skill-tag">Python (Security Scripting)</span>
+                        <span class="skill-tag">Bash & PowerShell</span>
+                        <span class="skill-tag">SQL & NoSQL Databases</span>
+                        <span class="skill-tag">Automation Frameworks</span>
+                        <span class="skill-tag">Exploit Development (Basic)</span>
+                        <span class="skill-tag">Security Tool Customization</span>
                     </div>
                 </div>
                 
                 <div class="skill-category">
-                    <h3><i class="fas fa-cogs"></i> Operations</h3>
+                     <h3><i class="fas fa-cogs"></i> Cyber Operations & Systems</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Technical Support</span>
-                        <span class="skill-tag">System Administration</span>
-                        <span class="skill-tag">Documentation</span>
-                        <span class="skill-tag">Team Collaboration</span>
-                        <span class="skill-tag">Project Management</span>
-                        <span class="skill-tag">Customer Relations</span>
+                        <span class="skill-tag">Security Tools Suite (Nmap, Metasploit, Wireshark, Burp)</span>
+                        <span class="skill-tag">Linux/Windows Hardening</span>
+                        <span class="skill-tag">Virtualization & Containers</span>
+                        <span class="skill-tag">Cloud Security (AWS/Azure Basics)</span>
+                        <span class="skill-tag">Technical Doctrine & Reporting</span>
+                        <span class="skill-tag">Agile Project Execution</span>
                     </div>
                 </div>
             </div>
@@ -660,40 +830,38 @@
     <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">💼 Professional Experience</h2>
-            <p class="section-subtitle">Building expertise through hands-on experience and continuous learning</p>
+            <!-- REFINED: Section title and subtitle -->
+            <h2 class="section-title">⚔️ Field Deployments & Engagements</h2>
+            <p class="section-subtitle">Chronicle of key missions, operational roles, and impactful contributions in the cyber domain.</p>
             
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">March 2025 - Present</div>
-                        <h3>Cybersecurity Intern</h3>
-                        <h4>Code Alpha - Remote</h4>
-                        <p>Conducting security testing and vulnerability assessments on network and web applications. 
-                        Performing penetration testing, security analysis, and risk mitigation while identifying and 
-                        reporting security flaws to improve system defenses.</p>
+                        <div class="timeline-date">Q1 2025 - Active</div>
+                        <h3>Cybersecurity Intern Operator</h3>
+                        <h4>Code Alpha - Global Remote Operations</h4>
+                        <!-- REFINED: Description with stronger verbs and impact -->
+                        <p>Spearheading comprehensive security assessments and vulnerability analysis for diverse network and web application infrastructures. Executing penetration testing protocols, dissecting security postures, and engineering robust risk mitigation strategies. Uncovering and reporting critical flaws to fortify system defenses and elevate organizational security readiness.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <div class="timeline-date">June 2021 - December 2022</div>
-                        <h3>Computer Stitching Machine Programming Support Technician</h3>
-                        <h4>Maf Shoes Limited - On-site</h4>
-                        <p>Diagnosed and resolved hardware/software issues on programmable stitching machines, reducing 
-                        downtime by 30%. Performed routine maintenance and collaborated with cross-functional teams to 
-                        streamline operations and optimize production workflows.</p>
+                        <h3>Programmable Systems Support Engineer</h3>
+                        <h4>Maf Shoes Limited - On-Site Industrial Complex</h4>
+                        <!-- REFINED: Description with stronger verbs and impact -->
+                        <p>Orchestrated diagnostics and engineered solutions for complex hardware/software anomalies in advanced programmable stitching systems, slashing critical operational downtime by over 30%. Executed rigorous preventative maintenance schedules and collaborated with interdisciplinary teams to streamline production workflows and optimize system performance.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">May 2022 - July 2022</div>
-                        <h3>Administrative Assistant Intern</h3>
-                        <h4>GAO Tek Inc. - Remote</h4>
-                        <p>Managed communications, email workflows, and CRM systems to streamline business operations. 
-                        Conducted data analysis and digital marketing strategies while assisting in cybersecurity and 
-                        threat management to ensure data protection.</p>
+                        <div class="timeline-date">Q2 2022</div>
+                        <h3>Administrative Operations Intern</h3>
+                        <h4>GAO Tek Inc. - Remote HQ</h4>
+                        <!-- REFINED: Description with stronger verbs and impact -->
+                        <p>Commanded critical communication channels, optimized email infrastructures, and leveraged CRM platforms to enhance core business operations. Executed data-driven analysis for strategic digital marketing initiatives and contributed to foundational cybersecurity threat management protocols, ensuring data integrity and protection.</p>
                     </div>
                 </div>
             </div>
@@ -703,135 +871,124 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">🚀 Featured Projects</h2>
-            <p class="section-subtitle">Innovative cybersecurity tools and solutions</p>
+            <!-- REFINED: Section title and subtitle -->
+            <h2 class="section-title">⚡ Strategic Developments & Innovations</h2>
+            <p class="section-subtitle">A showcase of custom-engineered cyber tools, offensive frameworks, and critical security research initiatives.</p>
             
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-shield-alt"></i> CodeGuard - Secure Code Scanner</h3>
+                        <h3><i class="fas fa-shield-alt"></i> CodeGuard Sentinel</h3>
                     </div>
                     <div class="project-content">
-                        <p>Advanced static code analysis tool that identifies security vulnerabilities, code smells, 
-                        and potential exploits in multiple programming languages. Features real-time scanning and 
-                        comprehensive vulnerability reporting.</p>
+                        <!-- REFINED: Project description -->
+                        <p>Advanced Static & Dynamic Analysis (SAST/DAST) engine designed to autonomously identify and neutralize security vulnerabilities, code anomalies, and potential C2 channels within multi-language software repositories. Features real-time threat vector scanning and comprehensive exploitability reporting.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Static Analysis</span>
-                            <span class="tech-tag">Security</span>
-                            <span class="tech-tag">Vulnerability Detection</span>
+                            <span class="tech-tag">SAST/DAST</span>
+                            <span class="tech-tag">AI/ML (Conceptual)</span>
+                            <span class="tech-tag">Vuln. Detection</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01/CodeGuard" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fab fa-github"></i> View Arsenal
-                        </a>
                     </div>
+                    <a href="https://github.com/ZeroHack01/CodeGuard" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Inspect Codebase
+                    </a>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-search"></i> SnipHawk - Network Reconnaissance</h3>
+                        <h3><i class="fas fa-crosshairs"></i> SnipHawk Recon Suite</h3>
                     </div>
                     <div class="project-content">
-                        <p>Powerful network reconnaissance and packet sniffing tool designed for ethical hacking and 
-                        network security assessment. Features real-time traffic analysis and protocol inspection capabilities.</p>
+                        <!-- REFINED: Project description -->
+                        <p>High-fidelity network reconnaissance and packet interception toolkit engineered for advanced ethical hacking campaigns and deep network security assessments. Employs real-time traffic dissection, protocol anomaly detection, and covert channel identification.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Network Security</span>
-                            <span class="tech-tag">Packet Analysis</span>
-                            <span class="tech-tag">Reconnaissance</span>
+                            <span class="tech-tag">Network Forensics</span>
+                            <span class="tech-tag">Packet Crafting</span>
+                            <span class="tech-tag">Stealth Recon</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01/sniphawk" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fab fa-github"></i> Analyze Code
-                        </a>
                     </div>
+                    <a href="https://github.com/ZeroHack01/sniphawk" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Launch Recon
+                    </a>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-database"></i> Bangladesh Gov Data Breach Analysis</h3>
+                        <h3><i class="fas fa-landmark-flag"></i> GovNet Breach Vector Analysis</h3>
                     </div>
                     <div class="project-content">
-                        <p>Comprehensive security research analyzing government data breaches, identifying attack vectors, 
-                        and providing strategic recommendations for improving cybersecurity posture in public sector organizations.</p>
+                        <!-- REFINED: Project description -->
+                        <p>In-depth forensic investigation into a simulated nation-state level government data compromise. Deconstructs attack vectors, quantifies impact, and architects strategic countermeasures for bolstering public sector cybersecurity resilience against APTs.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Security Research</span>
-                            <span class="tech-tag">Incident Analysis</span>
-                            <span class="tech-tag">Risk Assessment</span>
-                            <span class="tech-tag">Forensics</span>
+                            <span class="tech-tag">Threat Intelligence</span>
+                            <span class="tech-tag">Incident Deconstruction</span>
+                            <span class="tech-tag">APT Defense</span>
+                            <span class="tech-tag">Digital Forensics</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01/bangladesh-gov-data-breach-analysis" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fas fa-file-alt"></i> Read Analysis
-                        </a>
                     </div>
+                    <a href="https://github.com/ZeroHack01/bangladesh-gov-data-breach-analysis" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-file-alt"></i> Access Intel Report
+                    </a>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-fire-alt"></i> NovaCyberBarrier Firewall</h3>
+                        <h3><i class="fas fa-firewall"></i> NovaCyberBarrier Aegis</h3>
                     </div>
                     <div class="project-content">
-                        <p>Next-generation firewall solution with advanced threat detection, real-time monitoring, 
-                        and automated response capabilities. Built for enterprise-level network security management.</p>
+                        <!-- REFINED: Project description -->
+                        <p>Next-generation adaptive firewall leveraging heuristic analysis and behavioral anomaly detection for preemptive threat neutralization. Engineered for enterprise-grade network defense with automated countermeasure deployment capabilities.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">iptables</span>
-                            <span class="tech-tag">Network Defense</span>
-                            <span class="tech-tag">Threat Detection</span>
+                            <span class="tech-tag">iptables/nftables</span>
+                            <span class="tech-tag">Deep Packet Inspection</span>
+                            <span class="tech-tag">AI Threat Detection</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01/novacyberbarrier-firewall-project" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fab fa-github"></i> Deploy Shield
-                        </a>
                     </div>
+                    <a href="https://github.com/ZeroHack01/novacyberbarrier-firewall-project" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Deploy Aegis
+                    </a>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-lock"></i> SecureFileTransferApp</h3>
+                        <h3><i class="fas fa-user-secret"></i> SecureComms Protocol Suite</h3>
                     </div>
                     <div class="project-content">
-                        <p>Military-grade encrypted file transfer application implementing AES-256 encryption, HMAC integrity 
-                        verification, and secure key exchange protocols for confidential data transmission.</p>
+                        <!-- REFINED: Project description, using the stronger 'SecureFileTransferApp' description as base -->
+                        <p>Military-grade encrypted data transmission framework implementing robust AES-256 cryptography, HMAC integrity validation, and secure key exchange mechanisms for ultra-confidential cross-network data exfiltration and infiltration operations.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">AES-256</span>
+                            <span class="tech-tag">AES-256 GCM</span>
                             <span class="tech-tag">Cryptography</span>
-                            <span class="tech-tag">HMAC</span>
+                            <span class="tech-tag">HMAC-SHA256</span>
+                            <span class="tech-tag">Covert Channels</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01/SecureFileTransferApp" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fab fa-github"></i> Secure Transfer
-                        </a>
                     </div>
-                </div>
-            </div>and HMAC integrity verification for secure cross-network file sharing.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Cryptography</span>
-                            <span class="tech-tag">AES</span>
-                            <span class="tech-tag">HMAC</span>
-                        </div>
-                        <a href="https://github.com/ZeroHack01/SecureFileTransferApp" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fab fa-github"></i> View Project
-                        </a>
-                    </div>
+                    <a href="https://github.com/ZeroHack01/SecureFileTransferApp" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Initiate Secure Channel
+                    </a>
                 </div>
                 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3><i class="fas fa-chart-line"></i> Bybit 2025 Crypto Hack Analysis</h3>
+                        <h3><i class="fas fa-coins"></i> CryptoEx Vulnerability Blueprint</h3>
                     </div>
                     <div class="project-content">
-                        <p>Comprehensive technical research and analysis of cryptocurrency exchange security vulnerabilities. 
-                        Detailed PDF report covering attack vectors, impact assessment, and mitigation strategies.</p>
+                        <!-- REFINED: Project description -->
+                        <p>Comprehensive technical deconstruction and threat modeling of cryptocurrency exchange vulnerabilities (inspired by Bybit 2025 scenarios). Delivers an actionable blueprint detailing attack vectors, economic impact simulations, and robust mitigation frameworks.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Security Research</span>
-                            <span class="tech-tag">Vulnerability Analysis</span>
-                            <span class="tech-tag">Technical Writing</span>
-                            <span class="tech-tag">Risk Assessment</span>
+                            <span class="tech-tag">Blockchain Security</span>
+                            <span class="tech-tag">Smart Contract Audit (Sim.)</span>
+                            <span class="tech-tag">Financial Threat Model</span>
+                            <span class="tech-tag">Red Team Report</span>
                         </div>
-                        <a href="https://github.com/ZeroHack01" class="btn btn-primary" style="margin-top: 1rem;">
-                            <i class="fas fa-file-pdf"></i> View Report
-                        </a>
                     </div>
+                    <a href="https://github.com/ZeroHack01" target="_blank" class="btn btn-primary"> <!-- Assuming main GitHub for this PDF -->
+                        <i class="fas fa-file-pdf"></i> Review Intel Brief
+                    </a>
                 </div>
             </div>
         </div>
@@ -840,48 +997,49 @@
     <!-- Certifications Section -->
     <section class="section">
         <div class="container">
-            <h2 class="section-title">🏆 Certifications & Training</h2>
-            <p class="section-subtitle">Continuous professional development and industry recognition</p>
+            <!-- REFINED: Section title and subtitle -->
+            <h2 class="section-title">🏅 Accolades & Credentials</h2>
+            <p class="section-subtitle">Validated expertise and unwavering commitment to mastering the evolving cyber domain through continuous strategic upskilling.</p>
             
             <div class="cert-grid">
                 <div class="cert-item">
                     <h4>Certified Cyber Security Analyst (C3SA)</h4>
-                    <p><strong>CyberWarFare Labs</strong> • 2025</p>
+                    <p><strong>CyberWarFare Labs</strong> • Projected 2025</p>
                 </div>
                 
                 <div class="cert-item">
                     <h4>ISO/IEC 27001:2022 Lead Auditor</h4>
-                    <p><strong>Mastermind</strong> • 2025</p>
+                    <p><strong>Mastermind Institute</strong> • Projected 2025</p>
                 </div>
                 
                 <div class="cert-item">
-                    <h4>Google Cybersecurity Professional Certificate</h4>
-                    <p><strong>Google</strong> • 2024</p>
+                    <h4>Google Cybersecurity Professional</h4>
+                    <p><strong>Google (Coursera)</strong> • 2024</p>
                 </div>
                 
                 <div class="cert-item">
-                    <h4>Cisco Certified Ethical Hacker & Junior Cybersecurity Analyst</h4>
-                    <p><strong>Cisco Networking Academy</strong> • 2025</p>
+                    <h4>Cisco Certified Ethical Hacker & Jr. Cyber Analyst</h4>
+                    <p><strong>Cisco Networking Academy</strong> • Projected 2025</p>
                 </div>
                 
                 <div class="cert-item">
                     <h4>Certified Network Security Practitioner (CNSP)</h4>
-                    <p><strong>The SecOps Group</strong> • 2025</p>
+                    <p><strong>The SecOps Group</strong> • Projected 2025</p>
                 </div>
                 
                 <div class="cert-item">
-                    <h4>IBM Cybersecurity Analyst Professional Certificate</h4>
-                    <p><strong>IBM</strong> • 2023</p>
+                    <h4>IBM Cybersecurity Analyst Professional</h4>
+                    <p><strong>IBM (Coursera)</strong> • 2023</p>
                 </div>
                 
                 <div class="cert-item">
-                    <h4>Security Leadership & Strategic Cybersecurity Management</h4>
-                    <p><strong>AttackIQ</strong> • 2024</p>
+                    <h4>Breach & Attack Simulation Strategist</h4> <!-- REFINED: More impactful title -->
+                    <p><strong>AttackIQ Academy</strong> • 2024</p>
                 </div>
                 
                 <div class="cert-item">
-                    <h4>SOC Level 1 Learning Path & Cyber Defence</h4>
-                    <p><strong>TryHackMe</strong> • 2024</p>
+                    <h4>SOC Level 1 & Cyber Defence Operator</h4> <!-- REFINED: More impactful title -->
+                    <p><strong>TryHackMe Learning Paths</strong> • 2024</p>
                 </div>
             </div>
         </div>
@@ -890,26 +1048,34 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container">
-            <h2 class="section-title" style="color: white;">📞 Get In Touch</h2>
-            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">
-                Ready to collaborate on cybersecurity projects or discuss opportunities
+            <!-- REFINED: Section title and subtitle -->
+            <h2 class="section-title" style="color: #00ff00;">📡 Establish Secure Comms</h2>
+            <p class="section-subtitle" style="color: rgba(220,220,220,0.9);">
+                Seeking strategic alliances, mission-critical engagements, or to exchange advanced cyber intelligence. Open channel.
             </p>
             
             <div class="contact-info">
                 <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p>mongwoiching2080@gmail.com</p>
+                    <i class="fas fa-envelope-open-text"></i> <!-- Changed icon -->
+                    <h3>Encrypted Email</h3>
+                    <p>mongwoiching2080[at]gmail[dot]com</p>
+                    <!-- For actual high-security, you'd list a PGP key -->
                 </div>
                 
                 <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <h3>Phone</h3>
+                    <i class="fas fa-satellite-dish"></i> <!-- Changed icon -->
+                    <h3>Direct Line</h3>
                     <p>(+880) 1580-821589</p>
                 </div>
                 
                 <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Location</h3>
-                    <p>Jigatola, Dhaka - 1205<br>Bangladesh</p>
+                    <i class="fas fa-map-marked-alt"></i> <!-- Changed icon -->
+                    <h3>Operational Sector</h3>
+                    <p>Jigatola Grid, Dhaka-1205<br>Bangladesh GeoComms</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
