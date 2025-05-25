@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- REFINED: Title reflecting aspiration -->
     <title>Mongwoiching Marma - Aspiring Cybersecurity Professional</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -205,13 +204,14 @@
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 1.2rem;
+            gap: 1rem; /* Adjusted gap for 5 icons */
+            flex-wrap: wrap; /* Allow wrapping if needed */
             margin-top: 1.5rem;
         }
 
         .social-links a {
-            width: 50px;
-            height: 50px;
+            width: 45px; /* Slightly smaller to fit 5 icons better */
+            height: 45px;
             border-radius: 8px;
             background: rgba(0, 0, 0, 0.6);
             border: 1px solid #00cc00;
@@ -219,7 +219,7 @@
             align-items: center;
             justify-content: center;
             color: #00ff00;
-            font-size: 1.3rem;
+            font-size: 1.2rem; /* Adjusted font size */
             transition: all 0.3s ease;
             text-decoration: none;
         }
@@ -529,7 +529,7 @@
         /* Certifications */
         .cert-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust for potentially more text */
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -557,14 +557,21 @@
         .cert-item h4 {
             color: #00ff00;
             margin-bottom: 0.5rem;
-            font-size: 1.15rem;
+            font-size: 1.1rem; /* Slightly smaller if text is long */
         }
         .cert-item p {
             color: #b0b0b0;
             font-size: 0.9rem;
+            line-height: 1.5;
         }
         .cert-item p strong {
             color: #d0d0d0;
+        }
+        .cert-item small {
+            font-size: 0.8rem;
+            color: #888;
+            display: block;
+            margin-top: 0.3rem;
         }
 
 
@@ -669,6 +676,8 @@
 
             .section-title { font-size: 2.2rem; }
             .section-subtitle { font-size: 1rem; }
+            .social-links { gap: 0.8rem; } /* Adjust gap for smaller screens if icons are tight */
+            .social-links a { width: 40px; height: 40px; font-size: 1.1rem; }
         }
 
         /* Animations */
@@ -707,7 +716,6 @@
     <header class="header">
         <nav class="nav container">
             <a href="#home" class="logo">MM</></a>
-            <!-- REFINED: Nav links for current status -->
             <ul class="nav-links">
                 <li><a href="#home">Start</a></li>
                 <li><a href="#skills">Skillset</a></li>
@@ -724,16 +732,13 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="fade-in-up">Mongwoiching Marma</h1>
-                    <!-- REFINED: Subtitle for enthusiast/aspiring role -->
                     <p class="subtitle fade-in-up">Cybersecurity Enthusiast & Aspiring Penetration Tester</p>
-                    <!-- REFINED: Hero text focusing on passion and learning -->
                     <p class="fade-in-up">
                         Driven by a passion for cybersecurity, I am actively developing skills in penetration testing, vulnerability assessment, and defensive security practices. Eager to contribute to protecting digital environments and continuously learning to master the art of ethical hacking and cyber defense.
                         <br><br>
                         <strong>Aspiration:</strong> To become a proficient penetration tester, applying offensive security knowledge to identify and mitigate vulnerabilities, and to contribute positively to the cybersecurity community through continuous learning and ethical practices.
                     </p>
                     <div class="cta-buttons fade-in-up">
-                        <!-- REFINED: Button text to reflect current status -->
                         <a href="#projects" class="btn btn-primary">
                             <i class="fas fa-flask"></i> View My Projects
                         </a>
@@ -745,17 +750,17 @@
                 <div class="hero-visual">
                     <div class="profile-card floating">
                         <div class="profile-image">
-                            <!-- REFINED: Icon suitable for enthusiast/learner -->
                             <i class="fas fa-user-graduate"></i>
                         </div>
-                        <!-- REFINED: Title on card -->
                         <h3 style="color: #00ff00; margin-bottom: 0.5rem; font-size:1.4rem;">Aspiring Pentester</h3>
                         <p style="color: rgba(0,255,0,0.9); font-size: 0.9rem;">Dhaka, Bangladesh</p>
                         <div class="social-links">
-                            <a href="https://github.com/ZeroHack01" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
-                            <a href="https://linkedin.com/in/mongwoiching-marma" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://medium.com/@mongwoiching" target="_blank" title="Medium Articles"><i class="fab fa-medium"></i></a>
-                            <a href="https://tryhackme.com/p/zerehack01" target="_blank" title="TryHackMe Profile"><i class="fas fa-terminal"></i></a>
+                            <!-- UPDATED SOCIAL LINKS -->
+                            <a href="https://github.com/ZeroHack01" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://bd.linkedin.com/in/mongwoi" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://medium.com/@NextGencyber" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+                            <a href="https://tryhackme.com/p/Mongwoiching" target="_blank" title="TryHackMe"><i class="fas fa-terminal"></i></a>
+                            <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" title="Credly"><i class="fas fa-certificate"></i></a> <!-- Using a certificate icon for Credly -->
                         </div>
                     </div>
                 </div>
@@ -766,13 +771,11 @@
     <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
-            <!-- REFINED: Section title and subtitle for current status -->
             <h2 class="section-title">💡 Core Skills & Developing Expertise</h2>
             <p class="section-subtitle">Building a strong foundation in offensive and defensive cybersecurity principles and tools.</p>
             
             <div class="skills-grid">
                 <div class="skill-category">
-                    <!-- REFINED: Category reflects learning/application -->
                     <h3><i class="fas fa-search-plus"></i> Offensive Security Concepts</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Penetration Testing (Learning)</span>
@@ -781,6 +784,7 @@
                         <span class="skill-tag">Web Application Security Basics</span>
                         <span class="skill-tag">Network Reconnaissance</span>
                         <span class="skill-tag">Social Engineering Awareness</span>
+                        <span class="skill-tag">OSINT</span>
                     </div>
                 </div>
                 
@@ -791,31 +795,34 @@
                         <span class="skill-tag">SIEM Tools (Familiarity)</span>
                         <span class="skill-tag">Incident Response Basics</span>
                         <span class="skill-tag">Network Security Fundamentals</span>
-                        <span class="skill-tag">Endpoint Detection (Conceptual)</span>
-                        <span class="skill-tag">Risk Identification</span>
+                        <span class="skill-tag">Endpoint Detection (OpenEDR)</span>
+                        <span class="skill-tag">Risk Identification & Management</span>
+                        <span class="skill-tag">Cyber Threat Hunting (Intro)</span>
                     </div>
                 </div>
                 
                 <div class="skill-category">
                     <h3><i class="fas fa-code"></i> Technical & Programming Skills</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Python (Scripting)</span>
+                        <span class="skill-tag">Python (Scripting, Data Science Basics)</span>
                         <span class="skill-tag">Bash & PowerShell (Basics)</span>
-                        <span class="skill-tag">SQL Fundamentals</span>
-                        <span class="skill-tag">Data Analysis (Introductory)</span>
-                        <span class="skill-tag">Automation Concepts</span>
+                        <span class="skill-tag">SQL Fundamentals (Incl. Injection Aware)</span>
+                        <span class="skill-tag">Linux Administration</span>
+                        <span class="skill-tag">Computer Networking</span>
+                        <span class="skill-tag">Cloud (OCI AI Foundations)</span>
                     </div>
                 </div>
                 
                 <div class="skill-category">
                      <h3><i class="fas fa-tools"></i> Security Tools Familiarity</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Nmap</span>
-                        <span class="skill-tag">Wireshark</span>
-                        <span class="skill-tag">Metasploit (Introductory)</span>
+                        <span class="skill-tag">Nmap, Wireshark, Metasploit</span>
                         <span class="skill-tag">Burp Suite (Community)</span>
                         <span class="skill-tag">Splunk/QRadar (Exposure)</span>
-                        <span class="skill-tag">OpenEDR (Exploration)</span>
+                        <span class="skill-tag">Qualys VM</span>
+                        <span class="skill-tag">CVSS Scoring</span>
+                        <span class="skill-tag">SecurityScorecard</span>
+                        <span class="skill-tag">Various AttackIQ Modules</span>
                     </div>
                 </div>
             </div>
@@ -825,7 +832,6 @@
     <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
-            <!-- REFINED: Section title and subtitle -->
             <h2 class="section-title">📈 Practical Experience & Internships</h2>
             <p class="section-subtitle">Applying learned concepts and gaining hands-on experience in real-world and simulated environments.</p>
             
@@ -833,9 +839,8 @@
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <div class="timeline-date">Q1 2025 - Active</div>
-                        <h3>Cybersecurity Intern</h3> <!-- REFINED: Title -->
+                        <h3>Cybersecurity Intern</h3>
                         <h4>Code Alpha - Global Remote Operations</h4>
-                        <!-- REFINED: Description reflecting intern role -->
                         <p>Actively participating in security testing and vulnerability assessments for network and web applications under supervision. Gaining experience in penetration testing methodologies, security analysis, and risk mitigation techniques. Assisting in identifying and reporting security flaws to contribute to system defense improvements.</p>
                     </div>
                 </div>
@@ -845,17 +850,15 @@
                         <div class="timeline-date">June 2021 - December 2022</div>
                         <h3>Computer Stitching Machine Programming Support Technician</h3>
                         <h4>Maf Shoes Limited - On-Site Industrial Complex</h4>
-                        <!-- REFINED: Keep impactful metrics, but focus on support role -->
                         <p>Provided technical support for programmable stitching machines, diagnosing and resolving hardware/software issues to minimize downtime (achieving ~30% reduction). Performed routine maintenance and collaborated with production teams to support operational efficiency and workflow optimization.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">Q2 2022</div>
+                        <div class="timeline-date">May 2022 - July 2022</div> <!-- Date corrected from previous -->
                         <h3>Administrative Assistant Intern</h3>
                         <h4>GAO Tek Inc. - Remote HQ</h4>
-                        <!-- REFINED: Focus on tasks and learning -->
                         <p>Supported business operations by managing communications, email workflows, and CRM system data entry. Assisted with data analysis tasks and digital marketing support. Gained exposure to cybersecurity and threat management discussions related to data protection.</p>
                     </div>
                 </div>
@@ -866,7 +869,6 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
-            <!-- REFINED: Section title and subtitle for enthusiast/learner -->
             <h2 class="section-title">🚀 Learning Projects & Explorations</h2>
             <p class="section-subtitle">A collection of personal projects and tools developed to practice and explore cybersecurity concepts.</p>
             
@@ -876,7 +878,6 @@
                         <h3><i class="fas fa-shield-alt"></i> CodeGuard - Secure Code Scanner</h3>
                     </div>
                     <div class="project-content">
-                        <!-- REFINED: Project description to reflect learning and exploration -->
                         <p>A Python-based tool developed to explore static code analysis techniques for identifying common security vulnerabilities and code smells in various programming languages. Focuses on real-time scanning concepts and basic vulnerability reporting.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
@@ -885,7 +886,6 @@
                             <span class="tech-tag">Vulnerability Detection</span>
                         </div>
                     </div>
-                    <!-- REFINED: Button text -->
                     <a href="https://github.com/ZeroHack01/CodeGuard" target="_blank" class="btn btn-primary">
                         <i class="fab fa-github"></i> View on GitHub
                     </a>
@@ -987,50 +987,230 @@
     <!-- Certifications Section -->
     <section class="section">
         <div class="container">
-            <!-- REFINED: Section title and subtitle focusing on learning journey -->
             <h2 class="section-title">🏆 Certifications & Ongoing Training</h2>
-            <p class="section-subtitle">Demonstrating a commitment to continuous learning and professional development in the cybersecurity field.</p>
+            <p class="section-subtitle">Demonstrating a commitment to continuous learning and professional development in the cybersecurity field. (Selected Highlights - Full list on <a href="https://www.credly.com/users/mongwoiching-marma" target="_blank" style="color: #00ff00;">Credly</a>)</p>
             
             <div class="cert-grid">
+                <!-- SELECTED CERTIFICATIONS - UPDATED -->
+                <div class="cert-item">
+                    <h4>Cisco CyberOps Associate</h4>
+                    <p><strong>Cisco Networking Academy</strong> • Expected May 2025</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Critical Infrastructure Protection</h4>
+                    <p><strong>OPSWAT Academy</strong> • Expected May 2025 (Expires May 2026)</p>
+                </div>
+                <div class="cert-item">
+                    <h4>ISO/IEC 27001:2022 Lead Auditor</h4>
+                    <p><strong>Mastermind</strong> • Expected May 2025 (Expires May 2028)</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate</h4>
+                    <p><strong>Oracle</strong> • Expected Feb 2025</p>
+                </div>
                 <div class="cert-item">
                     <h4>Certified Cyber Security Analyst (C3SA)</h4>
-                    <p><strong>CyberWarFare Labs</strong> • Expected 2025</p>
+                    <p><strong>CyberWarFare Labs</strong> • Expected Jan 2025</p>
                 </div>
-                
                 <div class="cert-item">
-                    <h4>ISO/IEC 27001:2022 Lead Auditor Training</h4>
-                    <p><strong>Mastermind</strong> • Expected 2025</p>
+                    <h4>Certified Network Security Practitioner (CNSP)</h4>
+                    <p><strong>The SecOps Group</strong> • Expected Jan 2025<br><small>Credential ID: 9581888</small></p>
                 </div>
-                
+                <div class="cert-item">
+                    <h4>Cisco Certified Ethical Hacker</h4>
+                    <p><strong>Cisco Networking Academy</strong> • Expected Jan 2025</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Junior Cybersecurity Analyst</h4> <!-- Corrected spelling -->
+                    <p><strong>Cisco Networking Academy</strong> • Expected Jan 2025</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Foundationals OpenEDR Certified</h4>
+                    <p><strong>Xcitium</strong> • Completed Oct 2024</p>
+                </div>
+                <div class="cert-item">
+                    <h4>SOC Level 1 Learning Path</h4>
+                    <p><strong>TryHackMe</strong> • Completed May 2024</p>
+                </div>
                 <div class="cert-item">
                     <h4>Google Cybersecurity Professional Certificate</h4>
-                    <p><strong>Google (Coursera)</strong> • Completed 2024</p>
+                    <p><strong>Google</strong> • Completed Apr 2024</p>
                 </div>
-                
                 <div class="cert-item">
-                    <h4>Cisco Ethical Hacker & Junior Cybersecurity Analyst Training</h4>
-                    <p><strong>Cisco Networking Academy</strong> • Expected 2025</p>
+                    <h4>Cyber Defence Learning Path</h4>
+                    <p><strong>TryHackMe</strong> • Completed Oct 2023<br><small>Credential ID: THM-V3WGNGGSRH</small></p>
                 </div>
-                
-                <div class="cert-item">
-                    <h4>Certified Network Security Practitioner (CNSP) Training</h4>
-                    <p><strong>The SecOps Group</strong> • Expected 2025</p>
-                </div>
-                
                 <div class="cert-item">
                     <h4>IBM Cybersecurity Analyst Professional Certificate</h4>
-                    <p><strong>IBM (Coursera)</strong> • Completed 2023</p>
+                    <p><strong>IBM</strong> • Completed Apr 2023</p>
                 </div>
-                
                 <div class="cert-item">
-                    <h4>Security Leadership & Strategic Cybersecurity Management (Intro)</h4> <!-- Adjusted title -->
-                    <p><strong>AttackIQ Academy</strong> • Completed 2024</p>
+                    <h4>Ethical Hacking Essentials (EHE)</h4>
+                    <p><strong>EC-Council</strong> • Completed Nov 2022<br><small>Credential ID: 6383264273645</small></p>
                 </div>
-                
+                 <div class="cert-item">
+                    <h4>Official (ISC)² Certified in Cybersecurity (CC) Training</h4>
+                    <p><strong>ISC2</strong> • Completed Dec 2022</p>
+                </div>
+
+                <!-- 
+                    USER: The following are additional certifications you listed.
+                    You can uncomment them and add them to the grid above if you wish to display more.
+                    For a cleaner look, I've kept the main display to a curated list.
+                -->
+                <!--
                 <div class="cert-item">
-                    <h4>SOC Level 1 Learning Path & Cyber Defence Fundamentals</h4> <!-- Adjusted title -->
-                    <p><strong>TryHackMe</strong> • Completed 2024</p>
+                    <h4>Security Leadership</h4>
+                    <p><strong>AttackIQ</strong> • Completed Sep 2024</p>
                 </div>
+                <div class="cert-item">
+                    <h4>Secure Digital Transformation - Best Practices and Strategies</h4>
+                    <p><strong>AttackIQ</strong> • Completed Sep 2024</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cybersecurity Engineer Learning Path</h4>
+                    <p><strong>TryHackMe</strong> • Completed Sep 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Google IT Support Certificate</h4>
+                    <p><strong>Google</strong> • Completed Aug 2023<br><small>Credential ID: <a href="https://coursera.org/share/5a2cbe9ea4354161f46f0c1ebebb3372" target="_blank" style="color: #888;">View</a></small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Open Source Intelligence (OSINT)</h4>
+                    <p><strong>Basel Institute on Governance</strong> • Completed Jun 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Strategic Cybersecurity Management</h4>
+                    <p><strong>AttackIQ</strong> • Completed Jun 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Certified Information Systems Security Professional (CISSP) Training</h4>
+                    <p><strong>Simplilearn</strong> • Completed Apr 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cyber Threat Hunting Training Level 1</h4>
+                    <p><strong>Active Countermeasures</strong> • Completed Mar 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>ISO/IEC 20000 IT Service Management Associate™</h4>
+                    <p><strong>SkillFront</strong> • Completed Mar 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Gamified Intelligent Cyber Aptitude and Skills Training (GICAST)</h4>
+                    <p><strong>The Open University</strong> • Completed Feb 2023<br><small>Credential ID: CyberB2</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Mastering Common Vulnerability Scoring System (CVSS) 3.1</h4>
+                    <p><strong>FIRST</strong> • Completed Feb 2023<br><small>Credential ID: 0ef0b27801a849da89e85bd3a2776299</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Vulnerability Management</h4>
+                    <p><strong>Security Blue Team</strong> • Completed Feb 2023<br><small>Credential ID: 336291386</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Automating Third Party Risk Management with SecurityScorecard</h4>
+                    <p><strong>SecurityScorecard</strong> • Completed Jan 2023<br><small>Credential ID: 5wgh4ukq2po3</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cyber Readiness Program</h4>
+                    <p><strong>Cyber Readiness Institute</strong> • Completed Jan 2023<br><small>Credential ID: hbmul7ovlc</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>OSINT Introduction</h4>
+                    <p><strong>Security Blue Team</strong> • Completed Jan 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Python for Data Science</h4>
+                    <p><strong>IBM</strong> • Completed Jan 2023<br><small>Credential ID: 2c59ab2d94ed4e76bc951ffc425bcf31</small></p>
+                </div>
+                 <div class="cert-item">
+                    <h4>Third Party Risk Management For Government Agencies</h4>
+                    <p><strong>SecurityScorecard</strong> • Completed Jan 2023<br><small>Credential ID: tb9rk754qp8b</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Information Security Associate</h4>
+                    <p><strong>SkillFront</strong> • Completed Dec 2022<br><small>Credential ID: 58632041972815</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Blockchain and The Internet of Things</h4>
+                    <p><strong>Cisco thingQbator - IIT (BHU)</strong> • Completed Nov 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>SQL Injection Attack an Ethical Hacking</h4>
+                    <p><strong>EC-Council</strong> • Completed Nov 2022<br><small>Credential ID: 3683264272644</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Future Generation Leadership Accelerator</h4>
+                    <p><strong>Foundations for Tomorrow.org</strong> • Completed Nov 2022<br><small>Credential ID: pvbjehndj2</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>(ISC)² Candidate</h4>
+                    <p><strong>ISC2</strong> • Joined Oct 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Vulnerability Management Training and Certification Program</h4>
+                    <p><strong>Qualys</strong> • Completed Oct 2022<br><small>Credential ID: VMSP80</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Diploma in Computer Science</h4>
+                    <p><strong>Department of Youth Development</strong> • Completed Aug 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Introduction To IT & Cybersecurity</h4>
+                    <p><strong>Cybrary</strong> • Completed May 2022<br><small>Credential ID: CC-8a80c857-26f7-4c37-b662-954562a32aa7</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Network Security Awareness</h4>
+                    <p><strong>Fortinet</strong> • Completed May 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cyber Leader Certification Program</h4>
+                    <p><strong>Cyber Readiness Institute</strong> • Completed Apr 2022<br><small>Credential ID: g5tcidgxnk</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cyber Security Global Virtual Internship</h4>
+                    <p><strong>Clifford Chance</strong> • Completed Apr 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Cybersecurity Virtual Internship Program</h4>
+                    <p><strong>SAP</strong> • Completed Apr 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Information Security</h4>
+                    <p><strong>Great Learning</strong> • Completed Apr 2022</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Introduction to Cybersecurity</h4>
+                    <p><strong>Cisco</strong> • Completed Mar 2022</p>
+                </div>
+                 <div class="cert-item">
+                    <h4>ESL004: Advanced English as a Second Language</h4>
+                    <p><strong>Saylor Academy</strong> • Completed Jan 2023<br><small>Credential ID: 4810054146MM</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>ESL005: Business-Proficient English as a Second Language</h4>
+                    <p><strong>Saylor Academy</strong> • Completed Jan 2023<br><small>Credential ID: 4383514946MM</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Collaborative Working In A Remote Team</h4>
+                    <p><strong>Institute of Coding</strong> • Completed Feb 2022<br><small>Credential ID: psyu8t5</small></p>
+                </div>
+                 <div class="cert-item">
+                    <h4>Firefighter Training</h4>
+                    <p><strong>Alison</strong> • Completed Feb 2022<br><small>Credential ID: 4415-16945414</small></p>
+                </div>
+                <div class="cert-item">
+                    <h4>Big data analysis: Opportunitie, Challenge and the Future</h4>
+                    <p><strong>Griffith University</strong> • Completed May 2020<br><small>Credential ID: av1l224</small></p>
+                </div>
+                -->
+                <!-- Expired Certs - generally not displayed unless highly significant and recent
+                <div class="cert-item">
+                    <h4>One Trust Privacy Professional Certified</h4>
+                    <p><strong>OneTrust</strong> • Issued Jul 2023 (Expired Jul 2024)</p>
+                </div>
+                ... and other expired OPSWAT certs ...
+                -->
             </div>
         </div>
     </section>
@@ -1039,7 +1219,6 @@
     <section id="contact" class="contact section">
         <div class="container">
             <h2 class="section-title" style="color: #00ff00;">📞 Let's Connect!</h2>
-            <!-- REFINED: Subtitle for enthusiast/aspiring role -->
             <p class="section-subtitle" style="color: rgba(220,220,220,0.9);">
                 Eager to discuss cybersecurity, collaborate on learning projects, or explore entry-level opportunities in penetration testing.
             </p>
@@ -1052,7 +1231,7 @@
                 </div>
                 
                 <div class="contact-item">
-                    <i class="fas fa-phone-alt"></i> <!-- Changed icon -->
+                    <i class="fas fa-phone-alt"></i>
                     <h3>Phone</h3>
                     <p>(+880) 1580-821589</p>
                 </div>
