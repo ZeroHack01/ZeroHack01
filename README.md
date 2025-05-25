@@ -112,7 +112,6 @@ I'm someone who's always been fascinated by the world of cybersecurity. The thri
 </p>
 
 ---
-
 ## 💻 Top Languages
 
 <div align="center">
