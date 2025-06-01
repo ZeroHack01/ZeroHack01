@@ -27,7 +27,6 @@
 <p style="color:#90EE90; text-align:center; max-width: 800px; margin: 0 auto 20px auto;">
 I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. Red teaming and adversarial simulations are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
 </p>
-
 ---
 <h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">⚔️ Core Arsenal & Toolbox ⚔️</h2>
 
