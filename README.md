@@ -49,7 +49,10 @@ class EthicalHacker:
         self.username = "ZeroHack01"
         self.role = ["Aspiring Pentester", "Security Researcher", "Digital Locksmith"]
         self.motto = "Break it, Learn it, Secure it"
-        self.current_focus = ["Web App Pentesting", "Active Directory Attacks", "Buffer Overflows"]
+        self.current_focus = ["Web App Pentesting", "Active Directory Attacks", "API Security", "Cloud Security"]
+        self.certifications_completed = 15  # Because skills > papers
+        self.coffee_consumed = float('inf')
+        self.bugs_found = "Increasing daily"
         
     def whoami(self):
         return """
@@ -120,11 +123,11 @@ print(me.whoami())
 
 <div align="center">
   
-| 🎖️ **BADGES** | 🎯 **STATUS** | 📈 **PROGRESS** |
-|:-------------:|:-------------:|:---------------:|
-| ![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Mongwoiching.png) | **ACTIVE** | ████████░░ 80% |
-| ![HackTheBox](https://www.hackthebox.com/badge/image/123456) | **GRINDING** | ██████░░░░ 60% |
-| ![PentesterLab](https://img.shields.io/badge/PentesterLab-Pro-FFD700?style=for-the-badge) | **LEARNING** | █████░░░░░ 50% |
+| 🎖️ **PLATFORM** | 🎯 **STATUS** | 📈 **PROGRESS** |
+|:---------------:|:-------------:|:---------------:|
+| ![TryHackMe](https://img.shields.io/badge/TryHackMe-5_Paths_Completed-88CC00?style=for-the-badge&logo=tryhackme&logoColor=white) | **ACTIVE** | ████████░░ 80% |
+| ![Coursera](https://img.shields.io/badge/Coursera-Google_&_IBM_Certified-0056D2?style=for-the-badge&logo=coursera&logoColor=white) | **COMPLETED** | ██████████ 100% |
+| ![TCM](https://img.shields.io/badge/TCM_Security-PEH_Graduate-FF6B6B?style=for-the-badge&logo=tcm&logoColor=white) | **MASTERED** | ██████████ 100% |
 
 </div>
 
@@ -145,23 +148,74 @@ print(me.whoami())
 </div>
 
 <!-- LEARNING PATH VISUALIZATION -->
-<h2 align="center">🎯 CERTIFICATION.ROADMAP.INIT() 🎯</h2>
+<h2 align="center">🎓 KNOWLEDGE.STACK.OVERFLOW() 🎓</h2>
 
-```mermaid
-graph LR
-    A[CompTIA Security+] -->|Completed| B[eJPT]
-    B -->|In Progress| C[eCPPT]
-    C -->|Next Goal| D[OSCP]
-    D -->|Future| E[OSEP]
-    E -->|Ultimate| F[OSEE]
-    
-    style A fill:#00ff00,stroke:#fff,stroke-width:2px
-    style B fill:#ffff00,stroke:#fff,stroke-width:2px
-    style C fill:#ff6600,stroke:#fff,stroke-width:2px
-    style D fill:#ff0000,stroke:#fff,stroke-width:2px
-    style E fill:#ff0066,stroke:#fff,stroke-width:2px
-    style F fill:#9900ff,stroke:#fff,stroke-width:2px
-```
+<div align="center">
+  <blockquote>
+    <p><b>"Certifications are just papers. Real hackers are defined by their skills, curiosity, and impact."</b></p>
+  </blockquote>
+</div>
+
+<details>
+<summary><b>📚 Click to expand my learning journey...</b></summary>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>🔐 Security Fundamentals</b></td>
+    <td align="center"><b>🎯 Offensive Security</b></td>
+    <td align="center"><b>🛡️ Defensive Security</b></td>
+  </tr>
+  <tr>
+    <td>
+      • Google Cybersecurity Certificate<br>
+      • IBM Security Analyst<br>
+      • Google IT Support Professional<br>
+      • Cisco Junior Cybersecurity Analyst<br>
+      • SecOps Group CNSP
+    </td>
+    <td>
+      • TCM Security PEH<br>
+      • TryHackMe Jr. Pentester<br>
+      • Web Application Pentester<br>
+      • API Pentesting (API University)<br>
+      • Cisco Ethical Hacking
+    </td>
+    <td>
+      • TryHackMe Cyber Defense<br>
+      • SOC Level 1<br>
+      • Cisco Cyber Threat Management<br>
+      • AttackIQ Security Leadership<br>
+      • Open University Network Security
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <h4>🎯 Currently Pursuing:</h4>
+  <img src="https://img.shields.io/badge/CompTIA_Security+-Target_2025-FF0000?style=for-the-badge&logo=comptia&logoColor=white">
+  <img src="https://img.shields.io/badge/eCPTS-Future_Goal-FF6600?style=for-the-badge&logo=elearnsecurity&logoColor=white">
+  <img src="https://img.shields.io/badge/OSCP-Ultimate_Goal-FFD700?style=for-the-badge&logo=offensive-security&logoColor=black">
+</div>
+
+</details>
+
+<!-- PORTFOLIO SHOWCASE -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" width="50">
+  PORTFOLIO.REDIRECT()
+  <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" width="50">
+</h2>
+
+<div align="center">
+  <a href="https://zerohack01.github.io/ZeroHack01/">
+    <img src="https://img.shields.io/badge/🌐_View_My_Portfolio-00FF00?style=for-the-badge&labelColor=000000" alt="Portfolio">
+  </a>
+  <br><br>
+  <img src="https://img.shields.io/badge/Projects-10+-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/Write_Ups-25+-FF0000?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/Tools_Built-5+-0080FF?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/CVEs_Found-Loading...-FF6600?style=flat-square&labelColor=000000">
+</div>
 
 <!-- CONNECT SECTION WITH CYBERPUNK AESTHETIC -->
 <h2 align="center">
