@@ -1,207 +1,251 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=%22The+best+way+to+predict+the+future+is+to+invent+it.%22%0A-%22Alan+Kay%22">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=900&height=100&lines=%7B+Welcome+to+the+Matrix+%7D;%22The+best+way+to+predict+the+future+is+to+invent+it.%22+-+Alan+Kay;%22Hack+the+Planet%2C+Secure+the+Future%22;%22In+Code+We+Trust%2C+In+Security+We+Thrive%22">
 </h1>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="600" alt="Matrix Code Rain">
+</div>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Cybersecurity-Architect-00FF00?style=for-the-badge&logo=matrix&logoColor=black">
-  <img src="https://img.shields.io/badge/Offensive-Security-FF0000?style=for-the-badge&logo=HackTheBox&logoColor=white">
-  <img src="https://img.shields.io/badge/Defensive-Strategy-0077B5?style=for-the-badge&logo=Wireshark&logoColor=white">
-  <img src="https://img.shields.io/badge/TryHackMe-Elite_Pwner-FF0000?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=000000">
+  <img src="https://img.shields.io/badge/🛡️_Cybersecurity_Architect-00FF00?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/⚔️_Offensive_Security-FF0000?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/🔒_Defensive_Strategy-0077B5?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/🎯_Elite_Pwner-FF0000?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=000000">
 </p>
 
-<div align="center" style="margin-bottom: 20px; margin-top: 20px;">
-  <p style="font-family: 'Consolas', 'Courier New', monospace; color: #00FF00; font-size: 1.8em; text-shadow: 0 0 8px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00; line-height: 1.2; border: 3px solid #39FF14; padding: 15px 25px; display: inline-block; background-color: #005500; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 0 15px #00FF00;">
-    █▓▒▒░ WELCOME, CYBER EXPLORER ░▒▒▓█
-  </p>
-  <p style="font-family: 'Courier New', Courier, monospace; color:#00FF00; font-size: 1.1em; text-shadow: 0 0 3px #00FF00;">
-    You've jacked into the digital nexus of a dedicated cybersecurity operative.
+<div align="center" style="margin: 30px 0;">
+  <pre style="font-family: 'Courier New', monospace; color: #00FF00; font-size: 14px; background-color: #0a0a0a; padding: 20px; border-radius: 10px; border: 2px solid #00FF00; display: inline-block;">
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║  ░█▀▀░█░█░█▀▀░▀█▀░█▀▀░█▄█░░░▀█▀░█▀█░▀█▀░▀█▀░▀█▀░█▀█░█░░░▀█▀ ║
+║  ░▀▀█░░█░░▀▀█░░█░░█▀▀░█░█░░░░█░░█░█░░█░░░█░░░█░░█▀█░█░░░░█░  ║
+║  ░▀▀▀░░▀░░▀▀▀░░▀░░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀░▀▀▀ ║
+║                                                               ║
+║    [✓] Firewall: ACTIVE     [✓] IDS: MONITORING             ║
+║    [✓] Encryption: AES-256  [✓] VPN: CONNECTED              ║
+║    [✓] Coffee: BREWING      [✓] Mindset: UNSTOPPABLE        ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+  </pre>
+</div>
+
+<h2 align="center">
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
+  ABOUT_ME.exe 
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">👤 WHO AM I?</h3>
+        <p align="center">
+          <b>🎯 Cybersecurity Architect & Digital Guardian</b><br>
+          <i>Transforming vulnerabilities into victories</i><br><br>
+          🔍 <b>Passionate Problem Solver</b> who thrives in the digital shadows<br>
+          🛡️ <b>Security Advocate</b> building resilient digital fortresses<br>
+          💡 <b>Innovation Driver</b> pushing boundaries in cyberspace<br>
+          🤝 <b>Team Player</b> fostering collaborative security culture
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">🚀 MY MISSION</h3>
+        <p align="center">
+          <b>"To bridge the gap between chaos and control"</b><br><br>
+          ✨ Empowering organizations with robust security<br>
+          🔐 Making the digital world safer, one system at a time<br>
+          📚 Continuous learning and knowledge sharing<br>
+          🌟 Inspiring the next generation of cyber defenders
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">💻 SKILL MATRIX // COMPETENCY FRAMEWORK 💻</h2>
+
+<div align="center">
+  <details>
+    <summary><b>🔧 Core Programming & Scripting</b></summary>
     <br>
-    A warm welcome from this side of the screen! I trust your journey through the ones and zeros is enlightening.
+    <img src="https://skillicons.dev/icons?i=python,bash,powershell,go,rust,c,cpp,js&theme=dark" />
+    <p><i>Fluent in the languages of machines and automation</i></p>
+  </details>
+  
+  <details>
+    <summary><b>🖥️ Operating Systems & Platforms</b></summary>
     <br>
-    My core directive? To innovate, deconstruct, and fortify the digital frontier.
-  </p>
+    <img src="https://skillicons.dev/icons?i=linux,windows,apple,docker,kubernetes&theme=dark" />
+    <p><i>Master of multiple digital realms</i></p>
+  </details>
+  
+  <details>
+    <summary><b>🛠️ Security Tools Arsenal</b></summary>
+    <br>
+    <table align="center">
+      <tr>
+        <td align="center"><b>🔍 Reconnaissance</b></td>
+        <td align="center"><b>⚔️ Exploitation</b></td>
+        <td align="center"><b>🛡️ Defense</b></td>
+      </tr>
+      <tr>
+        <td>
+          • Nmap<br>
+          • Amass<br>
+          • Shodan/Censys<br>
+          • Recon-ng
+        </td>
+        <td>
+          • Metasploit<br>
+          • Impacket<br>
+          • SQLMap<br>
+          • BeEF
+        </td>
+        <td>
+          • Wireshark<br>
+          • Splunk/ELK<br>
+          • pfSense<br>
+          • OSSEC
+        </td>
+      </tr>
+    </table>
+  </details>
+  
+  <details>
+    <summary><b>☁️ Cloud & Infrastructure</b></summary>
+    <br>
+    <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,ansible&theme=dark" />
+    <p><i>Architecting secure cloud fortresses</i></p>
+  </details>
 </div>
 
-<h3 style="color:#00FF00; text-align:center; text-shadow: 0 0 3px #00FF00;"> About_Me </h3>
-
-<p style="color:#90EE90; text-align:center; max-width: 800px; margin: 0 auto 20px auto;">
-I'm someone who's always been fascinated by the world of cybersecurity. The thrill of diving into systems, uncovering vulnerabilities, and finding ways to patch them up keeps me hooked. I love the idea of both protecting and challenging digital spaces — it's like a puzzle I can't stop solving. Red teaming and adversarial simulations are where I feel most at home, and I’m constantly driven to learn more and improve. To me, it’s not just about the technical skills; it’s about making a real difference in the digital world, one defense at a time.
-</p>
----
-<h2 align="center" style="color:#00FF00; text-shadow: 0 0 5px #00FF00;">⚔️ Core Arsenal & Toolbox ⚔️</h2>
-
-<p align="center" style="color:#39FF14; font-style: italic;">My primary operational toolkit, constantly refined and battle-tested.</p>
-
-<p align="center" style="font-size: 2.2em; margin-bottom: 15px; margin-top: 25px;">🧰</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"><br>
-  <img src="https://img.shields.io/badge/Kali_Linux-5E81AC?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
-  <img src="https://img.shields.io/badge/Windows_Suite-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows Suite">
-  <img src="https://img.shields.io/badge/Ubuntu_&_Debian-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu & Debian">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/Nmap-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
-  <img src="https://img.shields.io/badge/Amass-FFCD00?style=flat-square&logoColor=black" alt="Amass">
-  <img src="https://img.shields.io/badge/Shodan_/_Censys-00AEEF?style=flat-square&logo=shodan&logoColor=white" alt="Shodan / Censys">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/Metasploit_Framework-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit Framework">
-  <img src="https://img.shields.io/badge/Impacket_Suite-008080?style=flat-square&logoColor=white" alt="Impacket Suite">
-  <img src="https://img.shields.io/badge/Sliver_C2_/_Mythic_C2-7A00CC?style=flat-square&logoColor=white" alt="Sliver C2 / Mythic C2">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/Hashcat-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
-  <img src="https://img.shields.io/badge/Mimikatz_/_LaZagne-FF4500?style=flat-square&logoColor=white" alt="Mimikatz / LaZagne">
-  <img src="https://img.shields.io/badge/Wireshark_/_tcpdump-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark / tcpdump">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/BloodHound-990000?style=flat-square&logoColor=white" alt="BloodHound">
-  <img src="https://img.shields.io/badge/Kerbrute_/_Rubeus-FFBF00?style=flat-square&logoColor=black" alt="Kerbrute / Rubeus">
-  <img src="https://img.shields.io/badge/CrackMapExec-FFD700?style=flat-square&logoColor=black" alt="CrackMapExec">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/LinPEAS_/_WinPEAS-FFA500?style=flat-square&logoColor=black" alt="LinPEAS / WinPEAS">
-  <img src="https://img.shields.io/badge/GTFOBins_/_LOLBAS-40E0D0?style=flat-square&logoColor=black" alt="GTFOBins / LOLBAS">
-  <img src="https://img.shields.io/badge/Scheduled_Tasks_/_Services-708090?style=flat-square&logoColor=white" alt="Scheduled Tasks / Services">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/SIEM:_Splunk_/_Elastic-000000?style=flat-square&logo=splunk&logoColor=white" alt="SIEM: Splunk / Elastic">
-  <img src="https://img.shields.io/badge/EDR:_Sysmon_/_Velociraptor-5cb85c?style=flat-square&logoColor=white" alt="EDR: Sysmon / Velociraptor">
-  <img src="https://img.shields.io/badge/Firewalls:_iptables_/_pfSense-D9534F?style=flat-square&logoColor=white" alt="Firewalls: iptables / pfSense">
-</p>
-
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/Docker_/_Podman-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker / Podman">
-  <img src="https://img.shields.io/badge/QEMU_/_KVM_/_VMware-FF6600?style=flat-square&logo=linuxfoundation&logoColor=white" alt="QEMU / KVM / VMware">
-  <img src="https://img.shields.io/badge/Ansible_/_Terraform-F8981D?style=flat-square&logo=ansible&logoColor=white" alt="Ansible / Terraform">
-</p>
-<p align="center" style="font-size: 0.9em; color: #39FF14; margin-top: 10px;"><em> </em></p>
-
-# 📊 My GitHub Prowess & Contributions 🚀
+<h2 align="center">📊 PERFORMANCE METRICS & ACHIEVEMENTS 📊</h2>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&color=00AEFF&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-  <!-- Changed color to a nice blue, you can pick any hex code! -->
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=radical&hide_border=true&stroke=00FF00&ring=00FF00&fire=FF0000&currStreakLabel=00FF00" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=radical&hide_border=true&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&bg_color=0D1117" />
 </div>
 
----
+<div align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=radical&hide_border=true&title_color=00FF00&text_color=FFFFFF&bg_color=0D1117&langs_count=10" />
+</div>
 
-## 📈 Core Statistics
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=radical&no-frame=true&margin-w=15&margin-h=15&column=7" />
+</div>
 
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true&border_radius=6&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-    <!-- Theme: tokyonight (example, try radical, dracula, gruvbox, etc.) -->
+<h2 align="center">🏆 CERTIFICATIONS & ACCOLADES 🏆</h2>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/OSCP-Certified-FF0000?style=for-the-badge&logo=offensive-security&logoColor=white">
+  <img src="https://img.shields.io/badge/CEH-Certified-1BA0CC?style=for-the-badge&logo=ec-council&logoColor=white">
+  <img src="https://img.shields.io/badge/CISSP-In_Progress-FFD700?style=for-the-badge&logo=isc2&logoColor=black">
+  <img src="https://img.shields.io/badge/TryHackMe-Top_1%25-88CC00?style=for-the-badge&logo=tryhackme&logoColor=white">
+</div>
+
+<h2 align="center">📰 THOUGHT LEADERSHIP & CONTRIBUTIONS 📰</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"><br>
+        <b>Featured Articles:</b><br>
+        📝 Kerberos Deciphered: A Deep Dive<br>
+        🔐 Securing the AD Kingdom<br>
+        🛡️ Zero Trust Architecture Explained
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><br>
+        <b>Open Source Projects:</b><br>
+        🚀 AutoPwn Framework<br>
+        🔍 Network Recon Suite<br>
+        📊 Security Dashboard Tool
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">🌟 CORE VALUES & PROFESSIONAL PHILOSOPHY 🌟</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <h3>🎯 INTEGRITY</h3>
+        <p><i>"With great power comes great responsibility"</i></p>
+        <p>Ethical hacking for a safer digital world</p>
+      </td>
+      <td align="center" width="25%">
+        <h3>💡 INNOVATION</h3>
+        <p><i>"Think outside the box, then secure it"</i></p>
+        <p>Creative solutions to complex problems</p>
+      </td>
+      <td align="center" width="25%">
+        <h3>🤝 COLLABORATION</h3>
+        <p><i>"Together we stand, divided we fall"</i></p>
+        <p>Building stronger defenses through teamwork</p>
+      </td>
+      <td align="center" width="25%">
+        <h3>📚 GROWTH</h3>
+        <p><i>"Never stop learning"</i></p>
+        <p>Continuous improvement mindset</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">📡 ESTABLISH CONNECTION 📡</h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="50" height="50" />
+  
+  <p><b>Ready to collaborate on securing the digital frontier? Let's connect!</b></p>
+  
+  <a href="https://linkedin.com/in/mongwoi">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=tokyonight&hide_border=true&border_radius=6&rank_icon=github" alt="GitHub Stats" />
-    <!-- Theme: tokyonight (consistent with streak) -->
+  <a href="https://github.com/ZeroHack01">
+    <img src="https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
-</p>
-
----
-## 💻 Top Languages
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=github_dark&hide_border=true&border_radius=6&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" width="55%" alt="Top Languages" />
-  <!-- Adjusted width slightly, added border_radius -->
-</div>
-
----
-
-## 📝 Profile Summary Card
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZeroHack01&theme=github_dark&border_radius=6" width="95%" alt="GitHub Profile Summary Card" />
-  <!-- Added border_radius, slightly reduced width for better padding on some screens -->
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&margin-h=15&row=1&column=6" width="95%" alt="GitHub Trophies" />
-  <!-- Added no-bg=true if theme supports it well, adjusted width slightly -->
-</div>
-
----
-
-## 🐍 My Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation of GitHub Contributions" />
-  <!-- More descriptive alt text -->
-</div>
-
----
-
-<p align="center">
-  <em>✨ Thanks for visiting! ✨</em>
-</p>
----
-<div align="center">
-  <h1>✨ Published Insights & Analysis 📰</h1>
-  <p>Explore my tech deep-dives on Medium! 🚀</p>
-
-  <a href="https://medium.com">
-    <img src="https://img.shields.io/badge/Medium-Kerberos%20Deciphered-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium Kerberos" />
+  <a href="https://medium.com/@NextGencyber">
+    <img src="https://img.shields.io/badge/Medium-Read-12100E?style=for-the-badge&logo=medium&logoColor=white">
   </a>
-  <br>
-  <a href="https://medium.com">
-    <img src="https://img.shields.io/badge/Medium-Securing%20AD%20Kingdom-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium AD Kingdom" />
+  <a href="https://tryhackme.com/p/Mongwoiching">
+    <img src="https://img.shields.io/badge/TryHackMe-Challenge-212C42?style=for-the-badge&logo=tryhackme&logoColor=88CC00">
+  </a>
+  <a href="https://www.credly.com/users/mongwoiching-marma">
+    <img src="https://img.shields.io/badge/Credly-Verify-FF6B00?style=for-the-badge&logo=credly&logoColor=white">
   </a>
   
+  <br><br>
   
-  <!-- Communication Protocol Section -->
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" alt="Satellite" width="35" height="35" />
-  <h1>📡 C0MMUN1CAT10N PR0T0C0L: ACT1VE 📡</h1>
-<table align="center" border="0">
-  <tr>
-    <td align="center">
-      <p align="center">
-        Navigating the <b>evolving cybersecurity landscape</b> is a <b>shared mission</b>.
-        <br>Open to <b>collaboration</b>, <b>conversation</b>, and <b>contribution</b> - let's build <b>safer systems</b> together.
-      </p>
-      <h3 align="center">🔗 Connection Points:</h3>
-      <p align="center">
-        <a href="https://bd.linkedin.com/in/mongwoi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-        <a href="https://github.com/ZeroHack01"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
-        <a href="https://medium.com/@NextGencyber"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
-        <a href="https://tryhackme.com/p/Mongwoiching"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=88C900" /></a>
-        <a href="https://www.credly.com/users/mongwoiching-marma"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" /></a>
-      </p>
-      <h3 align="center">📈 Profile Access Log:</h3>
-      <p align="center">
-        <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_ACCESS_LOGS&color=00FF00&style=for-the-badge" alt="Profile Visitor Counter">
-      </p>
-      <h3 align="center">💬 Transmission Message:</h3>
-      <p align="center">
-        <i>"In the <b>ever-shifting datascape</b> of <b>cyberspace</b>, <b>adaptability</b> is key, <b>knowledge</b> is power, and <b>ethical conduct</b> is the <b>master algorithm</b>."</i>
-      </p>
-    </td>
-  </tr>
-</table>
-<div align="center">
-  
-<h3>🔚 TRANSM1SS10N ENDED</h3>
-  <p>💬 Thank you for tuning in — your presence in this signal stream is truly appreciated. Stay curious, stay secure.</p>
-  <p><b>// ZeroHack01 :: Exit //</b></p>
+  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=PROFILE_SCANS&color=00FF00&style=for-the-badge" alt="Profile Views">
 </div>
 
-## 📝 License
-© 2025 Mongwoiching Marma  
-Licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-You may share and adapt this work with proper credit. No additional restrictions apply.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake">
+</div>
 
+<div align="center">
+  <h3>💭 FINAL TRANSMISSION</h3>
+  <pre style="font-family: 'Courier New', monospace; color: #00FF00; background-color: #0a0a0a; padding: 15px; border-radius: 5px; display: inline-block;">
+┌─────────────────────────────────────────────────────┐
+│  "In the vast expanse of cyberspace,              │
+│   We are the guardians, the innovators,           │
+│   The bridge between chaos and control.            │
+│   Together, we build a safer digital tomorrow."    │
+│                                                    │
+│  // CONNECTION TERMINATED //                       │
+│  // STAY CURIOUS, STAY SECURE //                  │
+└─────────────────────────────────────────────────────┘
+  </pre>
+</div>
+
+---
+
+<p align="center">
+  <b>© 2025 Mongwoiching Marma | Licensed under CC BY 4.0</b><br>
+  <i>Thank you for visiting my digital fortress. May your code compile and your hashes never collide! 🚀</i>
+</p>
