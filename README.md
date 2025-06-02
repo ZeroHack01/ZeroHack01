@@ -126,25 +126,9 @@ print(me.whoami())
 | 🎖️ **PLATFORM** | 🎯 **STATUS** | 📈 **PROGRESS** |
 |:---------------:|:-------------:|:---------------:|
 | ![TryHackMe](https://img.shields.io/badge/TryHackMe-5_Paths_Completed-88CC00?style=for-the-badge&logo=tryhackme&logoColor=white) | **ACTIVE** | ████████░░ 80% |
-| ![Coursera](https://img.shields.io/badge/Coursera-Google_&_IBM_Certified-0056D2?style=for-the-badge&logo=coursera&logoColor=white) | **COMPLETED** | ██████████ 100% |
-| ![TCM](https://img.shields.io/badge/TCM_Security-PEH_Graduate-FF6B6B?style=for-the-badge&logo=tcm&logoColor=white) | **MASTERED** | ██████████ 100% |
+| ![Coursera](https://img.shields.io/badge/Coursera-Google_&_IBM_Certified-0056D2?style=for-the-badge&logo=coursera&logoColor=white) | **LEARNING** | ███████░░░ 70% |
+| ![TCM](https://img.shields.io/badge/TCM_Security-PEH_Graduate-FF6B6B?style=for-the-badge&logoColor=white) | **ACTIVE** | ███░░░░░░░ 30% |
 
-</div>
-
-<!-- PROJECTS SHOWCASE WITH HOLOGRAPHIC EFFECT -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
-  PROJECT.PORTFOLIO.DISPLAY()
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
-</h2>
-
-<div align="center">
-  <a href="https://github.com/ZeroHack01/AutoRecon-Tool">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZeroHack01&repo=AutoRecon-Tool&theme=react&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=FF0000" />
-  </a>
-  <a href="https://github.com/ZeroHack01/WebVuln-Scanner">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZeroHack01&repo=WebVuln-Scanner&theme=react&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=FF0000" />
-  </a>
 </div>
 
 <!-- LEARNING PATH VISUALIZATION -->
@@ -246,12 +230,6 @@ print(me.whoami())
   <br><br>
   <img src="https://img.shields.io/badge/LAST_LOGIN-2025.06.02-00FF00?style=for-the-badge&labelColor=000000">
   <img src="https://img.shields.io/badge/UPTIME-99.9%25-00FF00?style=for-the-badge&labelColor=000000">
-</div>
-
-<!-- SNAKE GAME CONTRIBUTION GRAPH -->
-<div align="center">
-  <h3>🐍 CONTRIBUTION.SNAKE.EXECUTE() 🐍</h3>
-  <img src="https://github.com/ZeroHack01/ZeroHack01/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Game">
 </div>
 
 <!-- PHILOSOPHY SECTION WITH TYPEWRITER EFFECT -->
