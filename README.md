@@ -177,7 +177,7 @@ print(me.whoami())
 <div align="center">
   <h4>🎯 Currently Pursuing:</h4>
   <img src="https://img.shields.io/badge/CompTIA_Security+-Target_2025-FF0000?style=for-the-badge&logo=comptia&logoColor=white">
-  <img src="https://img.shields.io/badge/CPTS-Future_Goal-FF6600?style=for-the-badge&logo=elearnsecurity&logoColor=white">
+  <img src="https://img.shields.io/badge/CPTS-Future_Goal-FF6600?style=for-the-badge&logo=hackthebox&logoColor=white">
   <img src="https://img.shields.io/badge/OSCP-Ultimate_Goal-FFD700?style=for-the-badge&logo=offensive-security&logoColor=black">
 </div>
 
