@@ -1,183 +1,248 @@
-# 🌐 NEURONET: Architect of the Infinite Code 🌐
+<!-- MATRIX RAIN EFFECT -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:003300&height=200&section=header&text=&fontSize=0&animation=fadeIn&fontAlignY=38&desc=&descAlignY=51&descAlign=62" width="100%"/>
+</div>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&duration=3200&pause=500&color=FF00FF¢er=true&vCenter=true&width=1200&height=160&lines=%22To+code+is+to+sculpt+the+void;+to+secure+is+to+guard+the+cosmic+weave.%22%0A-%20ZeroHack01">
-</h1>
+<!-- GLITCH EFFECT HEADER -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=1000&height=100&lines=%F0%9F%92%80+SYSTEM.BREACH(SUCCESS)+%F0%9F%92%80;root%40kali%3A~%23+whoami+%3E+ZeroHack01;%5B+ACCESSING+MAINFRAME...+%5D;WELCOME+TO+THE+RABBIT+HOLE+%F0%9F%90%87;01110000+01110111+01101110+01100101+01100100" alt="Typing SVG" />
+  </a>
+</div>
+
+<!-- CYBER GRID ANIMATION -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+</div>
+
+<!-- HOLOGRAPHIC STATUS PANEL -->
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF00?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=000000" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/MODE-STEALTH-FF0000?style=for-the-badge&logo=ghost&logoColor=white&labelColor=000000" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/THREAT_LEVEL-MAXIMUM-FF6600?style=for-the-badge&logo=shield&logoColor=white&labelColor=000000" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/CAFFEINE-100%25-6F4E37?style=for-the-badge&logo=coffeescript&logoColor=white&labelColor=000000" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- NEON TERMINAL INTERFACE -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+</div>
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+class EthicalHacker:
+    def __init__(self):
+        self.username = "ZeroHack01"
+        self.role = ["Aspiring Pentester", "Security Researcher", "Digital Locksmith"]
+        self.motto = "Break it, Learn it, Secure it"
+        self.current_focus = ["Web App Pentesting", "Active Directory Attacks", "Buffer Overflows"]
+        
+    def whoami(self):
+        return """
+        ┌──────────────────────────────────────────────────────────┐
+        │ > Passionate about finding what others miss              │
+        │ > Converting coffee into exploits since day one          │
+        │ > Student of the shadow arts of cybersecurity            │
+        │ > Building tomorrow's security through today's hacks     │
+        └──────────────────────────────────────────────────────────┘
+        """
+        
+    def current_arsenal(self):
+        return {
+            'languages': ['Python', 'Bash', 'PowerShell', 'Go', 'Assembly'],
+            'os': ['Kali', 'Parrot', 'Predator', 'RedHat', 'Windows Server'],
+            'methodology': ['OWASP', 'PTES', 'MITRE ATT&CK'],
+            'learning': float('inf')
+        }
+
+me = EthicalHacker()
+print(me.whoami())
+```
+
+<!-- INTERACTIVE SKILL MATRIX -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVyamF2d3Jxd2FkNmx3NDc5aGt5eXVqYmVuZHJlb3Jka3J0aGVmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SWoSkN6DxTszqIKEqv/giphy.gif" width="40">
+  SKILL.MATRIX.LOAD()
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVyamF2d3Jxd2FkNmx3NDc5aGt5eXVqYmVuZHJlb3Jka3J0aGVmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SWoSkN6DxTszqIKEqv/giphy.gif" width="40">
+</h2>
+
+<!-- HEXAGON SKILL VISUALIZATION -->
+<div align="center">
+  
+| 🎯 **OFFENSIVE** | 🛡️ **DEFENSIVE** | 🔧 **TOOLS** | 🌐 **PLATFORMS** |
+|:----------------:|:----------------:|:------------:|:----------------:|
+| ![](https://img.shields.io/badge/Web_Exploitation-90%25-00FF00?style=flat-square&logo=firefox&logoColor=white) | ![](https://img.shields.io/badge/Log_Analysis-75%25-0080FF?style=flat-square&logo=elastic&logoColor=white) | ![](https://img.shields.io/badge/Metasploit-Expert-FF0000?style=flat-square&logo=metasploit&logoColor=white) | ![](https://img.shields.io/badge/Kali_Linux-Master-557C94?style=flat-square&logo=kali-linux&logoColor=white) |
+| ![](https://img.shields.io/badge/Network_Pentesting-85%25-00FF00?style=flat-square&logo=cisco&logoColor=white) | ![](https://img.shields.io/badge/SIEM-70%25-0080FF?style=flat-square&logo=splunk&logoColor=white) | ![](https://img.shields.io/badge/Burp_Suite-Advanced-FF6600?style=flat-square&logo=buffer&logoColor=white) | ![](https://img.shields.io/badge/Parrot_OS-Expert-00FF00?style=flat-square&logo=linux&logoColor=black) |
+| ![](https://img.shields.io/badge/Social_Engineering-80%25-00FF00?style=flat-square&logo=matrix&logoColor=white) | ![](https://img.shields.io/badge/Incident_Response-65%25-0080FF?style=flat-square&logo=fireflyiii&logoColor=white) | ![](https://img.shields.io/badge/Nmap-Master-4B9CD3?style=flat-square&logo=nmap&logoColor=white) | ![](https://img.shields.io/badge/Windows_Server-Advanced-0078D4?style=flat-square&logo=windows&logoColor=white) |
+| ![](https://img.shields.io/badge/Wireless_Attacks-75%25-00FF00?style=flat-square&logo=wifi&logoColor=white) | ![](https://img.shields.io/badge/Forensics-60%25-0080FF?style=flat-square&logo=autopsy&logoColor=white) | ![](https://img.shields.io/badge/Wireshark-Expert-1679A7?style=flat-square&logo=wireshark&logoColor=white) | ![](https://img.shields.io/badge/Predator_OS-Proficient-FF0000?style=flat-square&logo=linux&logoColor=white) |
+
+</div>
+
+<!-- ANIMATED STATISTICS DASHBOARD -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Fire" />
+  PERFORMANCE.METRICS.ANALYZE()
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Fire" />
+</h2>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroHack01&bg_color=0d1117&color=00ff00&line=00ff00&point=ff0000&area=true&hide_border=true" width="100%">
+</div>
+
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" />
+  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=black-ice&hide_border=true&stroke=00ff00&background=0D1117&ring=00ff00&fire=ff0000&currStreakLabel=00ff00" />
+</div>
+
+<!-- 3D CONTRIBUTION VISUALIZATION -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=pie&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" width="40%">
+</div>
+
+<!-- ACHIEVEMENT UNLOCKED SECTION -->
+<h2 align="center">
+  🏆 ACHIEVEMENTS.UNLOCKED() 🏆
+</h2>
+
+<div align="center">
+  
+| 🎖️ **BADGES** | 🎯 **STATUS** | 📈 **PROGRESS** |
+|:-------------:|:-------------:|:---------------:|
+| ![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Mongwoiching.png) | **ACTIVE** | ████████░░ 80% |
+| ![HackTheBox](https://www.hackthebox.com/badge/image/123456) | **GRINDING** | ██████░░░░ 60% |
+| ![PentesterLab](https://img.shields.io/badge/PentesterLab-Pro-FFD700?style=for-the-badge) | **LEARNING** | █████░░░░░ 50% |
+
+</div>
+
+<!-- PROJECTS SHOWCASE WITH HOLOGRAPHIC EFFECT -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
+  PROJECT.PORTFOLIO.DISPLAY()
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
+</h2>
+
+<div align="center">
+  <a href="https://github.com/ZeroHack01/AutoRecon-Tool">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZeroHack01&repo=AutoRecon-Tool&theme=react&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=FF0000" />
+  </a>
+  <a href="https://github.com/ZeroHack01/WebVuln-Scanner">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZeroHack01&repo=WebVuln-Scanner&theme=react&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=FF0000" />
+  </a>
+</div>
+
+<!-- LEARNING PATH VISUALIZATION -->
+<h2 align="center">🎯 CERTIFICATION.ROADMAP.INIT() 🎯</h2>
+
+```mermaid
+graph LR
+    A[CompTIA Security+] -->|Completed| B[eJPT]
+    B -->|In Progress| C[eCPPT]
+    C -->|Next Goal| D[OSCP]
+    D -->|Future| E[OSEP]
+    E -->|Ultimate| F[OSEE]
+    
+    style A fill:#00ff00,stroke:#fff,stroke-width:2px
+    style B fill:#ffff00,stroke:#fff,stroke-width:2px
+    style C fill:#ff6600,stroke:#fff,stroke-width:2px
+    style D fill:#ff0000,stroke:#fff,stroke-width:2px
+    style E fill:#ff0066,stroke:#fff,stroke-width:2px
+    style F fill:#9900ff,stroke:#fff,stroke-width:2px
+```
+
+<!-- CONNECT SECTION WITH CYBERPUNK AESTHETIC -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="50">
+  CONNECTION.ESTABLISH()
+  <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="50">
+</h2>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</div>
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://linkedin.com/in/mongwoi)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/ZeroHack01)
+[![Medium](https://img.shields.io/badge/Medium-Read-000000?style=for-the-badge&logo=medium&logoColor=white&labelColor=000000)](https://medium.com/@NextGencyber)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Challenge-212C42?style=for-the-badge&logo=tryhackme&logoColor=88CC00&labelColor=000000)](https://tryhackme.com/p/Mongwoiching)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=000000)](https://app.hackthebox.com/profile/123456)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:your.email@example.com)
+
+</div>
+
+<!-- VISITOR COUNTER WITH CUSTOM STYLING -->
+<div align="center">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=INTRUDERS_DETECTED&color=00ff00&style=for-the-badge&abbreviated=true" alt="Visitor Count">
+  <br><br>
+  <img src="https://img.shields.io/badge/LAST_LOGIN-2025.06.02-00FF00?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/UPTIME-99.9%25-00FF00?style=for-the-badge&labelColor=000000">
+</div>
+
+<!-- SNAKE GAME CONTRIBUTION GRAPH -->
+<div align="center">
+  <h3>🐍 CONTRIBUTION.SNAKE.EXECUTE() 🐍</h3>
+  <img src="https://github.com/ZeroHack01/ZeroHack01/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake Game">
+</div>
+
+<!-- PHILOSOPHY SECTION WITH TYPEWRITER EFFECT -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="50">
+  PHILOSOPHY.DECRYPT()
+  <img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="50">
+</h2>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20quieter%20you%20become%2C%20the%20more%20you%20are%20able%20to%20hear&author=Kali%20Linux%20Motto" />
+</div>
+
+<!-- EPIC FOOTER WITH GLITCH EFFECT -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+  
+  <h3>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=435&lines=%3E+rm+-rf+limitations%2F*;%3E+chmod+777+possibilities;%3E+sudo+apt+install+determination;%3E+./hack_the_planet.sh" alt="Typing SVG" />
+  </h3>
+</div>
+
+<!-- MATRIX STYLE CLOSING -->
+<div align="center">
+  <pre>
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║   01001000 01100001 01100011 01101011 00100000 01110100 01101000       ║
+║   01100101 00100000 01110000 01101100 01100001 01101110 01100101       ║
+║   01110100 00101100 00100000 01100101 01110100 01101000 01101001       ║
+║   01100011 01100001 01101100 01101100 01111001 00100001               ║
+║                                                                           ║
+║                     [ TRANSMISSION TERMINATED ]                           ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+  </pre>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003300,100:00FF00&height=100&section=footer&fontSize=0&animation=fadeIn" width="100%"/>
+</div>
+
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Quantum_Cipher-FF00FF?style=for-the-badge&logo=matrix&logoColor=black">
-  <img src="https://img.shields.io/badge/Red_Team_Visionary-FF0000?style=for-the-badge&logo=HackTheBox&logoColor=white">
-  <img src="https://img.shields.io/badge/Blue_Team_Oracle-00B7EB?style=for-the-badge&logo=Wireshark&logoColor=white">
-  <img src="https://img.shields.io/badge/TryHackMe_Neon_Pwn3r-FF0000?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=000000">
+  <b>© 2025 ZeroHack01 | All bytes reserved | Licensed under CC BY 4.0</b><br>
+  <i>"In a world of 1s and 0s, be the one who makes the difference"</i>
 </p>
-
-<div align="center" style="margin: 60px 0;">
-  <p style="font-family: 'VT323', monospace; color: #FF00FF; font-size: 2.8em; text-shadow: 0 0 20px #FF00FF, 0 0 40px #FF00FF; border: 7px solid #FF69B4; padding: 35px 50px; background: linear-gradient(90deg, #0A001A, #1A003A); border-radius: 25px; box-shadow: 0 0 50px #FF00FF;">
-    ⚡️ NEURAL UPLINK ESTABLISHED: WELCOME TO THE NEURONET ⚡️
-  </p>
-  <p style="font-family: 'Courier New', monospace; color: #FF69B4; font-size: 1.5em; text-shadow: 0 0 10px #FF00FF;">
-    You’ve hacked into the synaptic core of a digital trailblazer.<br>
-    Here, code is the pulse of creation, security the shield of existence, and every bit a neuron in the cosmic network.<br>
-    My quest: to rewrite reality, fortify the unseen, and spark revolutions in the datastream.
-  </p>
-</div>
-
-## 🧬 The Code Prophet
-
-<p style="color: #FFB6C1; text-align: center; max-width: 1200px; margin: 0 auto 60px auto; font-family: 'Courier New', monospace;">
-I am a navigator of the digital ether, a poet of ones and zeros, weaving tapestries of logic in the boundless void. Cybersecurity is my crucible—where I dismantle illusions to uncover truth and forge unbreakable sanctuaries. Red team chaos is my muse, igniting questions that pierce the veil; blue team harmony is my anchor, grounding the future in resilience. Each exploit is a spark of enlightenment, each defense a verse in the saga of eternity. I hack to explore, secure to empower, and teach to transcend. Join me in this neon-lit odyssey to redefine the boundaries of the possible.
-</p>
-
----
-
-## 🪐 Synaptic Arsenal: Instruments of the Infinite 🪐
-
-<p align="center" style="color: #FF69B4; font-style: italic; font-size: 1.4em;">
-A constellation of tools, sparked in the forge of curiosity and tempered by relentless innovation.
-</p>
-
-<p align="center" style="font-size: 4em; margin: 35px 0;">🧪</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Erlang-FF4040?style=flat-square&logo=erlang&logoColor=white" alt="Erlang">
-  <img src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white" alt="Zig"><br>
-  <img src="https://img.shields.io/badge/Kali_Linux-5E81AC?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
-  <img src="https://img.shields.io/badge/BlackArch-000000?style=flat-square&logo=archlinux&logoColor=white" alt="BlackArch">
-  <img src="https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white" alt="NixOS">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/Nmap-E34F26?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logoColor=white" alt="Burp Suite">
-  <img src="https://img.shields.io/badge/Zmap-00AEEF?style=flat-square&logoColor=white" alt="Zmap">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/Metasploit-1F1F1F?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit">
-  <img src="https://img.shields.io/badge/Havoc_C2-8B008B?style=flat-square&logoColor=white" alt="Havoc C2">
-  <img src="https://img.shields.io/badge/Pwncat-FF00FF?style=flat-square&logoColor=white" alt="Pwncat">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/Hashcat-8B0000?style=flat-square&logoColor=white" alt="Hashcat">
-  <img src="https://img.shields.io/badge/John_The_Ripper-FF4500?style=flat-square&logoColor=white" alt="John The Ripper">
-  <img src="https://img.shields.io/badge/Zeek-1679A7?style=flat-square&logoColor=white" alt="Zeek">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/BloodHound-990000?style=flat-square&logoColor=white" alt="BloodHound">
-  <img src="https://img.shields.io/badge/Impacket-FFD700?style=flat-square&logoColor=black" alt="Impacket">
-  <img src="https://img.shields.io/badge/Responder-FF69B4?style=flat-square&logoColor=black" alt="Responder">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/SIEM:_Graylog-000000?style=flat-square&logoColor=white" alt="Graylog">
-  <img src="https://img.shields.io/badge/EDR:_Wazuh-5cb85c?style=flat-square&logoColor=white" alt="Wazuh">
-  <img src="https://img.shields.io/badge/Firewalls:_Suricata-D9534F?style=flat-square&logoColor=white" alt="Suricata">
-</p>
-
-<p align="center" style="margin-top: 30px;">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white" alt="Pulumi">
-</p>
-
----
-
-## 🌌 Synaptic Codex: GitHub Odyssey 🌌
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZeroHack01&color=FF00FF&style=flat-square&label=NEURAL_PINGS" alt="Profile Views">
-</div>
-
-### 🔮 Quantum Traces
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=highcontrast&hide_border=true&border_radius=15&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak">
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=highcontrast&hide_border=true&border_radius=15&rank_icon=github" alt="GitHub Stats">
-  </a>
-</p>
-
-### 🧩 Syntax Constellation
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=highcontrast&hide_border=true&border_radius=15&bg_color=0D1117&title_color=FF00FF&text_color=FFB6C1&langs_count=16" width="75%" alt="Top Languages">
-</div>
-
-### 🏆 Celestial Relics
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ZeroHack01&theme=cyberpunk2077&no-frame=true&no-bg=true&margin-w=35&margin-h=35&row=1&column=10" width="100%" alt="GitHub Trophies">
-</div>
-
-### 🐉 Neural Serpent
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Serpent Animation of GitHub Contributions">
-</div>
-
----
-
-## 📡 Cosmic Relay: Sync with the Source 📡
-
-<div align="center">
-  <p style="font-family: 'Courier New', monospace; color: #FF00FF; font-size: 1.5em;">
-    The neuronet pulses with collective genius.<br>
-    Link with me to hack the stars, secure the void, and weave the future.
-  </p>
-
-  <h3>🌐 Synaptic Nodes</h3>
-  <p>
-    <a href="https://bd.linkedin.com/in/mongwoi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://github.com/ZeroHack01"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=FF00FF" alt="GitHub"></a>
-    <a href="https://medium.com/@NextGencyber"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-    <a href="https://tryhackme.com/p/Mongwoiching"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=88C900" alt="TryHackMe"></a>
-    <a href="https://www.credly.com/users/mongwoiching-marma"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
-  </p>
-
-  <h3>📊 Quantum Echoes</h3>
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=SYNAPTIC_PINGS&color=FF00FF&style=for-the-badge" alt="Profile Visitor Counter">
-  </p>
-
-  <h3>🧬 Core Directive</h3>
-  <p style="font-style: italic; color: #FFB6C1;">
-    "In the neon datastream, curiosity is our beacon, ethics our gravity, and code our infinite canvas."
-  </p>
-</div>
-
----
-
-## 📜 Holographic Scrolls: Illuminated Insights
-
-<div align="center">
-  <p>Decrypt my revelations on Medium, where the neuronet’s secrets are etched in light.</p>
-  <a href="https://medium.com">
-    <img src="https://img.shields.io/badge/Medium-Kerberos_Neural_Codes-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium Kerberos">
-  </a>
-  <a href="https://medium.com">
-    <img src="https://img.shields.io/badge/Medium-Cosmic_AD_Sanctuaries-00AB6C?style=flat-square&logo=medium&logoColor=white" alt="Medium AD Security">
-  </a>
-</div>
-
----
-
-## 🌌 Neural Pulse Faded
-
-<div align="center">
-  <p style="color: #FF69B4; font-family: 'Courier New', monospace;">
-    Thank you for syncing with the neuronet. Keep weaving the code, stay true to the light, and let’s sculpt an infinite future.<br>
-    <b>// ZeroHack01 :: Dissolve into the Datastream //</b>
-  </p>
-</div>
-
-## 📝 License
-© 2025 Mongwoiching Marma  
-Licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-Weave, morph, and credit—let this neural blueprint spark new universes.
