@@ -95,25 +95,93 @@ print(me.whoami())
 
 </div>
 
-<!-- ANIMATED STATISTICS DASHBOARD -->
+<!-- ENHANCED STATISTICS DASHBOARD -->
 <h2 align="center">
   <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Fire" />
   PERFORMANCE.METRICS.ANALYZE()
   <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Fire" />
 </h2>
 
+<!-- CYBER ACTIVITY GRAPH -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroHack01&bg_color=0d1117&color=00ff00&line=00ff00&point=ff0000&area=true&hide_border=true" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroHack01&bg_color=0d1117&color=00ff00&line=00ff00&point=ff0000&area=true&hide_border=true&custom_title=NEURAL%20NETWORK%20ACTIVITY%20-%20CYBER%20OPERATIONS" width="100%">
 </div>
 
+<!-- ENHANCED STATS GRID -->
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=black-ice&hide_border=true&stroke=00ff00&background=0D1117&ring=00ff00&fire=ff0000&currStreakLabel=00ff00" />
+  <table>
+    <tr>
+      <td>
+        <img width="400px" height="200px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117&custom_title=⚡%20SYSTEM%20DIAGNOSTICS" />
+      </td>
+      <td>
+        <img width="400px" height="200px" src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=black-ice&hide_border=true&stroke=00ff00&background=0D1117&ring=00ff00&fire=ff0000&currStreakLabel=00ff00&sideLabels=00ff00&dates=c9d1d9" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-<!-- 3D CONTRIBUTION VISUALIZATION -->
+<!-- REDESIGNED STACK METRICS WITH CYBERPUNK AESTHETIC -->
+<h2 align="center">
+  🔬 CODEBASE.ANALYSIS.PROTOCOL() 🔬
+</h2>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=pie&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" width="40%">
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%">
+</div>
+
+<!-- ENHANCED LANGUAGE STATS WITH MULTIPLE VIEWS -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00ff00&text_color=c9d1d9&custom_title=🛠️%20EXPLOIT%20ARSENAL" />
+      </td>
+      <td align="center">
+        <img width="400px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=ff0000&text_color=c9d1d9&custom_title=⚙️%20CODE%20DISTRIBUTION" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ALTERNATIVE STACK VISUALIZATION -->
+<div align="center">
+  <h3>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=ANALYZING+LINGUISTIC+PATTERNS...;COMPILING+CYBER+WEAPONRY...;OPTIMIZING+ATTACK+VECTORS..." alt="Loading" />
+  </h3>
+</div>
+
+<!-- MANUAL LANGUAGE BREAKDOWN WITH CYBER STYLING -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000000" />
+        <br>
+        <img src="https://img.shields.io/badge/Usage-65%25-00FF00?style=flat-square&labelColor=000000" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Bash-Advanced-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=000000" />
+        <br>
+        <img src="https://img.shields.io/badge/Usage-20%25-00FF00?style=flat-square&labelColor=000000" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/PowerShell-Proficient-5391FE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=000000" />
+        <br>
+        <img src="https://img.shields.io/badge/Usage-10%25-FF6600?style=flat-square&labelColor=000000" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-Learning-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=000000" />
+        <br>
+        <img src="https://img.shields.io/badge/Usage-5%25-FF0000?style=flat-square&labelColor=000000" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- WAKATIME ALTERNATIVE -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ZeroHack01&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00ff00&text_color=c9d1d9&custom_title=⏱️%20WEEKLY%20CODE%20CYCLES" width="50%">
 </div>
 
 <!-- ACHIEVEMENT UNLOCKED SECTION -->
@@ -228,7 +296,7 @@ print(me.whoami())
   <br>
   <img src="https://komarev.com/ghpvc/?username=ZeroHack01&label=INTRUDERS_DETECTED&color=00ff00&style=for-the-badge&abbreviated=true" alt="Visitor Count">
   <br><br>
-  <img src="https://img.shields.io/badge/LAST_LOGIN-2025.06.02-00FF00?style=for-the-badge&labelColor=000000">
+  <img src="https://img.shields.io/badge/LAST_LOGIN-2025.06.20-00FF00?style=for-the-badge&labelColor=000000">
   <img src="https://img.shields.io/badge/UPTIME-99.9%25-00FF00?style=for-the-badge&labelColor=000000">
 </div>
 
@@ -278,4 +346,3 @@ print(me.whoami())
   <b>© 2025 ZeroHack01 | All bytes reserved | Licensed under CC BY 4.0</b><br>
   <i>"In a world of 1s and 0s, be the one who makes the difference"</i>
 </p>
-
