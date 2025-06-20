@@ -102,18 +102,29 @@ print(me.whoami())
   <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="Fire" />
 </h2>
 
+<!-- FIXED GITHUB ACTIVITY GRAPH -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroHack01&bg_color=0d1117&color=00ff00&line=00ff00&point=ff0000&area=true&hide_border=true" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeroHack01&custom_title=ZeroHack01's%20Activity%20Graph&bg_color=0d1117&color=00ff00&line=00ff00&point=ff0000&area=true&hide_border=true&theme=react-dark" width="100%">
 </div>
 
+<!-- FIXED GITHUB STATS -->
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=black-ice&hide_border=true&stroke=00ff00&background=0D1117&ring=00ff00&fire=ff0000&currStreakLabel=00ff00" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117&cache_seconds=1800" />
+  <img width="49%" height="195px" src="https://streak-stats.demolab.com?user=ZeroHack01&theme=dark&hide_border=true&background=0D1117&stroke=00ff00&ring=00ff00&fire=ff0000&currStreakLabel=00ff00&sideNums=00ff00&currStreakNum=ff0000&dates=c9d1d9" />
 </div>
+
+<!-- ALTERNATIVE GITHUB STREAK (BACKUP) -->
+<!-- If the above doesn't work, uncomment this alternative: -->
+<!--
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide_border=true&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117&cache_seconds=1800" />
+  <img width="49%" height="195px" src="https://github-readme-streak-stats-salesp07.vercel.app?user=ZeroHack01&theme=dark&hide_border=true&background=0D1117&stroke=00ff00&ring=00ff00&fire=ff0000&currStreakLabel=00ff00&sideNums=00ff00&currStreakNum=ff0000&dates=c9d1d9" />
+</div>
+-->
 
 <!-- 3D CONTRIBUTION VISUALIZATION -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=pie&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" width="40%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=pie&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&cache_seconds=1800" width="40%">
 </div>
 
 <!-- ACHIEVEMENT UNLOCKED SECTION -->
