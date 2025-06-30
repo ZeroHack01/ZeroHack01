@@ -1,133 +1,91 @@
-# 👨‍💻 **ZeroHack01** | Cybersecurity Enthusiast | Open-Source Contributor | Developer
+# 🚀 **ZeroHack01** | Cybersecurity Expert | Ethical Hacker | Open-Source Contributor
 
-Welcome to my GitHub profile! I'm **ZeroHack01**, a cybersecurity professional, ethical hacker, and passionate open-source contributor. This is where I share my latest projects, security tools, and resources related to cybersecurity and tech. Join me on my journey to learn, collaborate, and grow in the world of hacking and software development!
+Welcome to my GitHub! I'm **ZeroHack01**, a passionate cybersecurity professional and ethical hacker with a focus on offensive security, penetration testing, and creating open-source tools to help others in the field. This repository showcases my active projects, contributions, and resources I’ve developed to empower others in the tech community.
 
 ---
 
-## 🚀 **Tech Stack & Tools**
+## 💻 **Tech Stack**
 
-### Languages & Frameworks
+### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen?style=flat-square&logo=javascript&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-14-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-16-339933?style=flat-square&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=white)
-![Django](https://img.shields.io/badge/Django-3.2-green?style=flat-square&logo=django&logoColor=white)
 
-### Tools & Security
+### **Security & Tools**
 ![Wireshark](https://img.shields.io/badge/Wireshark-3.2-9FEAF9?style=flat-square&logo=wireshark&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-2021-557C5C?style=flat-square&logo=kali-linux&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-2021-D30000?style=flat-square&logo=burp-suite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-20-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-2021-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-5.7-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4.2-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
----
-
-## 📚 **Current Focus**
-
-### **Learning & Exploring**
-I'm always working to improve my skills and stay up-to-date with the latest in tech and cybersecurity:
-
-- **Cybersecurity**: Ethical hacking, penetration testing, vulnerability assessment, and bug bounty hunting
-- **Cloud Computing**: AWS, Docker, Kubernetes, Terraform
-- **Machine Learning**: Supervised and unsupervised learning, neural networks, TensorFlow
-- **DevOps**: CI/CD pipelines, Jenkins, Docker Swarm, monitoring
+![Nmap](https://img.shields.io/badge/Nmap-7.91-00A4FF?style=flat-square&logo=nmap&logoColor=white)
 
 ---
 
 ## 🔥 **Featured Projects**
 
-Here are some of the key projects I'm working on. Feel free to contribute or collaborate!
-
 ### **[ZeroHack](https://github.com/ZeroHack01/ZeroHack)**
-A collection of tools and resources to help others learn and practice ethical hacking. It includes scripts, payloads, and guides on penetration testing.
+A toolkit for ethical hackers featuring payloads, scripts, and penetration testing tools designed to help with web app security, network penetration testing, and vulnerability assessments.
 
 ### **[Security-Tools](https://github.com/ZeroHack01/Security-Tools)**
-A suite of open-source security tools for penetration testers and bug bounty hunters, covering topics such as web application security, network security, and vulnerability scanning.
+A curated repository containing a suite of security tools for penetration testers, including reconnaissance, vulnerability scanning, and exploitation utilities.
 
 ### **[Crypto-Portfolio-Tracker](https://github.com/ZeroHack01/Crypto-Portfolio-Tracker)**
-Track your crypto investments with ease using this simple yet powerful Python-based portfolio manager.
-
-### **[Bug-Bounty-Resources](https://github.com/ZeroHack01/Bug-Bounty-Resources)**
-A curated list of resources, tools, and guides for those interested in bug bounty hunting and ethical hacking.
+A Python-based tracker to help users manage and track cryptocurrency investments.
 
 ---
 
-## 🛠️ **Contributions & Open Source**
+## ⚡ **Daily Streak**
 
-I believe in the power of community and open-source collaboration. Feel free to contribute to my repositories or start your own with the tools and libraries I’ve built. 
+Currently, I’m maintaining an active coding streak on GitHub! 🔥  
+Stay tuned for my latest contributions:
 
-Here’s how you can contribute:
-- Fork any project and submit a pull request.
-- Open issues or suggest features for my ongoing projects.
-- Share your feedback on what you’d like to see in the next release.
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=radical)
 
 ---
 
-## 📈 **GitHub Stats & Insights**
+## 🛠️ **Ongoing Learning & Focus**
 
-![ZeroHack01's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide=prs&theme=tokyonight)
+I’m always up to something new and improving my skillset:
 
----
-
-## 💬 **Let's Connect!**
-
-You can reach me via the following platforms:
-
-- [LinkedIn](https://www.linkedin.com/in/zero-hack01)
-- [Twitter](https://twitter.com/ZeroHack01)
-- [Email](mailto:zero@hack01.com)
-- [Personal Website](https://www.zerohack01.com)
+- **Cybersecurity**: Offensive security, penetration testing, vulnerability assessment
+- **Cloud Security**: AWS, Docker, Kubernetes, Terraform
+- **DevOps**: CI/CD pipelines, Jenkins, automated security testing
+- **Machine Learning**: Neural networks, TensorFlow, AI-based security solutions
 
 ---
 
-## 👨‍💻 **Certifications & Achievements**
+## 🏆 **GitHub Stats**
 
-- **Certified Ethical Hacker (CEH)**
-- **AWS Certified Solutions Architect - Associate**
-- **CompTIA Security+**
-- **Kali Linux Certified Professional (KLCP)**
+![ZeroHack01's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&count_private=true&hide=prs&theme=radical)
 
 ---
 
-## 📊 **Most Popular Repositories**
+## 🧠 **Contributions & Open-Source Collaboration**
 
-These are the repositories most starred and forked by the community:
+I believe in the power of collaboration and open-source software. Here’s how you can contribute to my work:
 
-1. **ZeroHack**: 500+ Stars, 100+ Forks
-2. **Security-Tools**: 200+ Stars, 50+ Forks
-3. **Bug-Bounty-Resources**: 150+ Stars, 30+ Forks
-
----
-
-## 🎓 **Learning Path & Resources**
-
-I’m actively building my learning path. Here are the resources I recommend:
-
-- **Hacking 101**: Practical guides to get started with ethical hacking.
-- **Advanced Web Security**: In-depth courses for penetration testers.
-- **Cloud Security**: Learn AWS and cloud security practices for real-world challenges.
+- Fork any repository and submit a pull request
+- Open issues for any bugs, improvements, or suggestions
+- Participate in discussions around new features and tools
 
 ---
 
-## ⚡ **Fun Facts**
+## 💬 **Let's Connect**
 
-- 💻 I started coding when I was 12.
-- 🖥️ I’m passionate about ethical hacking and offensive security.
-- 🌍 I contribute to open-source projects and help fellow hackers.
-- 🎮 In my free time, I enjoy gaming and solving CTF challenges.
+Feel free to connect with me for collaborations, questions, or anything related to tech and cybersecurity:
 
----
-
-## 🖋️ **Support & Donations**
-
-If you find my projects helpful and would like to support my work, consider starring my repositories, contributing, or simply dropping a donation via PayPal or BuyMeACoffee.
+- **LinkedIn**: [ZeroHack01](https://www.linkedin.com/in/zero-hack01)
+- **Email**: [zero@hack01.com](mailto:zero@hack01.com)
 
 ---
 
-Thank you for visiting my GitHub! Let’s build something amazing together! 🚀
+## ⚡ **Fun Fact**
 
+- 💻 I started programming at the age of 12 and have been hooked ever since.
+- 🌐 Cybersecurity is my passion, and I believe in making the internet a safer place for all.
+- 🎮 In my spare time, I enjoy solving Capture The Flag (CTF) challenges and playing competitive video games.
+
+---
+
+Thanks for visiting my GitHub profile. Let’s innovate and secure the digital world! 🚀
