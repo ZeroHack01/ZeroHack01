@@ -1,101 +1,116 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00¢er=true&vCenter=true&width=800&lines=Hi%2C+I'm+Mongwoiching+Marma;Red+Teamer+%7C+Bug+Bounty+Hunter+%7C+OSINT+Specialist;Cybersecurity+Researcher+from+Bangladesh" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Mongwoiching+Marma;Red+Teamer+%7C+Bug+Bounty+Hunter+%7C+OSINT+Specialist;Cybersecurity+Researcher+from+Bangladesh" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <a href="https://www.credly.com/users/mongwoiching-marma/badges"><img src="https://img.shields.io/badge/Independent_Security_Researcher-000000?style=for-the-badge&logo=ory&logoColor=white" /></a>
-  <a href="https://tryhackme.com/p/Mongwoiching"><img src="https://img.shields.io/badge/Offensive_Security_Enthusiast-D40000?style=for-the-badge&logo=HackTheBox&logoColor=white" /></a>
-  <a href="https://tryhackme.com/p/Mongwoiching"><img src="https://img.shields.io/badge/TryHackMe-Elite_Hacker-880E4F?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/mongwoi/"><img src="https://img.shields.io/badge/Red_Team_&_OSINT-113A6B?style=for-the-badge&logo=Wireshark&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Independent Security Researcher-black?style=for-the-badge&logo=protonmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Offensive Security Enthusiast-red?style=for-the-badge&logo=HackTheBox&logoColor=white" />
+  <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white" />
+  <img src="https://img.shields.io/badge/Red Team & OSINT Specialist-blue?style=for-the-badge&logo=Wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-CC--BY--4.0-success?style=for-the-badge&logo=creativecommons&logoColor=white" />
 </p>
 
 ---
 
-### 🧠 About Me
-
-I am an independent cybersecurity researcher specializing in adversarial simulation and open-source intelligence. My work involves identifying systemic vulnerabilities and developing robust defense strategies to protect digital infrastructures. I thrive on the challenge of breaking complex systems to make them more secure.
+## 🧠 About Me
 
 ```bash
 > whoami
-Mongwoiching Marma
+Mongwoiching Marma – Independent Security Researcher
 
 > roles
-["Red Teamer", "Bug Bounty Hunter", "OSINT Specialist", "Security Researcher"]
+Red Teamer | OSINT Analyst | Bug Bounty Hunter
 
 > location
 Dhaka, Bangladesh
 
-> philosophy
-To secure the digital world by thinking like an adversary.
-Use code with caution.
-Markdown
-⚙️ My Arsenal: Tools & Technologies
-My daily toolkit for offensive operations, threat analysis, and infrastructure management.
-Category	Tools & Platforms
-🔴 Offensive Security	<img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white" /> <img src="https://img.shields.io/badge/Sliver-8A2BE2?style=for-the-badge&logo=kalilinux&logoColor=white" /> <img src="https://img.shields.io/badge/BloodHound-D22B2B?style=for-the-badge&logo=battledotnet&logoColor=white" /> <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
-🌐 Recon & OSINT	<img src="https://img.shields.io/badge/Shodan-000000?style=for-the-badge&logo=shodan&logoColor=white" /> <img src="https://img.shields.io/badge/Maltego-3E74A5?style=for-the-badge&logo=maltego&logoColor=white" /> <img src="https://img.shields.io/badge/theHarvester-9A0000?style=for-the-badge&logo=kalilinux&logoColor=white" />
-🔐 Credential Attacks	<img src="https://img.shields.io/badge/Mimikatz-0056B3?style=for-the-badge&logo=windows&logoColor=white" /> <img src="https://img.shields.io/badge/Hashcat-F4BF75?style=for-the-badge&logo=gnubash&logoColor=black" /> <img src="https://img.shields.io/badge/John_the_Ripper-E12C2A?style=for-the-badge&logo=linux&logoColor=white" />
-🔵 Blue Team & SIEM	<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" /> <img src="https://img.shields.io/badge/IBM_QRadar-0166FF?style=for-the-badge&logo=ibm&logoColor=white" /> <img src="https://img.shields.io/badge/OpenEDR-4CAF50?style=for-the-badge&logo=linuxfoundation&logoColor=white" />
-☁️ DevOps & Virtualization	<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" /> <img src="https://img.shields.io/badge/Virt_Manager-CC0000?style=for-the-badge&logo=redhat&logoColor=white" />
-💻 Core Languages	<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" /> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-🖥️ Operating Systems	<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" /> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-🚀 Featured Projects
-🛰️ Bangladesh Gov. Data Breach Analysis: In-depth analysis of the 2023 data breach, focusing on attack vectors, data exposure, and remediation strategies.
-🔐 NovaEncryptor CLI Tool: A lightweight, secure command-line tool for file encryption and decryption using modern cryptographic ciphers.
-🧱 CyberBarrier Firewall: A rule-based network firewall script designed to monitor traffic and block malicious IP addresses in real-time.
-🧠 Crypto Exchange IR Simulation: A simulated incident response scenario analyzing a hypothetical crypto exchange hack, complete with a threat actor profile and mitigation plan.
-🚛 Secure File Transfer App: A Python-based application for transferring files securely over a network using end-to-end encryption.
-📜 Certifications & Credentials
-C3SA – Certified Cybersecurity Services Analyst | CyberWarFare Labs
-CEH – Certified Ethical Hacker | EC-Council
-CNSP – Certified Network Security Professional | SecOps Group
-ISO 27001 Lead Auditor | Mastermind
-TryHackMe Learning Paths: Web Fundamentals, SOC Level 1, Cyber Defense
-(ISC)² Certified in Cybersecurity (CC)
-Google & IBM Cybersecurity Professional Certificates | Coursera
-OpenEDR Certified Professional | Xcitium
-📊 My GitHub Stats
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true&ring=00FF00&fire=00FF00" alt="GitHub Streak" />
-<br/>
-<img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-📚 Knowledge Sharing: My Blog Articles
-I believe in sharing knowledge to build a stronger, more secure community. Here are some of my articles:
-📘 Kerberos Deep Dive: Your Trustworthy Gatekeeper in the Digital World
-👻 Ghost in the Machine: A Practical Guide to Hacking Active Directory
-🛡️ Active Directory Domain Controller Hardening: A Step-by-Step Guide
-👁️ You're Already Hacked: How Biometric Security Makes Privacy a Myth
-🧩 Insider Threat Prevention and Framework 101
-🌐 Shielding Bangladesh’s Digital Frontier: The Imperative of Cybersecurity
-🌐 Let's Connect
-<p align="center">
-<a href="https://github.com/ZeroHack01">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://linkedin.com/in/mongwoi">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://tryhackme.com/p/Mongwoiching">
-<img src="https://img.shields.io/badge/TryHackMe-880E4F?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"/>
-</a>
-<a href="https://medium.com/@NextGencyber">
-<img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
-</a>
-<a href="https://www.credly.com/users/mongwoiching-marma">
-<img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/>
-</a>
-<a href="mailto:mongwoiching2080@gmail.com">
-<img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-</p>
-<p align="center">
-<img src="https://img.shields.io/badge/Red_Team_Ready-A91D3A?style=for-the-badge&logo=HackTheBox&logoColor=white" />
-<img src="https://img.shields.io/badge/Ethical_Hacker-0d6efd?style=for-the-badge&logo=OWASP&logoColor=white" />
-<img src="https://img.shields.io/badge/Securing_The_Web-00A36C?style=for-the-badge&logo=Let's Encrypt&logoColor=white" />
-</p>
-<p align="center">
-Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | © 2024 Mongwoiching Marma
-</p>
+> mission
+Break systems ethically. Harden them intelligently. Teach others wisely.
 ```
+
+---
+
+## ⚙️ Tools & Technologies
+
+| Category | Tools |
+|---------|-------|
+| 🛠️ Offensive Security | <img src="https://img.shields.io/badge/Metasploit-ffffff?style=flat&logo=metasploit&logoColor=blue" /> <img src="https://img.shields.io/badge/Sliver-ffffff?style=flat&logo=kalilinux&logoColor=purple" /> <img src="https://img.shields.io/badge/BloodHound-ffffff?style=flat&logo=battledotnet&logoColor=crimson" /> <img src="https://img.shields.io/badge/Burp Suite-ffffff?style=flat&logo=burpsuite&logoColor=orange" /> |
+| 🌐 Recon & OSINT | <img src="https://img.shields.io/badge/Shodan-000000?style=flat&logo=shodan&logoColor=red" /> <img src="https://img.shields.io/badge/Maltego-000000?style=flat&logo=maltego&logoColor=blue" /> <img src="https://img.shields.io/badge/Amass-000000?style=flat&logo=archlinux&logoColor=white" /> |
+| 🔐 Credential Attacks | <img src="https://img.shields.io/badge/Mimikatz-000000?style=flat&logo=windows&logoColor=blue" /> <img src="https://img.shields.io/badge/Hashcat-000000?style=flat&logo=gnubash&logoColor=yellow" /> <img src="https://img.shields.io/badge/John the Ripper-000000?style=flat&logo=linux&logoColor=white" /> |
+| 📊 Blue Team Tools | <img src="https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white" /> <img src="https://img.shields.io/badge/QRadar-000000?style=flat&logo=ibm&logoColor=blue" /> <img src="https://img.shields.io/badge/OpenEDR-000000?style=flat&logo=linuxfoundation&logoColor=green" /> |
+| ☁️ Infrastructure | <img src="https://img.shields.io/badge/Docker-ffffff?style=flat&logo=docker&logoColor=blue" /> <img src="https://img.shields.io/badge/Kubernetes-ffffff?style=flat&logo=kubernetes&logoColor=blue" /> <img src="https://img.shields.io/badge/Virt Manager-ffffff?style=flat&logo=redhat&logoColor=red" /> |
+| 💻 Languages & Scripts | <img src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=blue" /> <img src="https://img.shields.io/badge/Bash-000000?style=flat&logo=gnubash&logoColor=white" /> <img src="https://img.shields.io/badge/PowerShell-000000?style=flat&logo=powershell&logoColor=blue" /> <img src="https://img.shields.io/badge/SQL-ffffff?style=flat&logo=mysql&logoColor=black" /> |
+| 🖥️ Operating Systems | <img src="https://img.shields.io/badge/Kali Linux-000000?style=flat&logo=kalilinux&logoColor=white" /> <img src="https://img.shields.io/badge/Ubuntu-ffffff?style=flat&logo=ubuntu&logoColor=orange" /> <img src="https://img.shields.io/badge/Windows Server-ffffff?style=flat&logo=windows&logoColor=blue" /> |
+
+---
+
+## 🔎 Projects
+
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZeroHack01/bangladesh-gov-data-breach-analysis) 🛰️ [Bangladesh Gov Breach](github.com/ZeroHack01/bangladesh-gov-data-breach-analysis)  
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZeroHack01/NovaEncryptor--Secure-CLI) 🔐 [NovaEncryptor CLI Tool](github.com/ZeroHack01/NovaEncryptor--Secure-CLI)  
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZeroHack01/novacyberbarrier-firewall-project) 🧱 [CyberBarrier Firewall](github.com/ZeroHack01/novacyberbarrier-firewall-project)  
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZeroHack01/bybit-2025-crypto-hack-analysis) 🧠 [Crypto IR Simulation](github.com/ZeroHack01/bybit-2025-crypto-hack-analysis)  
+- [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZeroHack01/SecureFileTransferApp) 🚛 [Secure File Transfer](github.com/ZeroHack01/SecureFileTransferApp)  
+
+---
+
+## 📜 Certifications
+
+```bash
+🛡️ C3SA – CyberWarFare Labs
+🛡️ CEH – Cisco
+🛡️ CNSP – SecOps Group
+🛡️ TryHackMe – Web Pentester | SOC L1 | Cyber Defense
+🛡️ ISO 27001 Lead Auditor – Mastermind
+🎓 ISC2 Certified in Cybersecurity (CC)
+🎓 Google/IBM Cybersecurity – Coursera
+🎖️ OpenEDR – Xcitium
+```
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 📚 Blog Articles
+
+```bash
+📘 [Kerberos Deep Dive](medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)
+👻 [Active Directory Hacking](medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)
+🛡️ [Domain Controller Hardening](medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)
+👁️ [You're Already Hacked](medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)
+🧩 [Insider Threat Framework](medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)
+🌐 [Securing Bangladesh](medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)
+```
+
+---
+
+## 🌐 Contact Me
+
+```bash
+🔗 GitHub      : [github.com/ZeroHack01](github.com/ZeroHack01)
+🔗 TryHackMe   : [tryhackme.com/p/Mongwoiching](tryhackme.com/p/Mongwoiching)
+🔗 LinkedIn    : [linkedin.com/in/mongwoi](linkedin.com/in/mongwoi)
+📝 Medium Blog : [medium.com/@NextGencyber](medium.com/@NextGencyber)
+🎖️ Credly     : [credly.com/users/mongwoiching-marma](credly.com/users/mongwoiching-marma)
+📧 Email       : mongwoiching2080@gmail.com
+```
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Red Team Ready-darkred?style=for-the-badge&logo=HackTheBox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethical Hacker-blue?style=for-the-badge&logo=OWASP&logoColor=white" />
+  <img src="https://img.shields.io/badge/Secure the Web-00cc99?style=for-the-badge&logo=Mozilla-Firefox&logoColor=white" />
+</p>
+
+<p align="center">
+  📝 Licensed under [CC BY 4.0](creativecommons.org/licenses/by/4.0/) | © 2025 Mongwoiching Marma
+</p>
