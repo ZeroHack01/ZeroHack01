@@ -83,27 +83,24 @@ Break systems ethically. Harden them intelligently. Teach others wisely.
 
 ## 📚 Blog Articles
 
-```bash
-📘 [Kerberos Deep Dive](medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)
-👻 [Active Directory Hacking](medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)
-🛡️ [Domain Controller Hardening](medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)
-👁️ [You're Already Hacked](medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)
-🧩 [Insider Threat Framework](medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)
-🌐 [Securing Bangladesh](medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)
-```
+📘 [Kerberos Deep Dive](https://medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)  
+👻 [Active Directory Hacking](https://medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)  
+🛡️ [Domain Controller Hardening](https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)  
+👁️ [You're Already Hacked](https://medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)  
+🧩 [Insider Threat Framework](https://medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)  
+🌐 [Securing Bangladesh](https://medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)
+
 
 ---
 
 ## 🌐 Contact Me
 
-```bash
-🔗 GitHub      : [github.com/ZeroHack01](github.com/ZeroHack01)
-🔗 TryHackMe   : [tryhackme.com/p/Mongwoiching](tryhackme.com/p/Mongwoiching)
-🔗 LinkedIn    : [linkedin.com/in/mongwoi](linkedin.com/in/mongwoi)
-📝 Medium Blog : [medium.com/@NextGencyber](medium.com/@NextGencyber)
-🎖️ Credly     : [credly.com/users/mongwoiching-marma](credly.com/users/mongwoiching-marma)
-📧 Email       : mongwoiching2080@gmail.com
-```
+🔗 [GitHub](https://github.com/ZeroHack01)  
+🎯 [TryHackMe](https://tryhackme.com/p/Mongwoiching)  
+💼 [LinkedIn](https://linkedin.com/in/mongwoi)  
+📝 [Medium Blog](https://medium.com/@NextGencyber)  
+🎖️ [Credly](https://www.credly.com/users/mongwoiching-marma)  
+📧 Email: mongwoiching2080@gmail.com
 
 ---
 
