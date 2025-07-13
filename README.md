@@ -1,14 +1,15 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Mongwoiching+Marma;Red+Teamer+%7C+Bug+Bounty+Hunter+%7C+OSINT+Specialist;Cybersecurity+Researcher+from+Bangladesh" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Mongwoiching+Marma;Cybersecurity+Researcher+%7C+Offensive+Security+Enthusiast+%7C+Bug+Bounty+Hunter;Passionate+Ethical+Hacker+and+Cyber+Defender" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Independent Security Researcher-black?style=for-the-badge&logo=protonmail&logoColor=white" />
-  <img src="https://img.shields.io/badge/Offensive Security Enthusiast-red?style=for-the-badge&logo=HackTheBox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Independent%20Security%20Researcher-black?style=for-the-badge&logo=protonmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Offensive%20Security%20Enthusiast-red?style=for-the-badge&logo=HackTheBox&logoColor=white" />
   <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white" />
-  <img src="https://img.shields.io/badge/Red Team & OSINT Specialist-blue?style=for-the-badge&logo=Wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Red%20Team-blue?style=for-the-badge&logo=Wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/License-CC--BY--4.0-success?style=for-the-badge&logo=creativecommons&logoColor=white" />
 </p>
+
 
 ---
 
@@ -81,27 +82,25 @@ Break systems ethically. Harden them intelligently. Teach others wisely.
 
 ## 📚 Blog Articles
 
-```bash
-📘 [Kerberos Deep Dive](medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)
-👻 [Active Directory Hacking](medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)
-🛡️ [Domain Controller Hardening](medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)
-👁️ [You're Already Hacked](medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)
-🧩 [Insider Threat Framework](medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)
-🌐 [Securing Bangladesh](medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)
-```
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 📘 [Kerberos Deep Dive](medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 👻 [Active Directory Hacking](medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 🛡️ [Domain Controller Hardening](medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 👁️ [You're Already Hacked](medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 🧩 [Insider Threat Framework](medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)  
+- [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@NextGencyber) 🌐 [Securing Bangladesh](medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)  
 
 ---
 
 ## 🌐 Contact Me
 
-```bash
-🔗 GitHub      : [github.com/ZeroHack01](github.com/ZeroHack01)
-🔗 TryHackMe   : [tryhackme.com/p/Mongwoiching](tryhackme.com/p/Mongwoiching)
-🔗 LinkedIn    : [linkedin.com/in/mongwoi](linkedin.com/in/mongwoi)
-📝 Medium Blog : [medium.com/@NextGencyber](medium.com/@NextGencyber)
-🎖️ Credly     : [credly.com/users/mongwoiching-marma](credly.com/users/mongwoiching-marma)
-📧 Email       : mongwoiching2080@gmail.com
-```
+<p align="left">
+  <a href="https://github.com/ZeroHack01" title="GitHub"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://tryhackme.com/p/Mongwoiching" title="TryHackMe"><img src="https://img.shields.io/badge/TryHackMe-EA0E0E?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/mongwoi" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:mongwoiching2080@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://medium.com/@NextGencyber" title="Medium Blog"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://credly.com/users/mongwoiching-marma" title="Credly"><img src="https://img.shields.io/badge/Credly-0056D2?style=for-the-badge&logo=credly&logoColor=white" /></a>
+</p>
 
 ---
 
