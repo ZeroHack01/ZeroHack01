@@ -1,268 +1,118 @@
-# 🌐 DIGITAL GHOST PROTOCOL INITIATED...
-
-```
-████████╗██╗  ██╗███████╗    ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
-╚══██╔══╝██║  ██║██╔════╝    ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
-   ██║   ███████║█████╗      ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝ 
-   ██║   ██╔══██║██╔══╝      ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗ 
-   ██║   ██║  ██║███████╗    ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
-   ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
-                                                                              
-```
-
-<!-- Cyberpunk Header Badge Banner -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🔴%20LIVE%20THREAT%20HUNTER-FF0000?style=for-the-badge&logo=target&logoColor=white&labelColor=000000">
-  <img src="https://img.shields.io/badge/⚡%20NEURAL%20HACKER-00FFFF?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=000000">
-  <img src="https://img.shields.io/badge/🛡️%20CYBER%20SENTINEL-FF00FF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=000000">
-  <img src="https://img.shields.io/badge/🌐%20MATRIX%20NAVIGATOR-00FF00?style=for-the-badge&logo=wireshark&logoColor=black&labelColor=000000">
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=800&color=00FF00&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Mongwoiching+Marma;Red+Teamer+%7C+Bug+Bounty+Hunter+%7C+OSINT+Specialist;Cybersecurity+Researcher+from+Bangladesh" alt="Typing SVG" />
+</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TryHackMe-ELITE%20OPERATIVE-critical?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=000000">
-  <img src="https://img.shields.io/badge/HackerOne-ACTIVE%20HUNTER-orange?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=000000">
-  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
-    <img src="https://img.shields.io/badge/License-CC--BY--4.0-success?style=for-the-badge&logo=creativecommons&logoColor=white&labelColor=000000">
-  </a>
+  <img src="https://img.shields.io/badge/Independent Security Researcher-black?style=for-the-badge&logo=protonmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Offensive Security Enthusiast-red?style=for-the-badge&logo=HackTheBox&logoColor=white" />
+  <img src="https://img.shields.io/badge/TryHackMe-Elite-critical?style=for-the-badge&logo=tryhackme&logoColor=white" />
+  <img src="https://img.shields.io/badge/Red Team & OSINT Specialist-blue?style=for-the-badge&logo=Wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-CC--BY--4.0-success?style=for-the-badge&logo=creativecommons&logoColor=white" />
 </p>
 
 ---
 
-## 🔥 SYSTEM INFILTRATION COMPLETE...
+## 🧠 About Me
 
-```
-> ACCESS GRANTED TO: MONGWOICHING MARMA
-> SECURITY CLEARANCE: MAXIMUM
-> LOCATION: DHAKA CYBER DISTRICT, BANGLADESH
-> STATUS: ACTIVELY HUNTING DIGITAL THREATS
-> MISSION: SECURE THE DIGITAL FRONTIER
-```
+```bash
+> whoami
+Mongwoiching Marma – Independent Security Researcher
 
-**💀 Independent Security Researcher** | **⚡ Offensive Security Specialist** | **🛡️ Defensive Cyber Warrior**  
-**📍 Dhaka, Bangladesh** | **🎯 Bug Bounty Hunter @ HackerOne** | **🧑‍🎓 PGD in Cybersecurity @ AIUB**
+> roles
+Red Teamer | OSINT Analyst | Bug Bounty Hunter
 
----
+> location
+Dhaka, Bangladesh
 
-## 🧠 NEURAL INTERFACE PROFILE
-
-```
-SCANNING DIGITAL CONSCIOUSNESS...
-████████████████████████████████ 100%
-```
-
-A **cybernetic security researcher** operating in the shadows of the digital realm. Specialized in **penetration testing**, **vulnerability research**, and **threat hunting** across multiple attack vectors. My neural pathways are hardwired for both **offensive exploitation** and **defensive countermeasures**. Currently engaged in **bug bounty operations** while expanding knowledge through continuous **red team simulations** and **blue team defense strategies**.
-
-**CORE DIRECTIVE:** *Understand the attacker's mindset, exploit system weaknesses, and build impenetrable digital fortresses.*
-
----
-
-## ⚡ CYBERNETIC ARSENAL
-
-### 🔴 OFFENSIVE PROTOCOLS
-```
-▪ EXPLOITATION FRAMEWORKS: Metasploit, Sliver, CrackMapExec, Evil-WinRM
-▪ RECONNAISSANCE SUITE: SpiderFoot, theHarvester, Amass, Recon-ng, Maltego
-▪ NETWORK INFILTRATION: Nmap, Bettercap, Responder, Aircrack-ng
-▪ CREDENTIAL HARVESTING: Hashcat, Hydra, Mimikatz, John the Ripper
-▪ ACTIVE DIRECTORY EXPLOITATION: BloodHound, PowerView, Rubeus
-```
-
-### 🛡️ DEFENSIVE MATRICES
-```
-▪ THREAT DETECTION: Splunk, QRadar, OpenEDR
-▪ INCIDENT RESPONSE: YARA, Volatility, Autopsy
-▪ SECURITY MONITORING: ELK Stack, Suricata, Zeek
-▪ VULNERABILITY MANAGEMENT: Nessus, OpenVAS, Qualys
-```
-
-### 💻 SYSTEM LANGUAGES
-```
-▪ SCRIPTING ARSENAL: Python, Bash, PowerShell, SQL
-▪ INFRASTRUCTURE: Docker, Kubernetes, VMware, Virt-Manager
-▪ WEB SECURITY: Apache, NGINX, Caddy, iptables, OpenVPN
-▪ OPERATING SYSTEMS: Kali, Parrot, Ubuntu, Windows Server (2016-2022)
+> mission
+Break systems ethically. Harden them intelligently. Teach others wisely.
 ```
 
 ---
 
-## 🎯 DIGITAL WARFARE PROJECTS
+## ⚙️ Tools & Technologies
 
-### 🔥 ACTIVE REPOSITORIES
-```
-┌─[CLASSIFIED]─[~/projects]
-└─$ ls -la
-```
-
-**🕵️ [`bangladesh-gov-data-breach-analysis`](https://github.com/ZeroHack01/bangladesh-gov-data-breach-analysis)**  
-*Real-world breach analysis of Bangladeshi government infrastructure*
-
-**🔐 [`NovaEncryptor--Secure-CLI`](https://github.com/ZeroHack01/NovaEncryptor--Secure-CLI)**  
-*Military-grade file encryption utility with advanced cryptographic protocols*
-
-**🔥 [`novacyberbarrier-firewall-project`](https://github.com/ZeroHack01/novacyberbarrier-firewall-project)**  
-*Advanced CLI firewall management system using iptables*
-
-**🧠 [`prodigy-infotech-caesar-cipher-project`](https://github.com/ZeroHack01/prodigy-infotech-caesar-cipher-project)**  
-*Classical cryptography implementation in Python*
-
-**📊 [`bybit-2025-crypto-hack-analysis`](https://github.com/ZeroHack01/bybit-2025-crypto-hack-analysis)**  
-*Simulated incident response for cryptocurrency exchange breach*
-
-**📦 [`SecureFileTransferApp`](https://github.com/ZeroHack01/SecureFileTransferApp)**  
-*Encrypted secure file transfer application with end-to-end encryption*
+| Category | Tools |
+|---------|-------|
+| 🛠️ Offensive Security | <img src="https://img.shields.io/badge/Metasploit-ffffff?style=flat&logo=metasploit&logoColor=blue" /> <img src="https://img.shields.io/badge/Sliver-ffffff?style=flat&logo=kalilinux&logoColor=purple" /> <img src="https://img.shields.io/badge/BloodHound-ffffff?style=flat&logo=battledotnet&logoColor=crimson" /> <img src="https://img.shields.io/badge/Burp Suite-ffffff?style=flat&logo=burpsuite&logoColor=orange" /> |
+| 🌐 Recon & OSINT | <img src="https://img.shields.io/badge/Shodan-000000?style=flat&logo=shodan&logoColor=red" /> <img src="https://img.shields.io/badge/Maltego-000000?style=flat&logo=maltego&logoColor=blue" /> <img src="https://img.shields.io/badge/Amass-000000?style=flat&logo=archlinux&logoColor=white" /> |
+| 🔐 Credential Attacks | <img src="https://img.shields.io/badge/Mimikatz-000000?style=flat&logo=windows&logoColor=blue" /> <img src="https://img.shields.io/badge/Hashcat-000000?style=flat&logo=gnubash&logoColor=yellow" /> <img src="https://img.shields.io/badge/John the Ripper-000000?style=flat&logo=linux&logoColor=white" /> |
+| 📊 Blue Team Tools | <img src="https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white" /> <img src="https://img.shields.io/badge/QRadar-000000?style=flat&logo=ibm&logoColor=blue" /> <img src="https://img.shields.io/badge/OpenEDR-000000?style=flat&logo=linuxfoundation&logoColor=green" /> |
+| ☁️ Infrastructure | <img src="https://img.shields.io/badge/Docker-ffffff?style=flat&logo=docker&logoColor=blue" /> <img src="https://img.shields.io/badge/Kubernetes-ffffff?style=flat&logo=kubernetes&logoColor=blue" /> <img src="https://img.shields.io/badge/Virt Manager-ffffff?style=flat&logo=redhat&logoColor=red" /> |
+| 💻 Languages & Scripts | <img src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=blue" /> <img src="https://img.shields.io/badge/Bash-000000?style=flat&logo=gnubash&logoColor=white" /> <img src="https://img.shields.io/badge/PowerShell-000000?style=flat&logo=powershell&logoColor=blue" /> <img src="https://img.shields.io/badge/SQL-ffffff?style=flat&logo=mysql&logoColor=black" /> |
+| 🖥️ Operating Systems | <img src="https://img.shields.io/badge/Kali Linux-000000?style=flat&logo=kalilinux&logoColor=white" /> <img src="https://img.shields.io/badge/Ubuntu-ffffff?style=flat&logo=ubuntu&logoColor=orange" /> <img src="https://img.shields.io/badge/Windows Server-ffffff?style=flat&logo=windows&logoColor=blue" /> |
 
 ---
 
-## 🏆 DIGITAL CERTIFICATIONS & NEURAL UPGRADES
+## 🔎 Projects
 
-### 🔴 OFFENSIVE SECURITY MODULES
-```
-✓ Certified Cyber Security Analyst (C3SA) – CyberWarFare Labs
-✓ Cisco Certified Ethical Hacker – Cisco Networking Academy
-✓ Certified Network Security Practitioner (CNSP) – SecOps Group
-✓ TryHackMe Elite Paths: SOC Level 1, Cyber Defense, Web App Pentester
-✓ ISC2 Certified in Cybersecurity (CC) – ISC2
-✓ Ethical Hacking Essentials (EHE), SQL Injection – EC-Council
-```
-
-### 🛡️ DEFENSIVE SECURITY PROTOCOLS
-```
-✓ ISO/IEC 27001:2022 Lead Auditor – Mastermind
-✓ Critical Infrastructure Protection – OPSWAT
-✓ Oracle AI Cloud Associate – Oracle
-✓ Strategic Cybersecurity, Security Leadership – AttackIQ
-```
-
-### 🧠 INTELLIGENCE GATHERING
-```
-✓ OSINT Specialist – Basel Institute, Security Blue Team
-✓ Cyber Threat Hunting – Active Countermeasures
-✓ CVSS v3.1 Mastery – FIRST
-✓ Vulnerability Management – Security Blue Team, Qualys
+```bash
+🛰️ [Bangladesh Gov Breach](github.com/ZeroHack01/bangladesh-gov-data-breach-analysis)
+🔐 [NovaEncryptor CLI Tool](github.com/ZeroHack01/NovaEncryptor--Secure-CLI)
+🧱 [CyberBarrier Firewall](github.com/ZeroHack01/novacyberbarrier-firewall-project)
+🧠 [Crypto IR Simulation](github.com/ZeroHack01/bybit-2025-crypto-hack-analysis)
+🚛 [Secure File Transfer](github.com/ZeroHack01/SecureFileTransferApp)
 ```
 
 ---
 
-## 💼 ACTIVE OPERATIONS
+## 📜 Certifications
 
-### 🎯 **SECURITY RESEARCHER** – *HackerOne Platform*
-```
-> Conducting live vulnerability assessments
-> API security testing and exploitation
-> Real-world attack surface analysis
-> Responsible disclosure protocols
-```
-
-### 🧠 **CYBERSECURITY OPERATIVE** – *Code Alpha*
-```
-> Offensive security task execution
-> Risk mitigation strategies
-> Penetration testing assessments
-```
-
-### 🖥️ **TECHNICAL SUPPORT SPECIALIST** – *MAF Shoes Ltd.*
-```
-> Industrial system diagnostics
-> Network infrastructure maintenance
-> Critical system support operations
+```bash
+🛡️ C3SA – CyberWarFare Labs
+🛡️ CEH – Cisco
+🛡️ CNSP – SecOps Group
+🛡️ TryHackMe – Web Pentester | SOC L1 | Cyber Defense
+🛡️ ISO 27001 Lead Auditor – Mastermind
+🎓 ISC2 Certified in Cybersecurity (CC)
+🎓 Google/IBM Cybersecurity – Coursera
+🎖️ OpenEDR – Xcitium
 ```
 
 ---
 
-## 🤝 UNDERGROUND NETWORK
-
-### 🌐 VOLUNTEER OPERATIONS
-```
-▪ Google Product Expert Contributor – Tech support operations
-▪ Skills Canvas Volunteer – Cybersecurity education missions
-▪ Computer Council Dhaka – Community safety workshops
-```
-
----
-
-## 📡 NEURAL TRANSMISSIONS (BLOG ARTICLES)
-
-### 🔥 FEATURED CYBERSECURITY INTEL
-
-**🔐 [Kerberos: Your Trustworthy Gatekeeper in the Digital World](https://medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)**  
-*Deep dive into Kerberos authentication mechanisms and network security protocols*
-
-**👻 [Ghost in the Machine: A Practical Guide to Hacking Active Directory and Evading Antivirus](https://medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)**  
-*Advanced AD exploitation techniques and antivirus evasion strategies*
-
-**🛡️ [Active Directory Domain Controller Hardening: A Step-by-Step Security Guide](https://medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)**  
-*Comprehensive security hardening guide for AD infrastructure*
-
-**👁️ [You're Already Hacked: How Biometric Security and Global Connectivity Make Privacy a Myth](https://medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)**  
-*Analysis of biometric vulnerabilities and global privacy concerns*
-
-**🧩 [Insider Threat Prevention and Framework 101](https://medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)**  
-*Comprehensive insider threat prevention strategies and frameworks*
-
-**🌐 [Shielding Bangladesh's Digital Frontier: The Imperative of Cybersecurity Solutions](https://medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)**  
-*National cybersecurity strategy analysis for Bangladesh's digital infrastructure*
-
----
-
-## 📡 ESTABLISH SECURE CONNECTION
-
-```
-> INITIATING SECURE COMMUNICATION CHANNELS...
-> ENCRYPTION: AES-256
-> AUTHENTICATION: MULTI-FACTOR
-> STATUS: READY FOR CONTACT
-```
+## 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://bd.linkedin.com/in/mongwoi">
-    <img src="https://img.shields.io/badge/LinkedIn-SECURE%20CHANNEL-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000">
-  </a>
-  <a href="mailto:mongwoiching2080@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ENCRYPTED%20MESSAGE-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000">
-  </a>
-  <a href="https://tryhackme.com/p/Mongwoiching">
-    <img src="https://img.shields.io/badge/TryHackMe-ELITE%20PROFILE-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=000000">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://medium.com/@NextGencyber">
-    <img src="https://img.shields.io/badge/Medium-NEURAL%20BLOG-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=000000">
-  </a>
-  <a href="https://github.com/ZeroHack01">
-    <img src="https://img.shields.io/badge/GitHub-CODE%20MATRIX-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000">
-  </a>
-  <a href="https://www.credly.com/users/mongwoiching-marma">
-    <img src="https://img.shields.io/badge/Credly-DIGITAL%20BADGES-FF6B00?style=for-the-badge&logo=credly&logoColor=white&labelColor=000000">
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeroHack01&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeroHack01&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZeroHack01&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 🚨 SYSTEM STATUS
+## 📚 Blog Articles
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🔴%20THREAT%20LEVEL-CRITICAL-FF0000?style=for-the-badge&logo=target&logoColor=white&labelColor=000000">
-  <img src="https://img.shields.io/badge/⚡%20NEURAL%20LINK-ACTIVE-00FFFF?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=000000">
-  <img src="https://img.shields.io/badge/🛡️%20FIREWALL-ENGAGED-00FF00?style=for-the-badge&logo=shield&logoColor=black&labelColor=000000">
-  <img src="https://img.shields.io/badge/🔐%20ENCRYPTION-MAXIMUM-FF00FF?style=for-the-badge&logo=lock&logoColor=white&labelColor=000000">
-</p>
+```bash
+📘 [Kerberos Deep Dive](medium.com/@NextGencyber/kerberos-your-trustworthy-gatekeeper-in-the-digital-world-79df0146cf69)
+👻 [Active Directory Hacking](medium.com/@NextGencyber/ghost-in-the-machine-a-practical-guide-to-hacking-active-directory-and-evading-antivirus-14fdac460498)
+🛡️ [Domain Controller Hardening](medium.com/@NextGencyber/active-directory-domain-controller-hardening-a-step-by-step-security-guide-dd017878193e)
+👁️ [You're Already Hacked](medium.com/@NextGencyber/youre-already-hacked-how-biometric-security-and-global-connectivity-make-privacy-a-myth-e83318dd34c5)
+🧩 [Insider Threat Framework](medium.com/@NextGencyber/insider-threat-prevention-and-framework-101-cacf46d9247b)
+🌐 [Securing Bangladesh](medium.com/@NextGencyber/shielding-bangladeshs-digital-frontier-the-imperative-of-cybersecurity-solutions-89733b810742)
+```
 
 ---
 
-```
-> TRANSMISSION COMPLETE
-> NEURAL INTERFACE DISCONNECTED
-> RETURNING TO SHADOW PROTOCOLS...
-> 
-> "IN THE DIGITAL SHADOWS, I AM THE HUNTER AND THE GUARDIAN"
+## 🌐 Contact Me
+
+```bash
+🔗 GitHub      : [github.com/ZeroHack01](github.com/ZeroHack01)
+🔗 TryHackMe   : [tryhackme.com/p/Mongwoiching](tryhackme.com/p/Mongwoiching)
+🔗 LinkedIn    : [linkedin.com/in/mongwoi](linkedin.com/in/mongwoi)
+📝 Medium Blog : [medium.com/@NextGencyber](medium.com/@NextGencyber)
+🎖️ Credly     : [credly.com/users/mongwoiching-marma](credly.com/users/mongwoiching-marma)
+📧 Email       : mongwoiching2080@gmail.com
 ```
 
-**📝 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**  
-**© 2025 Mongwoiching Marma - Digital Ghost Protocol**
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡%20MATRIX%20OPERATIONAL-00FF00?style=for-the-badge&logo=matrix&logoColor=black&labelColor=000000">
-  <img src="https://img.shields.io/badge/🔥%20SYSTEM%20BREACH%20DETECTED-FF0000?style=for-the-badge&logo=alert&logoColor=white&labelColor=000000">
-  <img src="https://img.shields.io/badge/🌐%20SECURING%20CYBERSPACE-00FFFF?style=for-the-badge&logo=globe&logoColor=black&labelColor=000000">
+  <img src="https://img.shields.io/badge/Red Team Ready-darkred?style=for-the-badge&logo=HackTheBox&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethical Hacker-blue?style=for-the-badge&logo=OWASP&logoColor=white" />
+  <img src="https://img.shields.io/badge/Secure the Web-00cc99?style=for-the-badge&logo=Mozilla-Firefox&logoColor=white" />
+</p>
+
+<p align="center">
+  📝 Licensed under [CC BY 4.0](creativecommons.org/licenses/by/4.0/) | © 2025 Mongwoiching Marma
 </p>
