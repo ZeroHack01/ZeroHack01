@@ -13,21 +13,12 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
-```bash
-> whoami
-Mongwoiching Marma – Independent Security Researcher
+I’m **Mongwoiching Marma** — a passionate cybersecurity researcher and offensive security enthusiast. I specialize in exposing vulnerabilities ethically, strengthening defenses, and sharing knowledge to empower others.
 
-> roles
-Red Teamer | OSINT Analyst | Bug Bounty Hunter
+I thrive at the intersection of attack and defense, continuously pushing boundaries to make digital spaces safer.
 
-> location
-Dhaka, Bangladesh
-
-> mission
-Break systems ethically. Harden them intelligently. Teach others wisely.
-```
 
 ---
 
