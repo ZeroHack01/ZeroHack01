@@ -49,14 +49,23 @@ I thrive at the intersection of attack and defense, continuously pushing boundar
 ## 📜 Certifications
 
 ```bash
-🛡️ C3SA – CyberWarFare Labs
-🛡️ CEH – Cisco
-🛡️ CNSP – SecOps Group
-🛡️ TryHackMe – Web Pentester | SOC L1 | Cyber Defense
-🛡️ ISO 27001 Lead Auditor – Mastermind
-🎓 ISC2 Certified in Cybersecurity (CC)
-🎓 Google/IBM Cybersecurity – Coursera
-🎖️ OpenEDR – Xcitium
+🔴 Offensive Security
+🛡️ TCM Security – Practical Ethical Hacking
+🛡️ TryHackMe – Web Pentester | Security Engineer
+🛡️ AttackIQ Academy – Purple Teaming Essentials | Operationalizing MITRE ATT&CK
+🛡️ Cisco – CEH 
+
+🔵 Defensive Security
+🛡️ Cisco – CyberOps Associate | Network Security
+🛡️ SecOps Group – CNSP
+🛡️ Xcitium – OpenEDR
+🛡️ Mastermind – ISO/IEC 27001 Lead Auditor
+🛡️ TryHackMe – SOC Level 1 | Cyber Defense
+🛡️ CISO Training – Junior Cybersecurity Analyst | Security Leadership | Security Management
+🛡️ AttackIQ Academy – Supply Chain Security | Security Leadership
+🎓 ISC2 – Certified in Cybersecurity (CC)
+🎓 Google (Coursera) – IT Support | Cybersecurity Certificate | Cybersecurity Specialization
+🎓 IBM (Coursera) – Cybersecurity Analyst
 ```
 
 ---
