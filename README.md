@@ -234,7 +234,18 @@ End-to-end encrypted file transfer application with zero-knowledge architecture,
 
 ### 💡 "The only way to stay secure is to never stop learning" 💡
 
-![Snake animation](https://github.com/ZeroHack01/ZeroHack01/blob/output/github-contribution-grid-snake-dark.svg)
+```bash
+┌──(mongwoiching㉿ZeroHack01)-[~/cybersecurity]
+└─$ sudo ./hack_the_planet --ethical --responsible
+[+] Initializing security frameworks...
+[+] Loading penetration testing modules...
+[+] Activating threat detection systems...
+[+] Deploying defensive countermeasures...
+[✓] Mission accomplished: Digital world secured!
+
+mongwoiching@ZeroHack01:~$ echo "Stay curious, stay secure" 
+Stay curious, stay secure
+```
 
 **📄 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | © 2025 Mongwoiching Marma (@ZeroHack01)**
 
