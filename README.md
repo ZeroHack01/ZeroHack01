@@ -10,7 +10,14 @@
 
 ### 🛠️ Tech Stack
 
-`Python` `Bash` `Metasploit` `Burp Suite` `Wireshark` `Splunk` `Kali Linux`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50" />
+<img src="https://www.kali.org/images/kali-logo.svg" width="50" height="50" />
+<img src="https://www.wireshark.org/assets/icons/wireshark-fin.svg" width="50" height="50" />
 
 ---
 
