@@ -1,31 +1,28 @@
 <div align="center">
 
-```ascii
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║   ███╗   ███╗ ██████╗ ███╗   ██╗ ██████╗ ██╗    ██╗ ██████╗ ██╗   ║
-║   ████╗ ████║██╔═══██╗████╗  ██║██╔════╝ ██║    ██║██╔═══██╗██║   ║
-║   ██╔████╔██║██║   ██║██╔██╗ ██║██║  ███╗██║ █╗ ██║██║   ██║██║   ║
-║   ██║╚██╔╝██║██║   ██║██║╚██╗██║██║   ██║██║███╗██║██║   ██║██║   ║
-║   ██║ ╚═╝ ██║╚██████╔╝██║ ╚████║╚██████╔╝╚███╔███╔╝╚██████╔╝██║   ║
-║   ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  ╚══╝╚══╝  ╚═════╝ ╚═╝   ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=45&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=435&lines=MONGWOI" alt="Name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Cybersecurity+Researcher+%F0%9F%94%90;Ethical+Hacker+%7C+Threat+Hunter+%F0%9F%8E%AF;Red+Team+%E2%9A%94%EF%B8%8F+Blue+Team+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Aspiring+Penetration+Tester+%F0%9F%94%90;AI+Enthusiast+%7C+Automation+Learner+%F0%9F%A4%96;Red+Team+%E2%9A%94%EF%B8%8F+Blue+Team+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
 
 <br>
 
 ---
 
-### ⚡ TECH ARSENAL
+### ⚡ TECH STACK
 
 <table>
 <tr>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55" height="55" alt="Python" />
 <br><sub><b>Python</b></sub>
+</td>
+<td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="55" height="55" alt="PyTorch" />
+<br><sub><b>PyTorch</b></sub>
+</td>
+<td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="55" height="55" alt="TensorFlow" />
+<br><sub><b>TensorFlow</b></sub>
 </td>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="55" height="55" alt="Go" />
@@ -35,20 +32,30 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="55" height="55" alt="TypeScript" />
 <br><sub><b>TypeScript</b></sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="55" height="55" alt="Bash" />
 <br><sub><b>Bash</b></sub>
 </td>
 <td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="55" height="55" alt="Nginx" />
+<br><sub><b>Nginx</b></sub>
+</td>
+<td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" width="55" height="55" alt="Ansible" />
+<br><sub><b>Ansible</b></sub>
+</td>
+<td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="55" height="55" alt="Linux" />
 <br><sub><b>Linux</b></sub>
 </td>
-</tr>
-<tr>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="55" height="55" alt="Docker" />
 <br><sub><b>Docker</b></sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="55" height="55" alt="Kubernetes" />
 <br><sub><b>K8s</b></sub>
@@ -64,6 +71,10 @@
 <td align="center" width="90">
 <img src="https://www.wireshark.org/assets/icons/wireshark-fin.svg" width="55" height="55" alt="Wireshark" />
 <br><sub><b>Wireshark</b></sub>
+</td>
+<td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="55" height="55" alt="NumPy" />
+<br><sub><b>NumPy</b></sub>
 </td>
 </tr>
 </table>
