@@ -75,7 +75,7 @@
 <a href="https://linkedin.com/in/mongwoi">
 <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://medium.com/@NextGencyber">
+<a href="https://medium.com/@HypergridDefendersLab">
 <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
 </a>
 <a href="https://tryhackme.com/p/Mongwoiching">
