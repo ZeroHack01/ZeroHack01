@@ -25,24 +25,6 @@
 <br><sub><b>TensorFlow</b></sub>
 </td>
 <td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="55" height="55" alt="Go" />
-<br><sub><b>Go</b></sub>
-</td>
-<td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="55" height="55" alt="TypeScript" />
-<br><sub><b>TypeScript</b></sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="55" height="55" alt="Bash" />
-<br><sub><b>Bash</b></sub>
-</td>
-<td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="55" height="55" alt="Nginx" />
-<br><sub><b>Nginx</b></sub>
-</td>
-<td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" width="55" height="55" alt="Ansible" />
 <br><sub><b>Ansible</b></sub>
 </td>
@@ -50,31 +32,27 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="55" height="55" alt="Linux" />
 <br><sub><b>Linux</b></sub>
 </td>
-<td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="55" height="55" alt="Docker" />
-<br><sub><b>Docker</b></sub>
-</td>
 </tr>
 <tr>
-<td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="55" height="55" alt="Kubernetes" />
-<br><sub><b>K8s</b></sub>
-</td>
 <td align="center" width="90">
 <img src="https://www.kali.org/images/kali-logo.svg" width="55" height="55" alt="Kali" />
 <br><sub><b>Kali</b></sub>
 </td>
 <td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="55" height="55" alt="Terraform" />
-<br><sub><b>Terraform</b></sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="55" height="55" alt="Docker" />
+<br><sub><b>Docker</b></sub>
+</td>
+<td align="center" width="90">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="55" height="55" alt="Bash" />
+<br><sub><b>Bash</b></sub>
 </td>
 <td align="center" width="90">
 <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/burpsuite.svg" width="55" height="55" alt="Burp Suite" />
 <br><sub><b>Burp Suite</b></sub>
 </td>
 <td align="center" width="90">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="55" height="55" alt="NumPy" />
-<br><sub><b>NumPy</b></sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="55" height="55" alt="Nginx" />
+<br><sub><b>Nginx</b></sub>
 </td>
 </tr>
 </table>
