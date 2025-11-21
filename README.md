@@ -65,12 +65,12 @@
 <br><sub><b>Kali</b></sub>
 </td>
 <td align="center" width="90">
-<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/metasploit.svg" width="55" height="55" alt="Metasploit" />
-<br><sub><b>Metasploit</b></sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="55" height="55" alt="Terraform" />
+<br><sub><b>Terraform</b></sub>
 </td>
 <td align="center" width="90">
-<img src="https://www.wireshark.org/assets/icons/wireshark-fin.svg" width="55" height="55" alt="Wireshark" />
-<br><sub><b>Wireshark</b></sub>
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/burpsuite.svg" width="55" height="55" alt="Burp Suite" />
+<br><sub><b>Burp Suite</b></sub>
 </td>
 <td align="center" width="90">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="55" height="55" alt="NumPy" />
