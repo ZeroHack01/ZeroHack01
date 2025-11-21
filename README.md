@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=45&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=435&lines=MONGWOI" alt="Name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Aspiring+Penetration+Tester+%F0%9F%94%90;AI+Enthusiast+%7C+Automation+Learner+%F0%9F%A4%96;Red+Team+%E2%9A%94%EF%B8%8F+Blue+Team+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Aspiring+Penetration+Tester+%F0%9F%94%90;AI+Enthusiast+%7C+Automation+Learner+%F0%9F%A4%96" alt="Typing SVG" />
 
 <br>
 
